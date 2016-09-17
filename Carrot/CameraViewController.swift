@@ -13,7 +13,6 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
     @IBOutlet weak var cameraView: UIView!
     
     
-    var selections: [[String]]?
     var picture: UIImage?
     var imagepicker = UIImagePickerController()
     
@@ -33,7 +32,6 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         //picture = image
         let sb = UIStoryboard(name: "Main", bundle: nil)
         let selectionview = sb.instantiateViewControllerWithIdentifier("selections") as! TestViewController
-        selectionview.selections = selections
         selectionview.picture = picture
         imagepicker.presentViewController(selectionview, animated: true, completion: nil)
         
@@ -43,7 +41,6 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if let destinationvc = segue.destinationViewController as? SelectionViewController {
-            destinationvc.selections = selections
             destinationvc.picture = picture
         }
     }
