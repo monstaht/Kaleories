@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		085BF7161D8DF95600B44973 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085BF7151D8DF95600B44973 /* API.swift */; };
+		085BF71C1D8DFC0000B44973 /* PopUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 085BF7171D8DFC0000B44973 /* PopUpViewController.xib */; };
+		085BF71D1D8DFC0000B44973 /* PopUpViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 085BF7181D8DFC0000B44973 /* PopUpViewController_iPad.xib */; };
+		085BF71E1D8DFC0000B44973 /* PopUpViewController_iPhone6Plus.xib in Resources */ = {isa = PBXBuildFile; fileRef = 085BF7191D8DFC0000B44973 /* PopUpViewController_iPhone6Plus.xib */; };
+		085BF71F1D8DFC0000B44973 /* PopUpViewController_iPhone6.xib in Resources */ = {isa = PBXBuildFile; fileRef = 085BF71A1D8DFC0000B44973 /* PopUpViewController_iPhone6.xib */; };
+		085BF7201D8DFC0000B44973 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085BF71B1D8DFC0000B44973 /* PopUpViewController.swift */; };
+		085BF7221D8DFC1A00B44973 /* Nutrition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085BF7211D8DFC1A00B44973 /* Nutrition.swift */; };
+		085BF7241D8DFC7D00B44973 /* Testcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085BF7231D8DFC7D00B44973 /* Testcode.swift */; };
 		B161EA21DD2B970F69159AEF /* Pods_Carrot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC5E9EE5C72D019C2138888 /* Pods_Carrot.framework */; };
 		F8A70C9D1D8CDF1E00FBBA77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A70C9C1D8CDF1E00FBBA77 /* AppDelegate.swift */; };
 		F8A70C9F1D8CDF1E00FBBA77 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A70C9E1D8CDF1E00FBBA77 /* CameraViewController.swift */; };
@@ -23,6 +31,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		085BF7151D8DF95600B44973 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		085BF7171D8DFC0000B44973 /* PopUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopUpViewController.xib; sourceTree = "<group>"; };
+		085BF7181D8DFC0000B44973 /* PopUpViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopUpViewController_iPad.xib; sourceTree = "<group>"; };
+		085BF7191D8DFC0000B44973 /* PopUpViewController_iPhone6Plus.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopUpViewController_iPhone6Plus.xib; sourceTree = "<group>"; };
+		085BF71A1D8DFC0000B44973 /* PopUpViewController_iPhone6.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopUpViewController_iPhone6.xib; sourceTree = "<group>"; };
+		085BF71B1D8DFC0000B44973 /* PopUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		085BF7211D8DFC1A00B44973 /* Nutrition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nutrition.swift; sourceTree = "<group>"; };
+		085BF7231D8DFC7D00B44973 /* Testcode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Testcode.swift; sourceTree = "<group>"; };
 		13342FFA13B446E76475CED2 /* Pods-Carrot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carrot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Carrot/Pods-Carrot.debug.xcconfig"; sourceTree = "<group>"; };
 		8DC5E9EE5C72D019C2138888 /* Pods_Carrot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Carrot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7EBDCF2897C9FAF933766C8 /* Pods-Carrot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carrot.release.xcconfig"; path = "Pods/Target Support Files/Pods-Carrot/Pods-Carrot.release.xcconfig"; sourceTree = "<group>"; };
@@ -100,11 +116,19 @@
 				F8A70C9E1D8CDF1E00FBBA77 /* CameraViewController.swift */,
 				F8A70CBC1D8D215B00FBBA77 /* SelectionViewController.swift */,
 				F8A70CA01D8CDF1E00FBBA77 /* Main.storyboard */,
+				085BF7151D8DF95600B44973 /* API.swift */,
 				F8A70CC01D8DC15900FBBA77 /* TestViewController.swift */,
 				F8A70CA61D8CDF1E00FBBA77 /* Assets.xcassets */,
+				085BF7231D8DFC7D00B44973 /* Testcode.swift */,
+				085BF7211D8DFC1A00B44973 /* Nutrition.swift */,
 				F8A70CA81D8CDF1E00FBBA77 /* LaunchScreen.storyboard */,
 				F8A70CAB1D8CDF1E00FBBA77 /* Info.plist */,
 				F8A70CA31D8CDF1E00FBBA77 /* Carrot.xcdatamodeld */,
+				085BF7171D8DFC0000B44973 /* PopUpViewController.xib */,
+				085BF7181D8DFC0000B44973 /* PopUpViewController_iPad.xib */,
+				085BF7191D8DFC0000B44973 /* PopUpViewController_iPhone6Plus.xib */,
+				085BF71A1D8DFC0000B44973 /* PopUpViewController_iPhone6.xib */,
+				085BF71B1D8DFC0000B44973 /* PopUpViewController.swift */,
 			);
 			path = Carrot;
 			sourceTree = "<group>";
@@ -171,9 +195,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				085BF71D1D8DFC0000B44973 /* PopUpViewController_iPad.xib in Resources */,
+				085BF71E1D8DFC0000B44973 /* PopUpViewController_iPhone6Plus.xib in Resources */,
+				085BF71F1D8DFC0000B44973 /* PopUpViewController_iPhone6.xib in Resources */,
 				F8A70CAA1D8CDF1E00FBBA77 /* LaunchScreen.storyboard in Resources */,
 				F8A70CA71D8CDF1E00FBBA77 /* Assets.xcassets in Resources */,
 				F8A70CA21D8CDF1E00FBBA77 /* Main.storyboard in Resources */,
+				085BF71C1D8DFC0000B44973 /* PopUpViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,13 +262,17 @@
 			files = (
 				F8A70CBB1D8D1FFA00FBBA77 /* HomeTableViewController.swift in Sources */,
 				F8A70CB81D8D0E5E00FBBA77 /* BarTableViewCell.swift in Sources */,
+				085BF7221D8DFC1A00B44973 /* Nutrition.swift in Sources */,
 				F8A70C9F1D8CDF1E00FBBA77 /* CameraViewController.swift in Sources */,
+				085BF7201D8DFC0000B44973 /* PopUpViewController.swift in Sources */,
 				F8A70CA51D8CDF1E00FBBA77 /* Carrot.xcdatamodeld in Sources */,
+				085BF7161D8DF95600B44973 /* API.swift in Sources */,
 				F8A70C9D1D8CDF1E00FBBA77 /* AppDelegate.swift in Sources */,
 				F8A70CB61D8D09F900FBBA77 /* BarTableViewController.swift in Sources */,
 				F8A70CBF1D8D368900FBBA77 /* HomeTableViewCell.swift in Sources */,
 				F8A70CC11D8DC15900FBBA77 /* TestViewController.swift in Sources */,
 				F8A70CBD1D8D215B00FBBA77 /* SelectionViewController.swift in Sources */,
+				085BF7241D8DFC7D00B44973 /* Testcode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
