@@ -30,17 +30,6 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    
-    
-    
-    
-    
-    
-}
-
-
-   
-   
    
    func completion1(strobj: [String]) {
         print("running completion1")
@@ -80,3 +69,4 @@ class ViewController: UIViewController {
             }
         }
     }
+}
