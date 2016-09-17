@@ -8,68 +8,79 @@
 
 import UIKit
 
-class TestViewController: UIViewController, UITableViewDelegate {
-
+class TestViewController: UIViewController, UITableViewDataSource{
+    
     var picture: UIImage? {
         didSet{
             imageView.image = oldValue
         }
     }
     
-    var selections: [[String]]?
+    var selections: [String]?
     var imageView = UIImageView()
     var tableView = UITableView()
     var spinner:UIActivityIndicatorView?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        selections = ["hello", "world"]
         imageView.frame = CGRectMake(view.frame.minX, view.frame.minY, view.frame.width, view.frame.height / 2)
         picture = UIImage(named: "Pizza")
-        view.addSubview(imageView)
-        spinner = UIActivityIndicatorView()
-        spinner?.stopAnimating()
+        //view.addSubview(imageView)
+        spinner = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorViewStyle.White)
+        spinner?.frame = CGRectMake(view.frame.midX, view.frame.midY, view.frame.width / 3, view.frame.width / 3)
+        view.addSubview(spinner!)
+        spinner?.startAnimating()
+        tableView.dataSource = self
+        
+        fetchSuggestions()
         
         // Do any additional setup after loading the view.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return selections!.count
     }
     
-    private func fetchImage() {
-            // fire up the spinner
-            // because we're about to fork something off on another thread
-            spinner?.startAnimating()
-            // put a closure on the "user initiated" system queue
-            // this closure does NSData(contentsOfURL:) which blocks
-            // waiting for network response
-            // it's fine for it to block the "user initiated" queue
-            // because that's a concurrent queue
-            // (so other closures on that queue can run concurrently even as this one's blocked)
-            dispatch_async(dispatch_get_global_queue(QOS_CLASS_USER_INITIATED, 0)) {
-                let contentsOfURL = NSData(contentsOfURL: url) // blocks! can't be on main queue!
-                let base64String = imageData?.base64EncodedStringWithOptions(.Encoding64CharacterLineLength)
-                api.getSuggestions(base64String) { [suggestions] in
-                    selections[0] = suggestions
-                }
-                // now that we got the data from the network
-                // we want to put it up in the UI
-                // but we can only do that on the main queue
-                // so we queue up a closure here to do that
-                dispatch_async(dispatch_get_main_queue()) {
-                    spinner?.stopAnimating()
-                    loadTableView()
-
-                }
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell = UITableViewCell()
+        cell.textLabel?.text = selections![indexPath.row]
+        return cell
+    }
+    
+    private func fetchSuggestions() {
+        // fire up the spinner
+        // because we're about to fork something off on another thread
+        spinner?.startAnimating()
+        // put a closure on the "user initiated" system queue
+        // this closure does NSData(contentsOfURL:) which blocks
+        // waiting for network response
+        // it's fine for it to block the "user initiated" queue
+        // because that's a concurrent queue
+        // (so other closures on that queue can run concurrently even as this one's blocked)
+        dispatch_async(dispatch_get_global_queue(QOS_CLASS_USER_INITIATED, 0)) {
+            let imageData = UIImagePNGRepresentation(self.picture!)
+            let base64String = imageData?.base64EncodedStringWithOptions(.Encoding64CharacterLineLength)
+            //API.sharedInstance.getSuggestions(base64String) { [suggestions] in
+            //  self.selections = suggestions
+            //}
+            // now that we got the data from the network
+            // we want to put it up in the UI
+            // but we can only do that on the main queue
+            // so we queue up a closure here to do that
+            dispatch_async(dispatch_get_main_queue()) { [weak self] in
+                //self!.spinner?.stopAnimating()
+                self!.loadTableView()
+                
             }
+        }
     }
     
     private func loadTableView(){
-        tableView.frame = CGRectMake(view.frame.midX, view.frame.midY, view.frame.width, view.frame.height / 2)
-        
+        tableView.frame = CGRectMake(view.frame.minX, view.frame.midY, view.frame.width, view.frame.height / 2)
+        //view.addSubview(tableView)
+        tableView.reloadData()
     }
-    
 
     
 
