@@ -85,11 +85,13 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-Carrot/Alamofire.framework"
+  install_framework "Pods-Carrot/ImagePicker.framework"
   install_framework "Pods-Carrot/NMPopUpViewSwift.framework"
   install_framework "Pods-Carrot/SwiftyJSON.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-Carrot/Alamofire.framework"
+  install_framework "Pods-Carrot/ImagePicker.framework"
   install_framework "Pods-Carrot/NMPopUpViewSwift.framework"
   install_framework "Pods-Carrot/SwiftyJSON.framework"
 fi
