@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import ImagePicker
 
 class CameraViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
