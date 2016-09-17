@@ -3,6 +3,8 @@ use_frameworks!
 
 target 'Carrot' do
 
-	pod ‘ImagePicker’
+	pod 'SwiftyJSON'
+	pod 'Alamofire'
+	pod "NMPopUpViewSwift"
 end
 

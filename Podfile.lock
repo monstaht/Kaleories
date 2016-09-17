@@ -1,10 +1,16 @@
 PODS:
-  - ImagePicker (1.4.0)
+  - Alamofire (3.5.0)
+  - NMPopUpViewSwift (3.0.1)
+  - SwiftyJSON (2.3.2)
 
 DEPENDENCIES:
-  - ImagePicker
+  - Alamofire
+  - NMPopUpViewSwift
+  - SwiftyJSON
 
 SPEC CHECKSUMS:
-  ImagePicker: 6659ccdd4737bfa14ed3b4aa7ffe18b193d92a0c
+  Alamofire: b70a7352335f8ea5babd0a923eb7e8eacc67b877
+  NMPopUpViewSwift: 23a44d6db17a9abc6b806f9fac597be6d7e9f300
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
 
 COCOAPODS: 0.39.0
