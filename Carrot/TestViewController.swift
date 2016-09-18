@@ -26,7 +26,7 @@ class TestViewController: UIViewController, UITableViewDataSource{
         selections = ["hello", "world"]
         imageView.frame = CGRectMake(view.frame.minX, view.frame.minY, view.frame.width, view.frame.height / 2)
         picture = UIImage(named: "Pizza")
-        //view.addSubview(imageView)
+        view.addSubview(imageView)
         spinner = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorViewStyle.White)
         spinner?.frame = CGRectMake(view.frame.midX, view.frame.midY, view.frame.width / 3, view.frame.width / 3)
         view.addSubview(spinner!)
@@ -61,15 +61,16 @@ class TestViewController: UIViewController, UITableViewDataSource{
         dispatch_async(dispatch_get_global_queue(QOS_CLASS_USER_INITIATED, 0)) {
             let imageData = UIImagePNGRepresentation(self.picture!)
             let base64String = imageData?.base64EncodedStringWithOptions(.Encoding64CharacterLineLength)
-            //API.sharedInstance.getSuggestions(base64String) { [suggestions] in
-            //  self.selections = suggestions
-            //}
+            API.sharedInstance.getSuggestions(base64String!, completion: { [weak self](suggestion) in
+                self?.selections = suggestion
+                print(suggestion)
+            })
             // now that we got the data from the network
             // we want to put it up in the UI
             // but we can only do that on the main queue
             // so we queue up a closure here to do that
             dispatch_async(dispatch_get_main_queue()) { [weak self] in
-                //self!.spinner?.stopAnimating()
+                self!.spinner?.stopAnimating()
                 self!.loadTableView()
                 
             }
@@ -78,7 +79,7 @@ class TestViewController: UIViewController, UITableViewDataSource{
     
     private func loadTableView(){
         tableView.frame = CGRectMake(view.frame.minX, view.frame.midY, view.frame.width, view.frame.height / 2)
-        //view.addSubview(tableView)
+        view.addSubview(tableView)
         tableView.reloadData()
     }
 
