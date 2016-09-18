@@ -43,21 +43,30 @@ class TestViewController: UIViewController, UITableViewDataSource, UITableViewDe
         spinner?.hidesWhenStopped = true
         spinner?.startAnimating()
         view.addSubview(spinner!)
-        let button = UIButton(frame: CGRectMake(view.frame.minX, view.frame.maxY - 75, view.frame.width, view.frame.height/8))
+        let button = UIButton(frame: CGRectMake(view.frame.minX, view.frame.maxY - 75, view.frame.width / 2, view.frame.height/8))
+        let gobackbutton = UIButton(frame: CGRectMake(view.frame.midX, view.frame.maxY - 75, view.frame.width / 2 , view.frame.height/8))
+        gobackbutton.titleLabel?.font = UIFont(name: "HelveticaNeue", size: 28)
         button.titleLabel?.font = UIFont(name: "HelveticaNeue", size: 28)
         //button.titleLabel?.transform = CGAffineTransformTranslate((button.titleLabel?.transform)!, 0, -20)
         //button.textLabel?.textColor = UIColor.grayColor()
+        gobackbutton.addTarget(self, action: #selector(TestViewController.gobackbuttonpressed(_:)), forControlEvents: UIControlEvents.TouchUpInside)
         button.addTarget(self, action: #selector(TestViewController.buttonPressed(_:)), forControlEvents: UIControlEvents.TouchUpInside)
+        gobackbutton.setTitle("Cancel", forState: .Normal)
         button.setTitle("Submit", forState: .Normal)
+        gobackbutton.backgroundColor = UIColor(red: 185/255, green: 233/255, blue: 173/255, alpha: 1.0)
         button.backgroundColor = UIColor(red: 185/255, green: 233/255, blue: 173/255, alpha: 1.0)
         view.addSubview(button)
+        view.addSubview(gobackbutton)
         fetchSuggestions()
         // Do any additional setup after loading the view.
     }
     
+    func gobackbuttonpressed(sender: UIButton!){
+        dismissViewControllerAnimated(true, completion: nil)
+    }
+    
     func buttonPressed (sender: UIButton!){
         showPopUp(self)
-        //dismissViewControllerAnimated(true, completion: nil)
     }
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return selections!.count

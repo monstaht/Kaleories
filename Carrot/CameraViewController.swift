@@ -15,15 +15,27 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
     
     var picture: UIImage?
     var imagepicker = UIImagePickerController()
+    var cameraWillAppear = true
     
     override func viewDidLoad() {
         super.viewDidLoad()
         imagepicker.delegate = self
         imagepicker.sourceType = .Camera
         tabBarController?.presentViewController(imagepicker, animated: true, completion: nil)
+        
     }
     
-    override func viewWillDisappear(animated: Bool) {
+    override func viewDidAppear(animated: Bool) {
+        if cameraWillAppear {
+            super.viewDidAppear(animated)
+            imagepicker.delegate = self
+            imagepicker.sourceType = .Camera
+            tabBarController?.presentViewController(imagepicker, animated: true, completion: nil)
+            cameraWillAppear = false
+            return
+        }
+        cameraWillAppear = true
+        self.tabBarController?.selectedIndex = 0
         
     }
     
