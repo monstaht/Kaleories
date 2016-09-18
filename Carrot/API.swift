@@ -40,7 +40,7 @@ class API {
     
     static func getFullURL(urlshort: [(String, Int)]) -> [(String, Int)]{
         let start = "http://kalories.azurewebsites.net"
-    //    let start = "http://10.128.23.86:5000"
+//        let start = "http://10.128.23.86:5000"
         return urlshort.map({ (start + $0, $1) })
     }
     

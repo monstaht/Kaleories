@@ -15,11 +15,11 @@ class HomeTableViewCell: UITableViewCell {
     
     var picture: UIImage? {
         didSet{
-            myImageView = UIImageView(frame: CGRectMake(0, 0, frame.width, frame.width))
             myImageView.clipsToBounds = true
-            myImageView.contentMode = .ScaleAspectFit
+            myImageView.contentMode = .ScaleAspectFill
+            myImageView.frame = CGRectMake(0, 0, frame.width, frame.height)
             myImageView.image = picture
-            info = UIDateView(frame: CGRectMake(0, frame.height-80, frame.width, 40), date: 110494)
+            info = UIDateView(frame: CGRectMake(0, frame.height-60, frame.width, 60), date: 110494)
             info!.clipsToBounds = true
             info!.backgroundColor = UIColor(red: 150, green: 250, blue: 150, alpha: 0.5)
             bringSubviewToFront(info!)
@@ -36,7 +36,6 @@ class HomeTableViewCell: UITableViewCell {
 
     override func layoutSubviews() {
         super.layoutSubviews()
-        myImageView.frame = CGRectMake(0, 0, frame.height, frame.height)
     }
     
 }

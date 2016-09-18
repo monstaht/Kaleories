@@ -19,6 +19,10 @@ class UIDateView: UIView {
         self.msg.text = dd + "/" + mm + "/" + yy
         super.init(frame: frame)
         self.addSubview(msg)
+        
+        let heart: UIImageView = UIImageView(image: UIImage(named:"heart"))
+        heart.frame = CGRectMake(10, 30, 60, 53)
+        self.addSubview(heart)
     }
     
     required init?(coder aDecoder: NSCoder) {
