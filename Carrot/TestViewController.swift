@@ -27,7 +27,6 @@ class TestViewController: UIViewController, UITableViewDataSource{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(navigationController)
         navigationItem.titleView = UIImageView(image: UIImage(named:"Logo"))
         let item = UIBarButtonItem(customView: UIImageView(image: UIImage(named: "Logo")))
         self.navigationItem.rightBarButtonItem = item
@@ -73,6 +72,8 @@ class TestViewController: UIViewController, UITableViewDataSource{
                 self.selections = suggestions
                 self.url = url
             }
+            self.loadTableView()
+            
             // now that we got the data from the network
             // we want to put it up in the UI
             // but we can only do that on the main queue

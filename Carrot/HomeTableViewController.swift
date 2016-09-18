@@ -71,6 +71,12 @@ class HomeTableViewController: UIViewController, UITableViewDelegate, UITableVie
         return UIModalPresentationStyle.None
     }
     
+/*
+ navigationItem.titleView = UIImageView(image: UIImage(named:"Logo"))
+ let item = UIBarButtonItem(customView: UIImageView(image: UIImage(named: "Logo")))
+ self.navigationItem.rightBarButtonItem = item
+*/
+ 
     /*
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         let cell = tableView.dequeueReusableCellWithIdentifier("homecell", forIndexPath: indexPath) as! HomeTableViewCell

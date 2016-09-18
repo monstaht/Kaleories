@@ -19,31 +19,15 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
     override func viewDidLoad() {
         imagepicker.delegate = self
         imagepicker.sourceType = .Camera
-      //  tabBarController?.presentViewController(imagepicker, animated: true, completion: {
-        //    UIApplication.sharedApplication().setStatusBarHidden(false, withAnimation: UIStatusBarAnimation.Fade)
-         //   navigationController?.topViewController
-        //})
+        tabBarController?.presentViewController(imagepicker, animated: true, completion: nil)
     }
     
     func imagePickerController(picker: UIImagePickerController, didFinishPickingImage image: UIImage, editingInfo: [String : AnyObject]?) {
         picture = image
-        //let base64String = imageData?.base64EncodedStringWithOptions(.Encoding64CharacterLineLength) //this may be an error
-        //post the base64String to them
-        //get the [String] array
-        //store it at the top selections[0] = the get shit
-        //picture = image
         let sb = UIStoryboard(name: "Main", bundle: nil)
         let selectionview = sb.instantiateViewControllerWithIdentifier("selections") as! TestViewController
         selectionview.picture = picture
         imagepicker.pushViewController(selectionview, animated: true)
-        //performSegueWithIdentifier("toselections", sender: nil)
-        
-    }
-    
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if let destinationvc = segue.destinationViewController as? SelectionViewController {
-            destinationvc.picture = picture
-        }
     }
     
     func imagePickerControllerDidCancel(picker: UIImagePickerController) {
