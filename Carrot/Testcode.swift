@@ -13,7 +13,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let api = API()
         let url = NSURL(string: "http://feelgrafix.com/data_images/out/28/992756-cheese.jpg")
         let imageData:NSData = NSData.init(contentsOfURL: url!)!
         let strBase64:String = imageData.base64EncodedStringWithOptions(.Encoding64CharacterLineLength)
