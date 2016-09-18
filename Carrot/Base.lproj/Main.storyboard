@@ -195,11 +195,11 @@
             </objects>
             <point key="canvasLocation" x="3718" y="1044"/>
         </scene>
-        <!--Item-->
+        <!--Navigation Controller-->
         <scene sceneID="cik-Dx-0qf">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3F7-ai-txX" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="4qu-0D-Zdk"/>
+                    <tabBarItem key="tabBarItem" title="" image="Camera" id="4qu-0D-Zdk"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="hbS-np-5BA">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -214,11 +214,11 @@
             </objects>
             <point key="canvasLocation" x="1207" y="332"/>
         </scene>
-        <!--Item-->
+        <!--Navigation Controller-->
         <scene sceneID="2De-RG-arf">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Zba-gb-ZbC" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="TpQ-k5-7Kn"/>
+                    <tabBarItem key="tabBarItem" title="" image="graphs" id="TpQ-k5-7Kn"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="U8n-Gj-hZ2">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -233,11 +233,11 @@
             </objects>
             <point key="canvasLocation" x="1519" y="1118"/>
         </scene>
-        <!--Item-->
+        <!--Navigation Controller-->
         <scene sceneID="NS5-Aa-Ita">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="KGQ-cD-Kmn" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" image="logo-1" id="E9V-8j-cCk"/>
+                    <tabBarItem key="tabBarItem" title="" image="home" id="E9V-8j-cCk"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Rjq-lr-xdd">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -254,6 +254,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="logo-1" width="150" height="70"/>
+        <image name="Camera" width="16" height="16"/>
+        <image name="graphs" width="32" height="32"/>
+        <image name="home" width="16" height="16"/>
     </resources>
 </document>

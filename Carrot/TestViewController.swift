@@ -99,14 +99,14 @@ class TestViewController: UIViewController, UITableViewDataSource, UITableViewDe
         //let imageData:NSData = NSData.init(contentsOfURL: url!)!
         let base64String:String = imageData!.base64EncodedStringWithOptions(.Encoding64CharacterLineLength)
         
-        API.sharedInstance.getSuggestions(base64String) { (suggestions, url) in
-            self.selections = suggestions
-            self.url = url
-            self.values = [Int](count: self.selections!.count, repeatedValue: 0)
+        API.sharedInstance.getSuggestions(base64String) { [weak self](suggestions, url) in
+            self?.selections = suggestions
+            self?.url = url
+            self?.values = [Int](count: (self?.selections!.count)!, repeatedValue: 0)
             
             dispatch_async(dispatch_get_main_queue()) {
-                self.spinner?.stopAnimating()
-                self.loadTableView()
+                self?.spinner?.stopAnimating()
+                self?.loadTableView()
             }
         }
     }
