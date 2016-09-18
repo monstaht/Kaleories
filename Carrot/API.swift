@@ -57,7 +57,7 @@ class API {
     func confirmFood(confirmedjson: [String: AnyObject], completion: (Nutrition,String) -> Void) {
         let map: [String: AnyObject] -> (Nutrition,String) = {
             print(JSON($0)["food"])
-            let nutrition = Nutrition(json: JSON(JSON($0)["food"].dictionaryValue))
+            let nutrition = Nutrition(json: JSON(JSON($0)["food"].dictionaryValue), healthy: JSON($0)["healthy"].boolValue, vitamins: JSON($0)["vitamins"].arrayValue.map({$0.stringValue}))
             let url = JSON($0)["url"].stringValue
             return (nutrition, url)
         }
