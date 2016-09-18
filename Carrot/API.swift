@@ -30,7 +30,7 @@ private enum Router: URLStringConvertible {
                 return "allPictures/"
             }
         }()
-        return "http://10.128.23.86:5000/\(endValue)"
+        return "http://kalories.azurewebsites.net/\(endValue)"
         //return "http://10.0.2.15:5000/\(endValue)"
         //return "http://127.0.0.1:5000/\(endValue)"
     }
@@ -40,7 +40,7 @@ class API {
     static let sharedInstance = API()
     
     static func getFullURL(urlshort: [(String, Int)]) -> [(String, Int)]{
-        let start = "http://10.128.23.86:5000"
+        let start = "http://kalories.azurewebsites.net"
         return urlshort.map({ (start + $0, $1) })
     }
     
