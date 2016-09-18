@@ -56,7 +56,7 @@ class TestViewController: UIViewController, UITableViewDataSource, UITableViewDe
     }
     
     func buttonPressed (sender: UIButton!){
-        print("button is succuesssful")
+        dismissViewControllerAnimated(true, completion: nil)
     }
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return selections!.count

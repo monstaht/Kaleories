@@ -14,6 +14,16 @@ class GraphViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let nav = self.navigationController?.navigationBar
+        nav?.barTintColor = UIColor(red: 0.976470588 , green: 0.568627451, blue: 0.215686275, alpha: 0.2).colorWithAlphaComponent(0.6)
+        nav?.translucent = true
+        let imageView = UIImageView(image: UIImage(named:"logo-1"))
+        imageView.frame = CGRectMake(0, 0, 130, 40)
+        imageView.clipsToBounds = true
+        imageView.contentMode = .ScaleAspectFit
+        self.navigationItem.titleView = imageView
+        nav?.frame = CGRectMake(0, 0, 400, 100)
+        super.viewDidLoad()
         picture.image = UIImage(named: "Calendar")
         // Do any additional setup after loading the view.
     }
