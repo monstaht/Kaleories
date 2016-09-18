@@ -255,7 +255,7 @@
     </scenes>
     <resources>
         <image name="Camera" width="16" height="16"/>
-        <image name="graphs" width="32" height="32"/>
+        <image name="graphs" width="16" height="16"/>
         <image name="home" width="16" height="16"/>
     </resources>
 </document>

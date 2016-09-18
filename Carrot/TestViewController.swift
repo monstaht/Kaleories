@@ -161,6 +161,16 @@ class TestViewController: UIViewController, UITableViewDataSource, UITableViewDe
             }
         }
     }
+    
+    private func buildcjson(sel: [String], val: [Int], url: String) -> [String: AnyObject] {
+        var food: [[String: Int]] = []
+        for i in 0...sel.count {
+            let item = [sel[i]:val[i]]
+            food.append(item)
+        }
+        
+        return ["content": food, "url": url]
+    }
 
     
 
