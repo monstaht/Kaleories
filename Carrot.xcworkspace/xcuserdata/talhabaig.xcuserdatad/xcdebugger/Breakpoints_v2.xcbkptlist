@@ -119,11 +119,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Carrot/TestViewController.swift"
-            timestampString = "495859715.611719"
+            timestampString = "495863069.228754"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "86"
-            endingLineNumber = "86"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
             landmarkName = "TestViewController"
             landmarkType = "3">
          </BreakpointContent>

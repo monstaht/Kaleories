@@ -28,6 +28,13 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         let selectionview = sb.instantiateViewControllerWithIdentifier("selections") as! TestViewController
         selectionview.picture = picture
         imagepicker.pushViewController(selectionview, animated: true)
+        
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if let destinationvc = segue.destinationViewController as? SelectionViewController {
+            destinationvc.picture = picture
+        }
     }
     
     func imagePickerControllerDidCancel(picker: UIImagePickerController) {

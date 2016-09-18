@@ -12,7 +12,7 @@ class TestViewController: UIViewController, UITableViewDataSource{
     
     var picture: UIImage? {
         didSet{
-            imageView.frame = CGRectMake(view.frame.minX, view.frame.minY, view.frame.width, view.frame.width)
+            imageView.frame = CGRectMake(view.frame.minX, view.frame.minY, view.frame.width, view.frame.height/2)
             imageView.image = self.picture
             imageView.clipsToBounds = true
             imageView.contentMode = .ScaleAspectFill
@@ -26,18 +26,15 @@ class TestViewController: UIViewController, UITableViewDataSource{
     var url: String?
     
     override func viewDidLoad() {
+        print("im here")
         super.viewDidLoad()
-        navigationItem.titleView = UIImageView(image: UIImage(named:"Logo"))
-        let item = UIBarButtonItem(customView: UIImageView(image: UIImage(named: "Logo")))
-        self.navigationItem.rightBarButtonItem = item
         view.addSubview(imageView)
         selections = ["lets", "test", "test", "test", "test", "test", "test", "test"]
         spinner = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorViewStyle.White)
-        spinner?.frame = CGRectMake(view.frame.midX, view.frame.midY, view.frame.width / 3, view.frame.width / 3)
-        view.addSubview(spinner!)
+        spinner?.frame = CGRectMake(view.frame.midX, view.frame.midY, 24, 24)
         spinner?.startAnimating()
-        tableView!.dataSource = self
-        
+        view.addSubview(spinner!)
+        fetchSuggestions()
         // Do any additional setup after loading the view.
     }
     
@@ -51,20 +48,11 @@ class TestViewController: UIViewController, UITableViewDataSource{
         return cell
     }
     
-    public func fetchSuggestions() {
-        // fire up the spinner
-        // because we're about to fork something off on another thread
+    private func fetchSuggestions() {
         spinner?.startAnimating()
-        // put a closure on the "user initiated" system queue
-        // this closure does NSData(contentsOfURL:) which blocks
-        // waiting for network response
-        // it's fine for it to block the "user initiated" queue
-        // because that's a concurrent queue
-        // (so other closures on that queue can run concurrently even as this one's blocked)
         dispatch_async(dispatch_get_global_queue(QOS_CLASS_USER_INITIATED, 0)) {
             
-//            //let base64String = imageData?.base64EncodedStringWithOptions(.Encoding64CharacterLineLength)
-//            let url = NSURL(string: "http://feelgrafix.com/data_images/out/28/992756-cheese.jpg")
+            //let url = NSURL(string: "http://feelgrafix.com/data_images/out/28/992756-cheese.jpg")
             let imageData = UIImageJPEGRepresentation(self.picture!,0.0)
             //let imageData:NSData = NSData.init(contentsOfURL: url!)!
             let base64String:String = imageData!.base64EncodedStringWithOptions(.Encoding64CharacterLineLength)
@@ -72,25 +60,23 @@ class TestViewController: UIViewController, UITableViewDataSource{
                 self.selections = suggestions
                 self.url = url
             }
-            self.loadTableView()
             
-            // now that we got the data from the network
-            // we want to put it up in the UI
-            // but we can only do that on the main queue
-            // so we queue up a closure here to do that
+            
+            //self.spinner?.stopAnimating()
+
+            self.loadTableView()
+
             dispatch_async(dispatch_get_main_queue()) { [weak self] in
-                self!.spinner?.stopAnimating()
-                
             }
         }
     }
     
     private func loadTableView(){
-        tableView!.frame = CGRectMake(view.frame.minX, view.frame.midY, view.frame.width, view.frame.height / 2)
-        view.addSubview(tableView!)
-        
-        tableView!.reloadData()
-        view.addSubview(tableView!)
+        let tableView = UITableView()
+        tableView.frame = CGRectMake(view.frame.minX, view.frame.midY, view.frame.width, view.frame.height / 2)
+        tableView.reloadData()
+        tableView.dataSource = self
+        view.addSubview(tableView)
     }
 
     
