@@ -15,7 +15,8 @@ class SuggestionTableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
+        //Initialization code
        // stepper.addTarget(self, action: , forControlEvents: <#T##UIControlEvents#>)
       //  labelWithNumber?.text = stepper.value
     }

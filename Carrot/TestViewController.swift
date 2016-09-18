@@ -25,6 +25,7 @@ class TestViewController: UIViewController, UITableViewDataSource, UITableViewDe
     var tableView: UITableView?
     var spinner:UIActivityIndicatorView?
     var url: String?
+    var values: [Int]?
     
     override func viewDidLoad() {
         print("im here")
@@ -32,7 +33,8 @@ class TestViewController: UIViewController, UITableViewDataSource, UITableViewDe
        // tableView?.registerClass(UITableViewCell(style: UITableViewCellStyle.Subtitle).self, forCellReuseIdentifier: "suggestioncell")
         view.addSubview(imageView)
         selections = ["lets", "test", "test", "test", "test", "test", "test", "test"]
-        view.backgroundColor = UIColor(red: 185, green: 233, blue: 173, alpha: 1.0)
+        values = [Int](count: selections!.count, repeatedValue: 0)
+        view.backgroundColor = UIColor(red: 185/255, green: 233/255, blue: 173/255, alpha: 1.0)
         spinner = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorViewStyle.WhiteLarge)
         spinner?.transform = CGAffineTransformMakeScale(1.5, 1.5)
         //spinner?.transform = CGAffineTransformTranslate(spinner!.transform, -40, 0)
@@ -41,42 +43,50 @@ class TestViewController: UIViewController, UITableViewDataSource, UITableViewDe
         spinner?.hidesWhenStopped = true
         spinner?.startAnimating()
         view.addSubview(spinner!)
+        let button = UIButton(frame: CGRectMake(view.frame.minX, view.frame.maxY - 75, view.frame.width, view.frame.height/8))
+        button.titleLabel?.font = UIFont(name: "HelveticaNeue", size: 28)
+        //button.titleLabel?.transform = CGAffineTransformTranslate((button.titleLabel?.transform)!, 0, -20)
+        //button.textLabel?.textColor = UIColor.grayColor()
+        button.addTarget(self, action: #selector(TestViewController.buttonPressed(_:)), forControlEvents: UIControlEvents.TouchUpInside)
+        button.setTitle("Submit", forState: .Normal)
+        button.backgroundColor = UIColor(red: 185/255, green: 233/255, blue: 173/255, alpha: 1.0)
+        view.addSubview(button)
         fetchSuggestions()
         // Do any additional setup after loading the view.
     }
     
+    func buttonPressed (sender: UIButton!){
+        print("button is succuesssful")
+    }
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return selections!.count
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        values![indexPath.row]++
+        tableView.reloadData()
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = UITableViewCell(style: UITableViewCellStyle.Subtitle, reuseIdentifier: "suggestioncell")
-        //if let cell = tableView.dequeueReusableCellWithIdentifier("suggestioncell") as? UITableViewCell {
+        cell.selectionStyle = UITableViewCellSelectionStyle.None
         cell.textLabel?.text = selections![indexPath.row]
         cell.textLabel?.textColor = UIColor.grayColor()
         cell.textLabel?.font = UIFont(name: "HelveticaNeue", size: 28)
         let stepper = UIStepper()
+        stepper.tintColor = UIColor(red: 185/255, green: 233/255, blue: 173/255, alpha: 1.0)
         stepper.transform = CGAffineTransformMakeScale(1.1, 1.1)
         //let detailTextLabel = UILabel()
         cell.detailTextLabel?.text = "work please"
         cell.accessoryView = stepper
-        stepper.addTarget(self, action: #selector(TestViewController.changeValue(_:stepper:)), forControlEvents: UIControlEvents.TouchUpInside)
-        
         print("im here as well")
         print(cell.detailTextLabel)
-        cell.detailTextLabel?.text = String(stepper.value)
+        cell.detailTextLabel?.text = String(values![indexPath.row])
+        
         return cell
     }
     
-    @objc private func changeValue(cell: UITableViewCell, stepper: UIStepper){
-        print("error is at changeValue")
-        var currentValue = Double((cell.detailTextLabel?.text)!)
-        cell.detailTextLabel?.text = String(currentValue!++)
-        
-    }
+
     
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         return 70
@@ -88,26 +98,27 @@ class TestViewController: UIViewController, UITableViewDataSource, UITableViewDe
         let imageData = UIImageJPEGRepresentation(self.picture!,0.0)
         //let imageData:NSData = NSData.init(contentsOfURL: url!)!
         let base64String:String = imageData!.base64EncodedStringWithOptions(.Encoding64CharacterLineLength)
-        /*
+        
         API.sharedInstance.getSuggestions(base64String) { (suggestions, url) in
             self.selections = suggestions
             self.url = url
+            
+            dispatch_async(dispatch_get_main_queue()) {
+                self.spinner?.stopAnimating()
+                self.loadTableView()
+            }
         }
-        */
-        
-        self.spinner?.stopAnimating()
-        self.loadTableView()
     }
     
     private func loadTableView(){
-        let tableView = UITableView()
-        tableView.registerClass(SuggestionTableViewCell.self, forCellReuseIdentifier: "suggestioncell")
-        tableView.frame = CGRectMake(view.frame.minX, view.frame.midY, view.frame.width, view.frame.height / 2)
-        tableView.dataSource = self
-        tableView.delegate = self
-        tableView.reloadData()
-        tableView.backgroundColor = UIColor(red: 185, green: 233, blue: 173, alpha: 1.0)
-        view.addSubview(tableView)
+        tableView = UITableView()
+        tableView!.registerClass(SuggestionTableViewCell.self, forCellReuseIdentifier: "suggestioncell")
+        tableView!.frame = CGRectMake(view.frame.minX, view.frame.midY, view.frame.width, view.frame.height / 2.5)
+        tableView!.dataSource = self
+        tableView!.delegate = self
+        tableView!.reloadData()
+        tableView!.backgroundColor = UIColor(red: 185, green: 233, blue: 173, alpha: 1.0)
+        view.addSubview(tableView!)
     }
 
     
