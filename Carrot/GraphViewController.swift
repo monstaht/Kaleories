@@ -18,7 +18,7 @@ class GraphViewController: UIViewController {
         nav?.barTintColor = UIColor(red: 0.976470588 , green: 0.568627451, blue: 0.215686275, alpha: 0.2).colorWithAlphaComponent(0.6)
         nav?.translucent = true
         let imageView = UIImageView(image: UIImage(named:"logo-1"))
-        imageView.frame = CGRectMake(0, 0, 130, 40)
+        imageView.frame = CGRectMake(0, 0, 160, 80)
         imageView.clipsToBounds = true
         imageView.contentMode = .ScaleAspectFit
         self.navigationItem.titleView = imageView
