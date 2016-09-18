@@ -10,19 +10,28 @@ import UIKit
 
 class SuggestionTableViewCell: UITableViewCell {
 
+    var labelWithNumber: UILabel?
     var suggestionName: String? {
         didSet{
             textLabel?.text = suggestionName
         }
     }
+    //let stepper = UIStepper((frame: CGRectMake(frame.midX , frame.midY, 20, 50))
     
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-       // let stepper = UIStepper(frame: CGRectMake(self.frame.midX, self.frame.midY, )
-      //  stepper.center = CGPointMake(self.frame.midx + 150, self.frame.y  + 20)
-        
+       // stepper.addTarget(self, action: , forControlEvents: <#T##UIControlEvents#>)
+      //  labelWithNumber?.text = stepper.value
     }
+    
+    /*
+    func stepperPressed(){
+        labelWithNumber?.text = stepper.value
+    }
+    
+    */
     
    // }
 
