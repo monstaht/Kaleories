@@ -102,6 +102,7 @@ class TestViewController: UIViewController, UITableViewDataSource, UITableViewDe
         API.sharedInstance.getSuggestions(base64String) { (suggestions, url) in
             self.selections = suggestions
             self.url = url
+            self.values = [Int](count: self.selections!.count, repeatedValue: 0)
             
             dispatch_async(dispatch_get_main_queue()) {
                 self.spinner?.stopAnimating()
