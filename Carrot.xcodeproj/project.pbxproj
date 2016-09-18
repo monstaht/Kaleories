@@ -31,6 +31,7 @@
 		F8A70CC11D8DC15900FBBA77 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A70CC01D8DC15900FBBA77 /* TestViewController.swift */; };
 		F8CE58491D8E4D2A0052AA4F /* SuggestionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CE58481D8E4D2A0052AA4F /* SuggestionTableViewCell.swift */; };
 		F8CE584B1D8E83F70052AA4F /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CE584A1D8E83F70052AA4F /* GraphViewController.swift */; };
+		F8CE58581D8EA2FE0052AA4F /* BarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CE58571D8EA2FE0052AA4F /* BarChartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		F8A70CC01D8DC15900FBBA77 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		F8CE58481D8E4D2A0052AA4F /* SuggestionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuggestionTableViewCell.swift; sourceTree = "<group>"; };
 		F8CE584A1D8E83F70052AA4F /* GraphViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
+		F8CE58571D8EA2FE0052AA4F /* BarChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 		F8A70C9B1D8CDF1E00FBBA77 /* Carrot */ = {
 			isa = PBXGroup;
 			children = (
+				F8CE58571D8EA2FE0052AA4F /* BarChartViewController.swift */,
 				F8A70CB51D8D09F900FBBA77 /* BarTableViewController.swift */,
 				F8A70CB71D8D0E5E00FBBA77 /* BarTableViewCell.swift */,
 				F8A70C9C1D8CDF1E00FBBA77 /* AppDelegate.swift */,
@@ -269,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8CE58581D8EA2FE0052AA4F /* BarChartViewController.swift in Sources */,
 				F8A70CBB1D8D1FFA00FBBA77 /* HomeTableViewController.swift in Sources */,
 				F8A70CB81D8D0E5E00FBBA77 /* BarTableViewCell.swift in Sources */,
 				085BF7221D8DFC1A00B44973 /* Nutrition.swift in Sources */,

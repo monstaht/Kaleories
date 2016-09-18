@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Charts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>NMPopUpViewSwift-NMPopUpViewSwift.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,12 +37,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0DE93A80D9EC89B94FE9F41228A430A6</key>
+		<key>0D6472B29E91BC536296DE9440741B4E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1B68CF08088764902B31E0C662364530</key>
+		<key>0DE93A80D9EC89B94FE9F41228A430A6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -47,12 +52,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>790B4C74CCA1A0A5F159B7D6E47D48FF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>79C040AFDDCE1BCBF6D8B5EB0B85887F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C44AA870246118D05DB589DEB73D76D1</key>
+		<key>C6828C2508515BC0428D6BDAA1292DC9</key>
 		<dict>
 			<key>primary</key>
 			<true/>

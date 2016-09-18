@@ -10,23 +10,110 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>0297D255E08808A23B4A9770F1FA7FB3</key>
+		<key>003EBB47E856DBB92F4A63FC2AD8C892</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>EC1BA48302CA9C614E948F1D82E2A77B</string>
-			</array>
+			<key>fileRef</key>
+			<string>B86A897702F7E5CB4D8E403526FC8DCF</string>
 			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0096B507779C30A9D4178642B440AF2E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>CandleChartDataEntry.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Data/Implementations/Standard/CandleChartDataEntry.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>00E971CD399BD12BF10B505FF861AD16</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Alamofire-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>01BD001953C698AC34AD742A3CD1144D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>BarChartDataSet.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Data/Implementations/Standard/BarChartDataSet.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0282A6E5639377AF6605F57B16F2300A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>Manager.swift</string>
+			<key>path</key>
+			<string>Source/Manager.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>02C1BEA6FE84433F6C6A713533B7B9BD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>27E62AE73740E18344B5E818AC33FBB3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>05295D851157E778A2EBACE65CBA5EB5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ZoomChartViewJob.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Jobs/ZoomChartViewJob.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>05491D3A20AB48937EA6AC689003A156</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Alamofire-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>06B4DE750A94B3AF44F9F46E9D94D5BC</key>
 		<dict>
 			<key>fileRef</key>
-			<string>44E0797EE0B0581805C6C893DE1B4EB7</string>
+			<string>8E9A9C8D8F3E87EA44013F0495A3BC83</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -37,16 +124,33 @@
 				</array>
 			</dict>
 		</dict>
-		<key>07FEA78765C7493A27AFFF7DB8A1E2D3</key>
+		<key>06DB69259566642CB8B863DAFE10233B</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ChartDataSet.swift</string>
 			<key>path</key>
-			<string>Info.plist</string>
+			<string>Charts/Classes/Data/Implementations/Standard/ChartDataSet.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>07C898C6F7B38ACC17D12919BFD77264</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ChartViewPortJob.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Jobs/ChartViewPortJob.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -63,19 +167,131 @@
 			<key>remoteInfo</key>
 			<string>NMPopUpViewSwift-NMPopUpViewSwift</string>
 		</dict>
+		<key>0924B3E2A6B635C7196773FA74C62974</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>79C040AFDDCE1BCBF6D8B5EB0B85887F</string>
+			<key>remoteInfo</key>
+			<string>Alamofire</string>
+		</dict>
 		<key>095406039B4D371E48D08B38A2975AC8</key>
 		<dict>
 			<key>fileRef</key>
-			<string>17DFF7A403BDE5B485020306479591DB</string>
+			<string>462602E058DB9BAA8316C974170D3C91</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>0B8C87CDC6AF481F432BEEC8C6E812F8</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>3A2042F1898FAB4ED07462E3B161D140</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>0BC00429614EB38518C32E9B14261EA0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ChartRendererBase.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Renderers/ChartRendererBase.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0BED844E2ADBE226A80342BB948DCDC4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ResponseSerialization.swift</string>
+			<key>path</key>
+			<string>Source/ResponseSerialization.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>0C4DFD6A101CD4F52FDF6EB095E6B419</key>
 		<dict>
 			<key>fileRef</key>
-			<string>CFDF3CBDBE938D828E947290CEC365F0</string>
+			<string>12390E3334C26F7232CE779AEC41026E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>0CB7FC798646A8987027B05D7C3D3F8A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0D6472B29E91BC536296DE9440741B4E</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>122649D8E4CEC44BFC71E3EABEF59DDD</string>
+			<key>buildPhases</key>
+			<array>
+				<string>2F055883DBCD516DA1D6C45A7C9275DB</string>
+				<string>0B8C87CDC6AF481F432BEEC8C6E812F8</string>
+				<string>AD19034E833B7634B201B5B47620EE7A</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>21EFEDD2054D0A661641AAC5309A1ECC</string>
+				<string>F59226A82660ABDE4DBA007B060EABCC</string>
+				<string>18B1BBFA1DAD3324D39BE06849D564F0</string>
+				<string>85E07B56BC8156D14685DCD43BB3C9D3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-Carrot</string>
+			<key>productName</key>
+			<string>Pods-Carrot</string>
+			<key>productReference</key>
+			<string>EC9934D730E3ABD7DB7D29D17C33DB10</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>0D69A8943A7F2B9318310C06E3D1C4E3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>SwiftyJSON.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>0DE93A80D9EC89B94FE9F41228A430A6</key>
 		<dict>
@@ -101,18 +317,31 @@
 			<key>productName</key>
 			<string>NMPopUpViewSwift</string>
 			<key>productReference</key>
-			<string>92BA532D4A1899E2A9A2051DDE9D8292</string>
+			<string>805F85D89E0AB5DD6B554F8130E7B6AB</string>
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
 		</dict>
 		<key>0E08FB52DEFEDC7DB2AE017AE0DD1DE1</key>
 		<dict>
 			<key>fileRef</key>
-			<string>9EDE4642024D38252414D96CA94B385F</string>
+			<string>F06FDAB54F3DF4DBC5C9D13D1DDE652E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>0E941AB012EFEA2859249A83B3EBAB36</key>
+		<key>0E27F9214563AC06D13F23292C650A6D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SwiftyJSON-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0E31D4723ED964B034530A566269FDCC</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -121,57 +350,13 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.swift</string>
 			<key>name</key>
-			<string>Manager.swift</string>
+			<string>LineChartView.swift</string>
 			<key>path</key>
-			<string>Source/Manager.swift</string>
+			<string>Charts/Classes/Charts/LineChartView.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>0EEED815DBFC63C60A6B40A7CF97B555</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>NMPopUpViewSwift.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0FBFDCCE43B0AAF05DD357266A7C3E07</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>228B5F8555D083B7E275808EBBE7C1B6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>16102E4E35FAA0FC4161282FECE56469</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7A614EB99214BBC206E9DBECFABCA836</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>163DB4438B2A858399A400C86EC55DD4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Alamofire-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>17DFF7A403BDE5B485020306479591DB</key>
+		<key>0FF614C96637BE1EDA2AD74D3D1EC2F5</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -180,38 +365,20 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.swift</string>
 			<key>name</key>
-			<string>Error.swift</string>
+			<string>LineRadarChartRenderer.swift</string>
 			<key>path</key>
-			<string>Source/Error.swift</string>
+			<string>Charts/Classes/Renderers/LineRadarChartRenderer.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1B68CF08088764902B31E0C662364530</key>
+		<key>10DA9C9D58BDE4AEBC101C70A645E315</key>
 		<dict>
-			<key>buildConfigurationList</key>
-			<string>F854B9FC6125D53448F4E9C19FFA337E</string>
-			<key>buildPhases</key>
-			<array>
-				<string>DB52BFAA845C60A905F59ABAFF878A89</string>
-				<string>AD1FE0AE93735694B4D7AC1A119BE9A3</string>
-				<string>0297D255E08808A23B4A9770F1FA7FB3</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
+			<key>fileRef</key>
+			<string>E760E4751100A68FD666557756FF7EA2</string>
 			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>SwiftyJSON</string>
-			<key>productName</key>
-			<string>SwiftyJSON</string>
-			<key>productReference</key>
-			<string>F7285A191F467A0D0A005B4D6FEBA56B</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>1CC250D34EAE467E64784547D7F1AE9D</key>
+		<key>110ADC81750217968CD35D048EF12504</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -220,50 +387,37 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.swift</string>
 			<key>name</key>
-			<string>Alamofire.swift</string>
+			<string>Stream.swift</string>
 			<key>path</key>
-			<string>Source/Alamofire.swift</string>
+			<string>Source/Stream.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1E01126446E1667E75CB8EDE5DFF278C</key>
+		<key>11182DB7D6D479D60AB5A847051FC228</key>
 		<dict>
-			<key>fileRef</key>
-			<string>3E4E89230EF59BC255123B67864ACF77</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>Response.swift</string>
+			<key>path</key>
+			<string>Source/Response.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>228B5F8555D083B7E275808EBBE7C1B6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9431CCE0827A6EF8730FA3DA9D9BF157</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2366ACE16590D1A8E50A2F1A3F5C4757</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7DA0C9A3BD9B2425778BDDF8D7D7944B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>24902F84B18DD5C8D4A5D0D062D5E214</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7DA0C9A3BD9B2425778BDDF8D7D7944B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>251184A49D3CA5D7C361795EEACD90DA</key>
+		<key>11EBDB2A47B10DA92680BD2639A8CDB2</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>BEF64FA6400EE4836114A1C88D1997E2</string>
-				<string>6AFCC5514C09B93883D8A7EFEA18D4FC</string>
-				<string>451DF3AF6402A358955F7839D4AA2C82</string>
-				<string>4CED248D694CF28D9AC5CA8869FB24E7</string>
-				<string>163DB4438B2A858399A400C86EC55DD4</string>
-				<string>5DBAD630EE4C7EFCE7CA3995610A1BA9</string>
+				<string>8B72F1B0DB94DA032AC92808CB74FF88</string>
+				<string>C2A15AF281F03119592C41EC83E50098</string>
+				<string>00E971CD399BD12BF10B505FF861AD16</string>
+				<string>05491D3A20AB48937EA6AC689003A156</string>
+				<string>9DC70F1D501CD6374C115A4F1659CC89</string>
+				<string>0CB7FC798646A8987027B05D7C3D3F8A</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -273,6 +427,470 @@
 			<string>../Target Support Files/Alamofire</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>122649D8E4CEC44BFC71E3EABEF59DDD</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>CF336244365FFA0824A04384ABC116A5</string>
+				<string>D316E5E188ABBC7002497E23595E1F7B</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>12390E3334C26F7232CE779AEC41026E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.xib</string>
+			<key>name</key>
+			<string>PopUpViewController.xib</string>
+			<key>path</key>
+			<string>NMPopUpView/Pod/Classes/PopUpViewController.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>124D0BAABE6160B5E0B6ADC527C58418</key>
+		<dict>
+			<key>fileRef</key>
+			<string>06DB69259566642CB8B863DAFE10233B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1255FD2399A7CA415723BDA3576E0804</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>HorizontalBarChartRenderer.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Renderers/HorizontalBarChartRenderer.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1268FBA2F4CEE4DC3577E8DD52D25975</key>
+		<dict>
+			<key>fileRef</key>
+			<string>344A8AA869D9DE294B2AC671B1679D01</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>127AB4661AC9A5832C3D5A4077C1A58C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B4EE61DCB23D84B2AC326BE7026AB3EB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>133CE0E6FA1C337675C197BE06C78911</key>
+		<dict>
+			<key>children</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Resources</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>14A4C0509F7FE7122819D10B1F040BE9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ChartFill.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Utils/ChartFill.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1568D9F321313FECF78F199CE4E7B442</key>
+		<dict>
+			<key>fileRef</key>
+			<string>672F4D56F69702390B1F79BB42D74BA5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>15AD01DB1A64F162CCBC2E4D02B1458A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EC2A99E58AB14E8C0A95A44881D57D1A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>15BE411F7D11E5351A029730DC7C6531</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>Result.swift</string>
+			<key>path</key>
+			<string>Source/Result.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>15D5B58460D6896C1A6F3A6BAD009C7A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ChartViewBase.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Charts/ChartViewBase.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>16102E4E35FAA0FC4161282FECE56469</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DE08E6B34DB9765EDA37ABE1C1D4F2E6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1677FAD2A148DA1DDE73736B4848878B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>231BE88C45C7B9BE8A180940CBBAC790</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>170D6E9BFFE7E6091C3D74E2B701BA5B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ILineRadarChartDataSet.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Data/Interfaces/ILineRadarChartDataSet.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1711226039A0CD668F7DBEEE45D9E238</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A9113C7D5072EC1C62C351A940630BFC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1792949332E845FCE9745F455932668C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>44A853EAB1B1B6026ECDE24E3CFA1A7C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>17B17092C8C89A54DA067E8F4134B1D0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Charts-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>17E8ECFF7879DDE903F47869DEBAA874</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B9DB1E40A6E3F52C0A8D194BBDEB12CB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>18B1BBFA1DAD3324D39BE06849D564F0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>NMPopUpViewSwift</string>
+			<key>target</key>
+			<string>0DE93A80D9EC89B94FE9F41228A430A6</string>
+			<key>targetProxy</key>
+			<string>875A2F6735B3740FC1754C899070BFB9</string>
+		</dict>
+		<key>194258976311664F5F51A1C9D4A630CE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>BubbleChartDataProvider.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Interfaces/BubbleChartDataProvider.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1A4E91F61DD7FD433B3FF574D9DE3AE7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>BarLineScatterCandleBubbleChartDataProvider.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Interfaces/BarLineScatterCandleBubbleChartDataProvider.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1A576993F97A4BD21C20CE9685D55B45</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3F4A8BD831C6F7AD05DC65EDB33545FF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1AA2BFF6AAA29B3C65D9109C6D89B631</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7BF3262D5E2534EFA91A2AF3F332B80F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1C676775776E76D9AC8DB8AD0C1C35E8</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>56EF1EE224A8A6A4E279C0D246235075</string>
+				<string>724BB45AF91FC0D7B25FBB4DFB3EF138</string>
+				<string>A9D08F42580526A45CA1F8DE62222D8D</string>
+				<string>805F85D89E0AB5DD6B554F8130E7B6AB</string>
+				<string>EC9934D730E3ABD7DB7D29D17C33DB10</string>
+				<string>5C6FC71F539BD7AB89DD27717B0971DA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1D9BA410969F5FC01808DBD626CD9D69</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ServerTrustPolicy.swift</string>
+			<key>path</key>
+			<string>Source/ServerTrustPolicy.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1E29D80A331594ECF76C906BEB7D8922</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>CombinedChartData.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Data/Implementations/Standard/CombinedChartData.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1ED95865A0F35E6479942C08DC17E359</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9F6AE1C6E88AE3E653A7DFB3C3CC9431</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1FFA88C4B3A1DAF8DA3FBD1FB22358B5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>AC4A669B896F685C601A8F4F989E6B79</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>20B6E0F7B869C43408C324ED39401EAC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>CombinedChartView.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Charts/CombinedChartView.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>20F81B376F432A2FA4E3DB7B0C5DA670</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ChartAxisBase.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Components/ChartAxisBase.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>21EB112218A6FB49618F96AAD241011A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ChartLegendRenderer.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Renderers/ChartLegendRenderer.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>21EFEDD2054D0A661641AAC5309A1ECC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>Alamofire</string>
+			<key>target</key>
+			<string>79C040AFDDCE1BCBF6D8B5EB0B85887F</string>
+			<key>targetProxy</key>
+			<string>0924B3E2A6B635C7196773FA74C62974</string>
+		</dict>
+		<key>224F8C8DCD27EA9658A028C095C4F275</key>
+		<dict>
+			<key>fileRef</key>
+			<string>927C7FE5C8A4ABA11547E030315AA28B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>231BE88C45C7B9BE8A180940CBBAC790</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ChartYAxis.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Components/ChartYAxis.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2366ACE16590D1A8E50A2F1A3F5C4757</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D14734C3FE38409D53C3E9F615A6AEF7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>24902F84B18DD5C8D4A5D0D062D5E214</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D14734C3FE38409D53C3E9F615A6AEF7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>24A9C720DFCC621D045671BF48493E8A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E96FCE418AC9600286754B772536A89B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>24D2E43A727441C7A7E2D69CBA757438</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>NetworkReachabilityManager.swift</string>
+			<key>path</key>
+			<string>Source/NetworkReachabilityManager.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>268957DD1BCCEB3ABCE0BA4DED45EA01</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FD6A727E12313C953D7DB5F933DB7939</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>27E62AE73740E18344B5E818AC33FBB3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>BarLineScatterCandleBubbleChartData.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Data/Implementations/Standard/BarLineScatterCandleBubbleChartData.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>28E6FBEEAFDF875D486A35112641CC30</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>C6828C2508515BC0428D6BDAA1292DC9</string>
+			<key>remoteInfo</key>
+			<string>Charts</string>
 		</dict>
 		<key>2A3BF5607314EA97C6CB3C0E2304B1C0</key>
 		<dict>
@@ -287,10 +905,32 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
+		<key>2ACFB31F6C823F71DFB325852991F25F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>LineScatterCandleRadarChartRenderer.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Renderers/LineScatterCandleRadarChartRenderer.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2B44A572F8A1ACA0F3964493F4D3228D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9EF3EF9A4EE261EF971ED618FB9F3A22</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>2D3405986FC586FA6C0A5E0B6BA7E64E</key>
 		<dict>
 			<key>fileRef</key>
-			<string>3DDB10B46D49F824220D4A03D4B613CC</string>
+			<string>4850B623CBFE24D062567B601CB94335</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -308,6 +948,77 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
+		<key>2DFEDFAB407EBB39DF8E289418A7BE63</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1255FD2399A7CA415723BDA3576E0804</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2E176E84663592A2EB1DF3E23B6D3225</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6D708AD22660CDF096F062A725E91EDF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2E6846DB220C35EF387C119161A37580</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9D10B3C7614A112BBB691F3FC5008EA3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2E9F43D34483F37D34918AF04ADC99C6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>Alamofire.swift</string>
+			<key>path</key>
+			<string>Source/Alamofire.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2EBAA77DF6F106BCE20CADC931D8C84F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6A0FD5F7A1809E6C6C327C7793F78DA3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2F0390AB9EE2E75EB4F9A9AFCAA6E1FA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>PopUpViewControllerSwift.swift</string>
+			<key>path</key>
+			<string>NMPopUpView/Pod/Classes/PopUpViewControllerSwift.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2F055883DBCD516DA1D6C45A7C9275DB</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>877624CF2E388738548A036A65B5D390</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
 		<key>2FFE9D3A1ECF21F00B2925473C54B711</key>
 		<dict>
 			<key>fileRef</key>
@@ -315,23 +1026,138 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>31736DCD29294728513D6A31E0BAB0F5</key>
+		<key>30092F63FB79CD827CB85D797464FB40</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8F0ACF5709E1E464390F7338526980DA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3150EA4328F286432F76D7D3AF7D7A06</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ChartAnimationEasing.swift</string>
 			<key>path</key>
-			<string>SwiftyJSON-dummy.m</string>
+			<string>Charts/Classes/Animation/ChartAnimationEasing.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>317A3E7B043018C7BD7F857B76FE1462</key>
+		<dict>
+			<key>fileRef</key>
+			<string>15D5B58460D6896C1A6F3A6BAD009C7A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>344A8AA869D9DE294B2AC671B1679D01</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ChartDataEntry.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Data/Implementations/Standard/ChartDataEntry.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>34CCDCA848A701466256BC2927DA8856</key>
 		<dict>
 			<key>fileRef</key>
-			<string>9DCBCB31F4E4FF6ADAE3599BA0DEC7FA</string>
+			<string>24D2E43A727441C7A7E2D69CBA757438</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3519CBA7EE38A591227561F3B974D709</key>
+		<dict>
+			<key>fileRef</key>
+			<string>552EA1D1F853132AC168EF1D14BD1484</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>352EF1AF94125D67FEAA040F32449B24</key>
+		<dict>
+			<key>fileRef</key>
+			<string>43010877BC695CE8571A9F3107788E0D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>361CB8CE5FB0F7E9DADD6D243BA09A05</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B8BF24A0FFB9FBE35768B9FF7B005EB0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>367C0026D6E324132F0408999574670D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B58987D2BDB9EF33BE5DED6D2DDC6F8B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>371FCB701E2FA5156BA218C0C95A1C5E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9DB30C970FA7F580AA2DDC3220D631F2</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>38482CD39B3757452D67AE22C1DA5F29</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9D9038818A4DD10E6763836F22328BEF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>38E5AE8278D6C47639BB70049876C110</key>
+		<dict>
+			<key>fileRef</key>
+			<string>96282D5C76BEAF117478CC02A2D68619</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3A2042F1898FAB4ED07462E3B161D140</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3E4E89230EF59BC255123B67864ACF77</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3B2ED386492166C28D7631B4488EA230</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EA9C886BA9042516EFB5C48436B3CCEB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3C50B55F32F9344B641ACF672F0220A4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>41E8B2AAC09D769E408F5DB8DEFAED07</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -349,50 +1175,19 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>3D6CB3D0234D096A8B798EA37CB0BC00</key>
+		<key>3D8DDA0FEB1A3AFF6643F9121E19D044</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>70AD7EE7220B4F0421B2D8A9F573BAA2</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Stream.swift</string>
-			<key>path</key>
-			<string>Source/Stream.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>3D7C03024242FF84C245C0148FF229EC</key>
+		<key>3DB99C22AB1CE344BFE50941C299F2AB</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>4E1ABB3279C39D8B4E06CA7654D22C1E</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>MultipartFormData.swift</string>
-			<key>path</key>
-			<string>Source/MultipartFormData.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3DDB10B46D49F824220D4A03D4B613CC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Validation.swift</string>
-			<key>path</key>
-			<string>Source/Validation.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>3E3884F46AC09449C72971A9ADD5E8E6</key>
 		<dict>
@@ -420,21 +1215,7 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>3EA8F215C9C1432D74E5CCA4834AA8C0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>61086DD753657FE74E8BE279C3CAD0BB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3EE87440A7236BE3D595BED74EE56719</key>
-		<dict>
-			<key>fileRef</key>
-			<string>31736DCD29294728513D6A31E0BAB0F5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>40677DB43E0DDB5FFAE829DCEE97C5AD</key>
+		<key>3EA15E2B9BD2AC990AECCBFD91578F3C</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -443,40 +1224,180 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.swift</string>
 			<key>name</key>
-			<string>Download.swift</string>
+			<string>IBarChartDataSet.swift</string>
 			<key>path</key>
-			<string>Source/Download.swift</string>
+			<string>Charts/Classes/Data/Interfaces/IBarChartDataSet.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>4081EA628AF0B73AC51FFB9D7AB3B89E</key>
+		<key>3EA8F215C9C1432D74E5CCA4834AA8C0</key>
 		<dict>
 			<key>fileRef</key>
-			<string>0E941AB012EFEA2859249A83B3EBAB36</string>
+			<string>0BED844E2ADBE226A80342BB948DCDC4</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>41C078D7054F1141876071C9AAF18BBB</key>
+		<key>3EED0E841D10FEAA033A3C645CB219D3</key>
 		<dict>
 			<key>fileRef</key>
-			<string>F2B531D366CC635B67CA3FD4BD362C3C</string>
+			<string>DD03FEF047FAF06DDC8F9B2DE4914B6D</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>44E0797EE0B0581805C6C893DE1B4EB7</key>
+		<key>3EF3C6E2D5466E70A62B0CE90DA2604C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7D7E2C655674C5E58E540180ADDCFB3F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3F4A8BD831C6F7AD05DC65EDB33545FF</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>LineChartDataSet.swift</string>
 			<key>path</key>
-			<string>NMPopUpViewSwift-umbrella.h</string>
+			<string>Charts/Classes/Data/Implementations/Standard/LineChartDataSet.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>451DF3AF6402A358955F7839D4AA2C82</key>
+		<key>40469355617382DDCC76B75967BBE90A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>5241C2DB6CE3272FC970E59AF290FC5D</string>
+				<string>9A8333CD4E98722D0B79A34CAC5F735C</string>
+				<string>6DE6AB0064148BFC836C2E5B3F49120C</string>
+				<string>431F7F45C6249C5674FDEF6EAD31AAD3</string>
+				<string>52D347BC52E40B43E4B511B7CF4C7F2C</string>
+				<string>8E9A9C8D8F3E87EA44013F0495A3BC83</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/NMPopUpViewSwift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4081EA628AF0B73AC51FFB9D7AB3B89E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0282A6E5639377AF6605F57B16F2300A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4157584C5CABBF0E8E3B918E6ACD36EB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ChartTransformer.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Utils/ChartTransformer.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4176ADEC6EC51260C16574034FD55BE5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>CandleChartDataProvider.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Interfaces/CandleChartDataProvider.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>41C078D7054F1141876071C9AAF18BBB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A9D08F42580526A45CA1F8DE62222D8D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>41E8B2AAC09D769E408F5DB8DEFAED07</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ChartHighlighter.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Highlight/ChartHighlighter.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>421701FCDDC423B0AE6C91B2CD8988B1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ScatterChartData.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Data/Implementations/Standard/ScatterChartData.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>421EC967AD86F44E9BDB88301D94B33B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>14A4C0509F7FE7122819D10B1F040BE9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>42515C8E50B9C38FB5BFED8A3435E429</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ILineChartDataSet.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Data/Interfaces/ILineChartDataSet.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>43010877BC695CE8571A9F3107788E0D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>BarLineChartViewBase.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Charts/BarLineChartViewBase.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>431F7F45C6249C5674FDEF6EAD31AAD3</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -485,7 +1406,74 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>Alamofire-dummy.m</string>
+			<string>NMPopUpViewSwift-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>44366D09D816AF59C8D903D9C2EECFEC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ChartAnimator.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Animation/ChartAnimator.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>44A853EAB1B1B6026ECDE24E3CFA1A7C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>LineScatterCandleRadarChartDataSet.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Data/Implementations/Standard/LineScatterCandleRadarChartDataSet.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>462602E058DB9BAA8316C974170D3C91</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>Error.swift</string>
+			<key>path</key>
+			<string>Source/Error.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>465CB044A4902D7BAA80597E096B0E67</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A40F46D6764F328F7C426938D5DFF3B4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4690AEBD7DD9F337F82F30F55F969A92</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.xib</string>
+			<key>name</key>
+			<string>PopUpViewController_iPad.xib</string>
+			<key>path</key>
+			<string>NMPopUpView/Pod/Classes/PopUpViewController_iPad.xib</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -500,46 +1488,122 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>4CED248D694CF28D9AC5CA8869FB24E7</key>
+		<key>4846448B6998275139FBF24E87C11D42</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0BC00429614EB38518C32E9B14261EA0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4850B623CBFE24D062567B601CB94335</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Alamofire-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E1C4294BDD74A29677BEA51242AE6ED</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
+			<string>sourcecode.swift</string>
 			<key>name</key>
-			<string>Alamofire.framework</string>
+			<string>Validation.swift</string>
 			<key>path</key>
-			<string>Alamofire.framework</string>
+			<string>Source/Validation.swift</string>
 			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>4E399EBF038154A0C9028FC2A5A87142</key>
+		<key>4901F683B10E076BF62F680BC8DFA2BE</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>IChartDataSet.swift</string>
 			<key>path</key>
-			<string>SwiftyJSON-umbrella.h</string>
+			<string>Charts/Classes/Data/Interfaces/IChartDataSet.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4ABE19F043A4FECE8C2A3F1F72AB3F7F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1A4E91F61DD7FD433B3FF574D9DE3AE7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4BD7EE6ED468BE4A70A0739940369D7D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>20B6E0F7B869C43408C324ED39401EAC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4D6C823E84FE3D02F684280924C9C0BE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ChartLimitLine.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Components/ChartLimitLine.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4E1ABB3279C39D8B4E06CA7654D22C1E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>LineChartRenderer.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Renderers/LineChartRenderer.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4EC556343DE53BEF1F0DEBDE05694CD8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>RadarChartRenderer.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Renderers/RadarChartRenderer.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4EC9879E9DEB9D169929ADA6EEFB18FD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B010A39DF793D9949D6A5E4B1AF854D3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4EEF9EF82DBD9FA2F25E1ABDE291AC02</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A4CAAFEDA9637C0F2A4E5064974F5BAC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>50AE3A2D24BA4DE093FC4BD2657AC1FB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E4024F4425B2C5555FCB033D880AE246</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>516AD7AACAF3A50E9C5CC4E9A61E0730</key>
 		<dict>
@@ -557,6 +1621,36 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
+		<key>51BD09CD2C4449811939BFDA02D9EB17</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>AnimatedMoveViewJob.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Jobs/AnimatedMoveViewJob.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>51DE6CE1D7CD9798E9FDC95908A0FCCD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ChartUtils.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Utils/ChartUtils.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>520AB6DAE8349EF2719C35F1DF6ECCA0</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -570,10 +1664,503 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>5339C40948BB66C4D8F7788DEC5704DD</key>
+		<key>5241C2DB6CE3272FC970E59AF290FC5D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>52D347BC52E40B43E4B511B7CF4C7F2C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>NMPopUpViewSwift-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>52DDF9778346BF2132F2588B4C5F1AFC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6F4DD2234E8438BCE93D3FE3F0DE3DC9</string>
+				<string>5A46D3F40A2DAAA2E6AAD26131C10332</string>
+				<string>0D69A8943A7F2B9318310C06E3D1C4E3</string>
+				<string>0E27F9214563AC06D13F23292C650A6D</string>
+				<string>CB4881B249963AD47A8879BF360400C6</string>
+				<string>CD3B238BF1B74670C7DA003A3D850983</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/SwiftyJSON</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>53D613934EC7CF6717F1B265C1A1D4DB</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>A6F0816991759902E253843F485F26D9</string>
+			<string>0D69A8943A7F2B9318310C06E3D1C4E3</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/SwiftyJSON/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/SwiftyJSON/SwiftyJSON.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>PRODUCT_NAME</key>
+				<string>SwiftyJSON</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>54E862294530B7914A37F408C0DFF74C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>20F81B376F432A2FA4E3DB7B0C5DA670</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>552EA1D1F853132AC168EF1D14BD1484</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ICandleChartDataSet.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Data/Interfaces/ICandleChartDataSet.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5641FBEA86DD15050C65C799724E0A53</key>
+		<dict>
+			<key>fileRef</key>
+			<string>12390E3334C26F7232CE779AEC41026E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>56EF1EE224A8A6A4E279C0D246235075</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Alamofire.framework</string>
+			<key>path</key>
+			<string>Alamofire.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>5A46D3F40A2DAAA2E6AAD26131C10332</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>SwiftyJSON.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5AB4064A892A058275164B0D06D01EB3</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>A445E76045F39DB20C32F320F4F9B042</string>
+			<key>buildPhases</key>
+			<array>
+				<string>F67A53A6C7D68D2A3E2B7A9DC531D170</string>
+				<string>47BF05B1682D0659EA48497949944988</string>
+				<string>516AD7AACAF3A50E9C5CC4E9A61E0730</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>NMPopUpViewSwift-NMPopUpViewSwift</string>
+			<key>productName</key>
+			<string>NMPopUpViewSwift-NMPopUpViewSwift</string>
+			<key>productReference</key>
+			<string>A9D08F42580526A45CA1F8DE62222D8D</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle</string>
+		</dict>
+		<key>5B8A316DE38F7913045A3D8078C139A7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5BC19E6E0F199276003F0AF96838BCE5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>63125F0AE431483AC04B5DEC5EA3A27B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5BF4D25425677B3DC3EDF6A394A648EE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ScatterChartDataSet.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Data/Implementations/Standard/ScatterChartDataSet.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5C6271EA216F979605640D52F59CF503</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>BubbleChartData.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Data/Implementations/Standard/BubbleChartData.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5C6FC71F539BD7AB89DD27717B0971DA</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>SwiftyJSON.framework</string>
+			<key>path</key>
+			<string>SwiftyJSON.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>5C9B6C691447FDDFC20908BD14840FE4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ChartLegend.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Components/ChartLegend.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5CB05FBCB32D21E194B5ECF680CB6AE0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9C2664263D757E376432DFE6BC4E3C05</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>600C3778995F3D7B9395214DE52469ED</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>PieChartData.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Data/Implementations/Standard/PieChartData.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>604D5A1EF4ABD6E0ACB3B5C820C9F841</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0E31D4723ED964B034530A566269FDCC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>620860DD966F93A5BB284ECA65E3FF68</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EC8DEC9C7B97F2B8EBCAD2B27F83BCC2</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>62E8346F03C03E7F4D631361F325689E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>11182DB7D6D479D60AB5A847051FC228</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>63125F0AE431483AC04B5DEC5EA3A27B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>Upload.swift</string>
+			<key>path</key>
+			<string>Source/Upload.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>631BAC0B955DDA472F2092F853D8624D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A9EE8843D0D3974069F23A939A3ED733</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>64285B95F7FDCABBE43AA004209B1436</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F9F7E67305C1C53DEF87E4B0DD4E4C4F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Targets Support Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>65FB4C3B9C6D3DF8ED9A60732536021D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A733AF1EA01670FC61FE85A48CF7037A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>66D60ABD4E50C14F37BE2E925F33B954</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>CombinedChartRenderer.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Renderers/CombinedChartRenderer.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>67184F1852A59AB997108F4DB5AF70B0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3E4E89230EF59BC255123B67864ACF77</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>672F4D56F69702390B1F79BB42D74BA5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>LineRadarChartDataSet.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Data/Implementations/Standard/LineRadarChartDataSet.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6744F19C73C44705160ECB1E7C7FB733</key>
+		<dict>
+			<key>fileRef</key>
+			<string>86242DB9B585D9A94A12BDB9DA903C33</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>694576AE8845CD9DFD6E582F9C4B38BF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>PieChartRenderer.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Renderers/PieChartRenderer.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6A0FD5F7A1809E6C6C327C7793F78DA3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>LineChartDataProvider.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Interfaces/LineChartDataProvider.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6C6E89F283F3A1090F3B259418C0879B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ParameterEncoding.swift</string>
+			<key>path</key>
+			<string>Source/ParameterEncoding.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6C77A1B3D784E94C0A704E5758AF6E14</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D0CB701A05EEF883124CE6FBE45EF6D9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6D708AD22660CDF096F062A725E91EDF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>CandleStickChartView.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Charts/CandleStickChartView.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6DE6AB0064148BFC836C2E5B3F49120C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>NMPopUpViewSwift.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6F27F0A0E87FC39880EE7BC442E7525C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DA3BE7CD84E8BB19291E1568C14B5C4A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6F4DD2234E8438BCE93D3FE3F0DE3DC9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6FB3D00B18BF0B3CD79C0E865F99A0C1</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>0D69A8943A7F2B9318310C06E3D1C4E3</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -626,188 +2213,14 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>5641FBEA86DD15050C65C799724E0A53</key>
+		<key>70073C35619976BCC6D659E523A9375E</key>
 		<dict>
 			<key>fileRef</key>
-			<string>CFDF3CBDBE938D828E947290CEC365F0</string>
+			<string>4176ADEC6EC51260C16574034FD55BE5</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>588BD5B66ADCD129464C65F337C0F847</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E502E87038A4FBBE6351AC3D2767BF55</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-Carrot/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-Carrot/Pods-Carrot.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_Carrot</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>5AB4064A892A058275164B0D06D01EB3</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>A445E76045F39DB20C32F320F4F9B042</string>
-			<key>buildPhases</key>
-			<array>
-				<string>F67A53A6C7D68D2A3E2B7A9DC531D170</string>
-				<string>47BF05B1682D0659EA48497949944988</string>
-				<string>516AD7AACAF3A50E9C5CC4E9A61E0730</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>NMPopUpViewSwift-NMPopUpViewSwift</string>
-			<key>productName</key>
-			<string>NMPopUpViewSwift-NMPopUpViewSwift</string>
-			<key>productReference</key>
-			<string>F2B531D366CC635B67CA3FD4BD362C3C</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle</string>
-		</dict>
-		<key>5B3D81AA00624E55290AF0BBA15E15F2</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1CC250D34EAE467E64784547D7F1AE9D</string>
-				<string>40677DB43E0DDB5FFAE829DCEE97C5AD</string>
-				<string>17DFF7A403BDE5B485020306479591DB</string>
-				<string>0E941AB012EFEA2859249A83B3EBAB36</string>
-				<string>3D7C03024242FF84C245C0148FF229EC</string>
-				<string>9DCBCB31F4E4FF6ADAE3599BA0DEC7FA</string>
-				<string>6593F4C34C1C3416D5D741C8A789486D</string>
-				<string>C9D86F263C2A9A600A6AD6648E6552F5</string>
-				<string>C3BC0B29C39911B38CBD62FE48944BB2</string>
-				<string>DED1CE8F6B6E41028A619120C3A4FDAF</string>
-				<string>61086DD753657FE74E8BE279C3CAD0BB</string>
-				<string>C26CE8BA197D6B0E993DB02562C4AFC8</string>
-				<string>A005D97CB930DDB06DAC43AD7E756B7B</string>
-				<string>3D6CB3D0234D096A8B798EA37CB0BC00</string>
-				<string>7A614EB99214BBC206E9DBECFABCA836</string>
-				<string>D13A73B2DC2F7C1E328A31F11B7A91E9</string>
-				<string>3DDB10B46D49F824220D4A03D4B613CC</string>
-				<string>251184A49D3CA5D7C361795EEACD90DA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Alamofire</string>
-			<key>path</key>
-			<string>Alamofire</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5B8A316DE38F7913045A3D8078C139A7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5BC19E6E0F199276003F0AF96838BCE5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D13A73B2DC2F7C1E328A31F11B7A91E9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5CB05FBCB32D21E194B5ECF680CB6AE0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>40677DB43E0DDB5FFAE829DCEE97C5AD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5DBAD630EE4C7EFCE7CA3995610A1BA9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5FFF2F43E8C68EBBE30478C3BEDD3A61</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>NMPopUpViewSwift.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61086DD753657FE74E8BE279C3CAD0BB</key>
+		<key>70AD7EE7220B4F0421B2D8A9F573BAA2</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -816,221 +2229,38 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.swift</string>
 			<key>name</key>
-			<string>ResponseSerialization.swift</string>
+			<string>RadarChartView.swift</string>
 			<key>path</key>
-			<string>Source/ResponseSerialization.swift</string>
+			<string>Charts/Classes/Charts/RadarChartView.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>61AD8FDD004669CFE6E5F15952B2129E</key>
+		<key>724BB45AF91FC0D7B25FBB4DFB3EF138</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>1E01126446E1667E75CB8EDE5DFF278C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
 			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Charts.framework</string>
+			<key>path</key>
+			<string>Charts.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>62E8346F03C03E7F4D631361F325689E</key>
+		<key>729F9E9B68A861150F91F93D765BD254</key>
 		<dict>
 			<key>fileRef</key>
-			<string>DED1CE8F6B6E41028A619120C3A4FDAF</string>
+			<string>3EA15E2B9BD2AC990AECCBFD91578F3C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>63523A111395F32836E27393A48BD60A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>64285B95F7FDCABBE43AA004209B1436</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F9F7E67305C1C53DEF87E4B0DD4E4C4F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6593F4C34C1C3416D5D741C8A789486D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Notifications.swift</string>
-			<key>path</key>
-			<string>Source/Notifications.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>664581D5E97BBDA8252325E840A7ECD4</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>SwiftyJSON</string>
-			<key>target</key>
-			<string>1B68CF08088764902B31E0C662364530</string>
-			<key>targetProxy</key>
-			<string>90986301436A3B32225A314F5F2F0BE9</string>
-		</dict>
-		<key>66C2B2AC389E23A0572F2172ED170824</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>NMPopUpViewSwift</string>
-			<key>target</key>
-			<string>0DE93A80D9EC89B94FE9F41228A430A6</string>
-			<key>targetProxy</key>
-			<string>B2134AD05C80A515AA37A6A7EFD4E1E6</string>
-		</dict>
-		<key>6A8A458B8298E2BEB2C0CEFE446B3A3F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>75D4E43DD477F3B2B337BD665437816A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6AFCC5514C09B93883D8A7EFEA18D4FC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Alamofire.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6C219C0EE0F21F27EDCCFD0D7316F79E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>07FEA78765C7493A27AFFF7DB8A1E2D3</string>
-				<string>70B5ADA054EE1F83D4878A75574A71C8</string>
-				<string>A6F0816991759902E253843F485F26D9</string>
-				<string>31736DCD29294728513D6A31E0BAB0F5</string>
-				<string>C86C305E2AFB7234B79BA1C97626396D</string>
-				<string>4E399EBF038154A0C9028FC2A5A87142</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/SwiftyJSON</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6F14C2E9CF0B2A9CBB826A5D7821188C</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>79C040AFDDCE1BCBF6D8B5EB0B85887F</string>
-			<key>remoteInfo</key>
-			<string>Alamofire</string>
-		</dict>
-		<key>7023568AED3F43100037BD2CD61B1A29</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>A6F0816991759902E253843F485F26D9</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/SwiftyJSON/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/SwiftyJSON/SwiftyJSON.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>SwiftyJSON</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>70B5ADA054EE1F83D4878A75574A71C8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>SwiftyJSON.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>74F7FAC78E5CB4D327B99F47BF099326</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>6AFCC5514C09B93883D8A7EFEA18D4FC</string>
+			<string>C2A15AF281F03119592C41EC83E50098</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -1083,7 +2313,7 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>75D4E43DD477F3B2B337BD665437816A</key>
+		<key>7649ACF4C33314109FBEBF7405DDC115</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1092,24 +2322,79 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.swift</string>
 			<key>name</key>
-			<string>SwiftyJSON.swift</string>
+			<string>ILineScatterCandleRadarChartDataSet.swift</string>
 			<key>path</key>
-			<string>Source/SwiftyJSON.swift</string>
+			<string>Charts/Classes/Data/Interfaces/ILineScatterCandleRadarChartDataSet.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>773D9A1C81D1279305C06CCC6CB6F3A8</key>
+		<key>770318C2100C2A9A4D14D224B041B0E5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1E29D80A331594ECF76C906BEB7D8922</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>77190C4A5365F73456C31E5CAECF581D</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>MultipartFormData.swift</string>
 			<key>path</key>
-			<string>NMPopUpViewSwift-prefix.pch</string>
+			<string>Source/MultipartFormData.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>778126769FD6E223F9574C2E19DD5453</key>
+		<dict>
+			<key>fileRef</key>
+			<string>21EB112218A6FB49618F96AAD241011A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>783C44EF16D4C79ADC985C8C86C458D5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4157584C5CABBF0E8E3B918E6ACD36EB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>790B4C74CCA1A0A5F159B7D6E47D48FF</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>DF8E9F863829B79A40A7624D2749694A</string>
+			<key>buildPhases</key>
+			<array>
+				<string>DCF56DCBC9F80766436CA1117A3049C3</string>
+				<string>8013CA8BB59673A1523DAA49B5B6E8FF</string>
+				<string>E0490EB50C9534B015789CB6E089EE3A</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>SwiftyJSON</string>
+			<key>productName</key>
+			<string>SwiftyJSON</string>
+			<key>productReference</key>
+			<string>5C6FC71F539BD7AB89DD27717B0971DA</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>797C9F2528F449390500C4FECCBAA135</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4D6C823E84FE3D02F684280924C9C0BE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>79C040AFDDCE1BCBF6D8B5EB0B85887F</key>
 		<dict>
@@ -1132,11 +2417,25 @@
 			<key>productName</key>
 			<string>Alamofire</string>
 			<key>productReference</key>
-			<string>4E1C4294BDD74A29677BEA51242AE6ED</string>
+			<string>56EF1EE224A8A6A4E279C0D246235075</string>
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
 		</dict>
-		<key>7A614EB99214BBC206E9DBECFABCA836</key>
+		<key>7B234F4406FD51E392E7B688A295E8FB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EF0E98455EC844C4E832989172C0226F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7B48852C4D848FA2DA416A98F6425869</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1D9BA410969F5FC01808DBD626CD9D69</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7BF3262D5E2534EFA91A2AF3F332B80F</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1145,93 +2444,31 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.swift</string>
 			<key>name</key>
-			<string>Timeline.swift</string>
+			<string>ScatterChartDataProvider.swift</string>
 			<key>path</key>
-			<string>Source/Timeline.swift</string>
+			<string>Charts/Classes/Interfaces/ScatterChartDataProvider.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>7B48852C4D848FA2DA416A98F6425869</key>
+		<key>7C204B9F7D811C860F446BAB1575C344</key>
 		<dict>
 			<key>fileRef</key>
-			<string>A005D97CB930DDB06DAC43AD7E756B7B</string>
+			<string>81218705B0DB21FCFD30CF59402A8A0E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>7C96FB927F1A66F048C30111BB4286E8</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>D173818BE7E310E89963418C319342B7</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-Carrot/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-Carrot/Pods-Carrot.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_Carrot</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>7DA0C9A3BD9B2425778BDDF8D7D7944B</key>
+		<key>7D7E2C655674C5E58E540180ADDCFB3F</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>file.xib</string>
+			<string>sourcecode.swift</string>
 			<key>name</key>
-			<string>PopUpViewController_iPhone6Plus.xib</string>
+			<string>BarChartDataProvider.swift</string>
 			<key>path</key>
-			<string>NMPopUpView/Pod/Classes/PopUpViewController_iPhone6Plus.xib</string>
+			<string>Charts/Classes/Interfaces/BarChartDataProvider.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1241,8 +2478,8 @@
 			<array>
 				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
 				<string>BC3CA7F9E30CC8F7E2DD044DD34432FC</string>
-				<string>F4456E82835B1310DADCC6ECD969464E</string>
-				<string>98BCD5F0471A72B2727DDF19AFAC92CC</string>
+				<string>98E071E5E6F6817F25F16CCDFEE1251C</string>
+				<string>1C676775776E76D9AC8DB8AD0C1C35E8</string>
 				<string>64285B95F7FDCABBE43AA004209B1436</string>
 			</array>
 			<key>isa</key>
@@ -1250,63 +2487,20 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>8EB11202167FCDDF1257AAAB1D1FB244</key>
+		<key>8013CA8BB59673A1523DAA49B5B6E8FF</key>
 		<dict>
-			<key>fileRef</key>
-			<string>1CC250D34EAE467E64784547D7F1AE9D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>90224C130BD7BD3066AD186B92B58652</key>
-		<dict>
-			<key>children</key>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
 			<array>
-				<string>75D4E43DD477F3B2B337BD665437816A</string>
-				<string>6C219C0EE0F21F27EDCCFD0D7316F79E</string>
+				<string>A92156DC4E46BD2B837B439E532AE886</string>
 			</array>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>SwiftyJSON</string>
-			<key>path</key>
-			<string>SwiftyJSON</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
-		<key>9091864A28173646C666DF639BA242B4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F5886265899F944574B3F94EAAC7CB71</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>90986301436A3B32225A314F5F2F0BE9</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>1B68CF08088764902B31E0C662364530</string>
-			<key>remoteInfo</key>
-			<string>SwiftyJSON</string>
-		</dict>
-		<key>913BBA5C98E11939D0AF67246EE61E0B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>NMPopUpViewSwift-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>92BA532D4A1899E2A9A2051DDE9D8292</key>
+		<key>805F85D89E0AB5DD6B554F8130E7B6AB</key>
 		<dict>
 			<key>explicitFileType</key>
 			<string>wrapper.framework</string>
@@ -1320,6 +2514,264 @@
 			<string>NMPopUpViewSwift.framework</string>
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>81218705B0DB21FCFD30CF59402A8A0E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ChartDataBaseFilter.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Filters/ChartDataBaseFilter.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>821EB8A5F1FC9B2F4EAB51C67F4DE2C6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0FF614C96637BE1EDA2AD74D3D1EC2F5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>826E18D6447B69267481885B76D9579E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ScatterChartRenderer.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Renderers/ScatterChartRenderer.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>838D618BF42B34CF8ED16F717C61735A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>BubbleChartDataSet.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Data/Implementations/Standard/BubbleChartDataSet.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>85E07B56BC8156D14685DCD43BB3C9D3</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>SwiftyJSON</string>
+			<key>target</key>
+			<string>790B4C74CCA1A0A5F159B7D6E47D48FF</string>
+			<key>targetProxy</key>
+			<string>B32591EC70B232C623CB8B7BF99D3615</string>
+		</dict>
+		<key>85F1FA1A04887000AE6D42617A155669</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>361CB8CE5FB0F7E9DADD6D243BA09A05</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>86242DB9B585D9A94A12BDB9DA903C33</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>RadarChartData.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Data/Implementations/Standard/RadarChartData.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>86712FE294355019927A4B113B072F63</key>
+		<dict>
+			<key>fileRef</key>
+			<string>170D6E9BFFE7E6091C3D74E2B701BA5B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>86F265DD248E17D2B6A3C5E4AA8B6800</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B63B3318F52DE36B70947FE2D68FD883</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>875A2F6735B3740FC1754C899070BFB9</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>0DE93A80D9EC89B94FE9F41228A430A6</string>
+			<key>remoteInfo</key>
+			<string>NMPopUpViewSwift</string>
+		</dict>
+		<key>877624CF2E388738548A036A65B5D390</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9431CCE0827A6EF8730FA3DA9D9BF157</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8B72F1B0DB94DA032AC92808CB74FF88</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Alamofire.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8E9A9C8D8F3E87EA44013F0495A3BC83</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>NMPopUpViewSwift-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8EB11202167FCDDF1257AAAB1D1FB244</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2E9F43D34483F37D34918AF04ADC99C6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8F0ACF5709E1E464390F7338526980DA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ChartViewPortHandler.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Utils/ChartViewPortHandler.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8F77C82F0C8760528390313D44756D9B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>67184F1852A59AB997108F4DB5AF70B0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>9091864A28173646C666DF639BA242B4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4690AEBD7DD9F337F82F30F55F969A92</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>909529A87433C7AB505034E223C68673</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ChartDefaultXAxisValueFormatter.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Formatters/ChartDefaultXAxisValueFormatter.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9181C57B0D5E511D518D6ED675AC30A6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4901F683B10E076BF62F680BC8DFA2BE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>91ACB443613911EA36FBA2DC09E55467</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ChartXAxisValueFormatter.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Formatters/ChartXAxisValueFormatter.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>927312F9CF5785F95D7CDA06F7C6F818</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>BarChartRenderer.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Renderers/BarChartRenderer.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>927C7FE5C8A4ABA11547E030315AA28B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ChartFillFormatter.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Formatters/ChartFillFormatter.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>94164C4B9B0186FAF4671E48D4AD35F5</key>
 		<dict>
@@ -1350,7 +2802,7 @@
 		<key>9469DF81ECB494E84675969B5E13374C</key>
 		<dict>
 			<key>fileRef</key>
-			<string>163DB4438B2A858399A400C86EC55DD4</string>
+			<string>9DC70F1D501CD6374C115A4F1659CC89</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1361,26 +2813,12 @@
 				</array>
 			</dict>
 		</dict>
-		<key>9522F9F818CEDE7B9178BB86D9772147</key>
+		<key>9505960D18F60DAA70871C006CA302EF</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>CFDF3CBDBE938D828E947290CEC365F0</string>
-				<string>F5886265899F944574B3F94EAAC7CB71</string>
-				<string>9EDE4642024D38252414D96CA94B385F</string>
-				<string>7DA0C9A3BD9B2425778BDDF8D7D7944B</string>
-				<string>A51AA62AF874DE77C07D62BA7DF54081</string>
-				<string>DF6EA1DF290BBEB1C13020B72E5C7880</string>
-				<string>EA92619E08EB3BFBA5DCC9C0C0C4F21F</string>
-			</array>
+			<key>fileRef</key>
+			<string>51DE6CE1D7CD9798E9FDC95908A0FCCD</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>NMPopUpViewSwift</string>
-			<key>path</key>
-			<string>NMPopUpViewSwift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>95CC2C7E06DC188A05DAAEE9CAA555A3</key>
 		<dict>
@@ -1415,49 +2853,104 @@
 		<key>95CDF17C013F37A457BBE5571FAE6419</key>
 		<dict>
 			<key>fileRef</key>
-			<string>9EDE4642024D38252414D96CA94B385F</string>
+			<string>F06FDAB54F3DF4DBC5C9D13D1DDE652E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>984139034FD62E3B7EB4911248EE80DA</key>
+		<key>95CF6B2103B0B3731733DE92082C6078</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>HorizontalBarChartView.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Charts/HorizontalBarChartView.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>96282D5C76BEAF117478CC02A2D68619</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ChartData.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Data/Implementations/Standard/ChartData.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>971603F4B2FAE80CCE0383A73BE8E511</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>BubbleChartDataEntry.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Data/Implementations/Standard/BubbleChartDataEntry.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9838C7578BE14F947489DA4D1C595898</key>
 		<dict>
 			<key>fileRef</key>
-			<string>3E4E89230EF59BC255123B67864ACF77</string>
+			<string>971603F4B2FAE80CCE0383A73BE8E511</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>98BCD5F0471A72B2727DDF19AFAC92CC</key>
+		<key>98E071E5E6F6817F25F16CCDFEE1251C</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>4E1C4294BDD74A29677BEA51242AE6ED</string>
-				<string>F2B531D366CC635B67CA3FD4BD362C3C</string>
-				<string>92BA532D4A1899E2A9A2051DDE9D8292</string>
-				<string>EEC1A3A092D7BFD1147B19459F220920</string>
-				<string>F7285A191F467A0D0A005B4D6FEBA56B</string>
+				<string>FE006388FAC135F4DE44F541DD95F5E0</string>
+				<string>FA0B3E3C3D72F7C0EFC49ADEC83966F5</string>
+				<string>FDF6FB48DFE268EB16C618EECDCA7ADB</string>
+				<string>D793EBF90F27364E366BE74A3EFA6C1C</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Products</string>
+			<string>Pods</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>9AD230B523F3E60DBF55AB6F2AEB8FB7</key>
+		<key>99DC0137E12C0E6A0CF0626CB80CB1D5</key>
 		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>588BD5B66ADCD129464C65F337C0F847</string>
-				<string>7C96FB927F1A66F048C30111BB4286E8</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
+			<key>fileRef</key>
+			<string>44366D09D816AF59C8D903D9C2EECFEC</string>
 			<key>isa</key>
-			<string>XCConfigurationList</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>9DCBCB31F4E4FF6ADAE3599BA0DEC7FA</key>
+		<key>9A8333CD4E98722D0B79A34CAC5F735C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>NMPopUpViewSwift.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9BBB90314EEDCAA33FB3160A02862010</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3150EA4328F286432F76D7D3AF7D7A06</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9C2664263D757E376432DFE6BC4E3C05</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1466,35 +2959,137 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.swift</string>
 			<key>name</key>
-			<string>NetworkReachabilityManager.swift</string>
+			<string>Download.swift</string>
 			<key>path</key>
-			<string>Source/NetworkReachabilityManager.swift</string>
+			<string>Source/Download.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9D016F7B1001A503F9051EB2AB9A538A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>Notifications.swift</string>
+			<key>path</key>
+			<string>Source/Notifications.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9D10B3C7614A112BBB691F3FC5008EA3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>CandleChartDataSet.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Data/Implementations/Standard/CandleChartDataSet.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9D2566B872373A3A422E1A7BD16A8A65</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>BarChartView.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Charts/BarChartView.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9D9038818A4DD10E6763836F22328BEF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ChartXAxisRendererHorizontalBarChart.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Renderers/ChartXAxisRendererHorizontalBarChart.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9DB30C970FA7F580AA2DDC3220D631F2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ChartSelectionDetail.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Utils/ChartSelectionDetail.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9DC70F1D501CD6374C115A4F1659CC89</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Alamofire-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9DD2A8006D79DC4469F9BD2FFB55F071</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E4A8BE7E7C4E8B3B9574BC25CD3CC711</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9DDE6846B649357A201C48DDF108D34B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>Request.swift</string>
+			<key>path</key>
+			<string>Source/Request.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9E1EEA656E59AB9E30DC8D0385F289B4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4EC556343DE53BEF1F0DEBDE05694CD8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>9ECED560EF9F6CA4E829D50FB586BE6D</key>
 		<dict>
 			<key>fileRef</key>
-			<string>F5886265899F944574B3F94EAAC7CB71</string>
+			<string>4690AEBD7DD9F337F82F30F55F969A92</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>9EDE4642024D38252414D96CA94B385F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>name</key>
-			<string>PopUpViewController_iPhone6.xib</string>
-			<key>path</key>
-			<string>NMPopUpView/Pod/Classes/PopUpViewController_iPhone6.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A005D97CB930DDB06DAC43AD7E756B7B</key>
+		<key>9EF3EF9A4EE261EF971ED618FB9F3A22</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1503,11 +3098,185 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.swift</string>
 			<key>name</key>
-			<string>ServerTrustPolicy.swift</string>
+			<string>ChartDefaultFillFormatter.swift</string>
 			<key>path</key>
-			<string>Source/ServerTrustPolicy.swift</string>
+			<string>Charts/Classes/Formatters/ChartDefaultFillFormatter.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9F6AE1C6E88AE3E653A7DFB3C3CC9431</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Charts-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9FD26D6C00634178B74170103B48A9CF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9D2566B872373A3A422E1A7BD16A8A65</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9FE81DF9B0904CB3BD9195144D1E5DBC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>51BD09CD2C4449811939BFDA02D9EB17</string>
+				<string>B010A39DF793D9949D6A5E4B1AF854D3</string>
+				<string>E2FD8F9D1C27C56CB95C107B135A9A16</string>
+				<string>A4CAAFEDA9637C0F2A4E5064974F5BAC</string>
+				<string>AC4A669B896F685C601A8F4F989E6B79</string>
+				<string>7D7E2C655674C5E58E540180ADDCFB3F</string>
+				<string>01BD001953C698AC34AD742A3CD1144D</string>
+				<string>A40F46D6764F328F7C426938D5DFF3B4</string>
+				<string>927312F9CF5785F95D7CDA06F7C6F818</string>
+				<string>9D2566B872373A3A422E1A7BD16A8A65</string>
+				<string>43010877BC695CE8571A9F3107788E0D</string>
+				<string>27E62AE73740E18344B5E818AC33FBB3</string>
+				<string>1A4E91F61DD7FD433B3FF574D9DE3AE7</string>
+				<string>EC8DEC9C7B97F2B8EBCAD2B27F83BCC2</string>
+				<string>5C6271EA216F979605640D52F59CF503</string>
+				<string>971603F4B2FAE80CCE0383A73BE8E511</string>
+				<string>194258976311664F5F51A1C9D4A630CE</string>
+				<string>838D618BF42B34CF8ED16F717C61735A</string>
+				<string>E4A8BE7E7C4E8B3B9574BC25CD3CC711</string>
+				<string>DA3BE7CD84E8BB19291E1568C14B5C4A</string>
+				<string>CD16E4DA764A7D7D51E33C3A1CE8FFD7</string>
+				<string>0096B507779C30A9D4178642B440AF2E</string>
+				<string>4176ADEC6EC51260C16574034FD55BE5</string>
+				<string>9D10B3C7614A112BBB691F3FC5008EA3</string>
+				<string>B63B3318F52DE36B70947FE2D68FD883</string>
+				<string>6D708AD22660CDF096F062A725E91EDF</string>
+				<string>3150EA4328F286432F76D7D3AF7D7A06</string>
+				<string>44366D09D816AF59C8D903D9C2EECFEC</string>
+				<string>20F81B376F432A2FA4E3DB7B0C5DA670</string>
+				<string>B79D2539A791D54167A90CBACC1B4CC8</string>
+				<string>C316C16DBC59109FAEF910B59BF0C3C5</string>
+				<string>EC2A99E58AB14E8C0A95A44881D57D1A</string>
+				<string>FD6A727E12313C953D7DB5F933DB7939</string>
+				<string>96282D5C76BEAF117478CC02A2D68619</string>
+				<string>B86A897702F7E5CB4D8E403526FC8DCF</string>
+				<string>81218705B0DB21FCFD30CF59402A8A0E</string>
+				<string>344A8AA869D9DE294B2AC671B1679D01</string>
+				<string>B3AE74473E3215C40281E7019021F9D4</string>
+				<string>B9DB1E40A6E3F52C0A8D194BBDEB12CB</string>
+				<string>06DB69259566642CB8B863DAFE10233B</string>
+				<string>9EF3EF9A4EE261EF971ED618FB9F3A22</string>
+				<string>909529A87433C7AB505034E223C68673</string>
+				<string>14A4C0509F7FE7122819D10B1F040BE9</string>
+				<string>927C7FE5C8A4ABA11547E030315AA28B</string>
+				<string>F2A65C082626FB0DA7D9418BAADC4452</string>
+				<string>41E8B2AAC09D769E408F5DB8DEFAED07</string>
+				<string>5C9B6C691447FDDFC20908BD14840FE4</string>
+				<string>21EB112218A6FB49618F96AAD241011A</string>
+				<string>4D6C823E84FE3D02F684280924C9C0BE</string>
+				<string>A733AF1EA01670FC61FE85A48CF7037A</string>
+				<string>EA9C886BA9042516EFB5C48436B3CCEB</string>
+				<string>E96FCE418AC9600286754B772536A89B</string>
+				<string>0BC00429614EB38518C32E9B14261EA0</string>
+				<string>9DB30C970FA7F580AA2DDC3220D631F2</string>
+				<string>4157584C5CABBF0E8E3B918E6ACD36EB</string>
+				<string>E4024F4425B2C5555FCB033D880AE246</string>
+				<string>51DE6CE1D7CD9798E9FDC95908A0FCCD</string>
+				<string>15D5B58460D6896C1A6F3A6BAD009C7A</string>
+				<string>8F0ACF5709E1E464390F7338526980DA</string>
+				<string>07C898C6F7B38ACC17D12919BFD77264</string>
+				<string>D785C6F9C067A286AE83554650D4A68D</string>
+				<string>DD03FEF047FAF06DDC8F9B2DE4914B6D</string>
+				<string>A9113C7D5072EC1C62C351A940630BFC</string>
+				<string>9D9038818A4DD10E6763836F22328BEF</string>
+				<string>EA2D6A3482C556F9597A0B84394B960C</string>
+				<string>91ACB443613911EA36FBA2DC09E55467</string>
+				<string>231BE88C45C7B9BE8A180940CBBAC790</string>
+				<string>EA00859596ED00FEFEBDA65ACC53507A</string>
+				<string>C325FC22C573C024EB2F056069EB3FD0</string>
+				<string>B2D78709409029E2B9E5953A9F2A9C56</string>
+				<string>1E29D80A331594ECF76C906BEB7D8922</string>
+				<string>66D60ABD4E50C14F37BE2E925F33B954</string>
+				<string>20B6E0F7B869C43408C324ED39401EAC</string>
+				<string>C5F1FDF59419FE7BB2D1A478A3B1B975</string>
+				<string>BDD822B5D8CDBC9BA13CECF314FD467C</string>
+				<string>1255FD2399A7CA415723BDA3576E0804</string>
+				<string>95CF6B2103B0B3731733DE92082C6078</string>
+				<string>3EA15E2B9BD2AC990AECCBFD91578F3C</string>
+				<string>FE445B283A1A264254EAE4D50A36413E</string>
+				<string>A1587742F458BEA1E5850C8CD8C336AA</string>
+				<string>552EA1D1F853132AC168EF1D14BD1484</string>
+				<string>4901F683B10E076BF62F680BC8DFA2BE</string>
+				<string>42515C8E50B9C38FB5BFED8A3435E429</string>
+				<string>170D6E9BFFE7E6091C3D74E2B701BA5B</string>
+				<string>7649ACF4C33314109FBEBF7405DDC115</string>
+				<string>D0CB701A05EEF883124CE6FBE45EF6D9</string>
+				<string>EF0E98455EC844C4E832989172C0226F</string>
+				<string>CED5B80E8D5D074E7C2CEDA5AA12EC0C</string>
+				<string>A9EE8843D0D3974069F23A939A3ED733</string>
+				<string>6A0FD5F7A1809E6C6C327C7793F78DA3</string>
+				<string>3F4A8BD831C6F7AD05DC65EDB33545FF</string>
+				<string>4E1ABB3279C39D8B4E06CA7654D22C1E</string>
+				<string>0E31D4723ED964B034530A566269FDCC</string>
+				<string>672F4D56F69702390B1F79BB42D74BA5</string>
+				<string>0FF614C96637BE1EDA2AD74D3D1EC2F5</string>
+				<string>44A853EAB1B1B6026ECDE24E3CFA1A7C</string>
+				<string>2ACFB31F6C823F71DFB325852991F25F</string>
+				<string>D6BDFD2B80F687DA9487BC0BAC8FBB79</string>
+				<string>600C3778995F3D7B9395214DE52469ED</string>
+				<string>E760E4751100A68FD666557756FF7EA2</string>
+				<string>694576AE8845CD9DFD6E582F9C4B38BF</string>
+				<string>AB8DD7860CC6F1410177F0BAB6B8BA60</string>
+				<string>B4EE61DCB23D84B2AC326BE7026AB3EB</string>
+				<string>86242DB9B585D9A94A12BDB9DA903C33</string>
+				<string>DA00DC692C7EFE8FCF9D36E63C5EB2A0</string>
+				<string>4EC556343DE53BEF1F0DEBDE05694CD8</string>
+				<string>70AD7EE7220B4F0421B2D8A9F573BAA2</string>
+				<string>421701FCDDC423B0AE6C91B2CD8988B1</string>
+				<string>7BF3262D5E2534EFA91A2AF3F332B80F</string>
+				<string>5BF4D25425677B3DC3EDF6A394A648EE</string>
+				<string>826E18D6447B69267481885B76D9579E</string>
+				<string>F90B57EC3C8616BD021374B06291F5D4</string>
+				<string>05295D851157E778A2EBACE65CBA5EB5</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Core</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A00CBCB935830FEE99F6E645C95E834D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5C9B6C691447FDDFC20908BD14840FE4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A1587742F458BEA1E5850C8CD8C336AA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>IBubbleChartDataSet.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Data/Interfaces/IBubbleChartDataSet.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A20419267FBC2600623140053A2AA8F7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>66D60ABD4E50C14F37BE2E925F33B954</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>A2DE139A86682AC4E1644321CE97F54B</key>
 		<dict>
@@ -1535,6 +3304,21 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>A40F46D6764F328F7C426938D5DFF3B4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>BarChartHighlighter.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Highlight/BarChartHighlighter.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>A445E76045F39DB20C32F320F4F9B042</key>
 		<dict>
 			<key>buildConfigurations</key>
@@ -1549,21 +3333,14 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>A45BA09B4A73B0DB9CEF270EC48D5907</key>
+		<key>A48B96C6FBB609A286F182ED83923097</key>
 		<dict>
 			<key>fileRef</key>
-			<string>B58987D2BDB9EF33BE5DED6D2DDC6F8B</string>
+			<string>BDD822B5D8CDBC9BA13CECF314FD467C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
 		</dict>
-		<key>A51AA62AF874DE77C07D62BA7DF54081</key>
+		<key>A4CAAFEDA9637C0F2A4E5064974F5BAC</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1572,16 +3349,23 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.swift</string>
 			<key>name</key>
-			<string>PopUpViewControllerSwift.swift</string>
+			<string>BarChartData.swift</string>
 			<key>path</key>
-			<string>NMPopUpView/Pod/Classes/PopUpViewControllerSwift.swift</string>
+			<string>Charts/Classes/Data/Implementations/Standard/BarChartData.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A525E68A31198AD8B3B5CAC519F1A43E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>909529A87433C7AB505034E223C68673</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>A53CEB8BC95456C9DA9179DA717284D5</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>5FFF2F43E8C68EBBE30478C3BEDD3A61</string>
+			<string>6DE6AB0064148BFC836C2E5B3F49120C</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -1634,6 +3418,13 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
+		<key>A5F486B6DA397786F31EB6A27CBA10F5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>91ACB443613911EA36FBA2DC09E55467</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>A60738FE294458A8F72823AB4B127419</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1642,19 +3433,6 @@
 			<string>PBXFileReference</string>
 			<key>path</key>
 			<string>Pods-Carrot.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A6F0816991759902E253843F485F26D9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>SwiftyJSON.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1731,39 +3509,193 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>AA314156AC500125F4078EE968DB14C6</key>
+		<key>A733AF1EA01670FC61FE85A48CF7037A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ChartMarker.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Components/ChartMarker.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A808AE4EBFE37F90FE49C2715FB330F2</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C26CE8BA197D6B0E993DB02562C4AFC8</string>
+			<string>CD16E4DA764A7D7D51E33C3A1CE8FFD7</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>AD1FE0AE93735694B4D7AC1A119BE9A3</key>
+		<key>A9113C7D5072EC1C62C351A940630BFC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ChartXAxisRendererBarChart.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Renderers/ChartXAxisRendererBarChart.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A92156DC4E46BD2B837B439E532AE886</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3E4E89230EF59BC255123B67864ACF77</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A9D08F42580526A45CA1F8DE62222D8D</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>NMPopUpViewSwift.bundle</string>
+			<key>path</key>
+			<string>NMPopUpViewSwift.bundle</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>A9EE8843D0D3974069F23A939A3ED733</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>LineChartData.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Data/Implementations/Standard/LineChartData.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AA314156AC500125F4078EE968DB14C6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>15BE411F7D11E5351A029730DC7C6531</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>AAF63265451E187517F2E829E332F410</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0E27F9214563AC06D13F23292C650A6D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>AB8DD7860CC6F1410177F0BAB6B8BA60</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>PieChartView.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Charts/PieChartView.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>ABEF8242948249F9A5BF7C36F57CD8DB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B3AE74473E3215C40281E7019021F9D4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>AC4A669B896F685C601A8F4F989E6B79</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>BarChartDataEntry.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Data/Implementations/Standard/BarChartDataEntry.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AD19034E833B7634B201B5B47620EE7A</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>984139034FD62E3B7EB4911248EE80DA</string>
+				<string>367C0026D6E324132F0408999574670D</string>
 			</array>
 			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
+			<string>PBXHeadersBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
 		<key>ADF19C953CE2A7D0B72EC93A81FCCC26</key>
 		<dict>
 			<key>fileRef</key>
-			<string>451DF3AF6402A358955F7839D4AA2C82</string>
+			<string>00E971CD399BD12BF10B505FF861AD16</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>AE1566BD32F907C4B66DEF43A2CEFC05</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C325FC22C573C024EB2F056069EB3FD0</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>AE4CF87C02C042DF13ED5B21C4FDC1E0</key>
 		<dict>
 			<key>fileRef</key>
-			<string>3D6CB3D0234D096A8B798EA37CB0BC00</string>
+			<string>110ADC81750217968CD35D048EF12504</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>AEF0757DC254C3D956E1405E366378D6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CD3B238BF1B74670C7DA003A3D850983</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>B010A39DF793D9949D6A5E4B1AF854D3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>AnimatedViewPortJob.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Jobs/AnimatedViewPortJob.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>B1729F851F648EC60EE93CDB3C8BAEAD</key>
 		<dict>
@@ -1778,7 +3710,36 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>B2134AD05C80A515AA37A6A7EFD4E1E6</key>
+		<key>B19032CD69D4606E7EEBB7E0BCAA9AD6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>927312F9CF5785F95D7CDA06F7C6F818</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B2D78709409029E2B9E5953A9F2A9C56</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ChartYAxisRendererRadarChart.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Renderers/ChartYAxisRendererRadarChart.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B3247C2F1EB2A63BDF79F98A2336EACC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>431F7F45C6249C5674FDEF6EAD31AAD3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B32591EC70B232C623CB8B7BF99D3615</key>
 		<dict>
 			<key>containerPortal</key>
 			<string>D41D8CD98F00B204E9800998ECF8427E</string>
@@ -1787,16 +3748,57 @@
 			<key>proxyType</key>
 			<string>1</string>
 			<key>remoteGlobalIDString</key>
-			<string>0DE93A80D9EC89B94FE9F41228A430A6</string>
+			<string>790B4C74CCA1A0A5F159B7D6E47D48FF</string>
 			<key>remoteInfo</key>
-			<string>NMPopUpViewSwift</string>
+			<string>SwiftyJSON</string>
 		</dict>
-		<key>B3247C2F1EB2A63BDF79F98A2336EACC</key>
+		<key>B3AE74473E3215C40281E7019021F9D4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ChartDataProvider.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Interfaces/ChartDataProvider.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B3E49DEC5C3E2B45976F07322793CC64</key>
 		<dict>
 			<key>fileRef</key>
-			<string>913BBA5C98E11939D0AF67246EE61E0B</string>
+			<string>838D618BF42B34CF8ED16F717C61735A</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>B46050487958892569E14910AFC155F7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Charts.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B4EE61DCB23D84B2AC326BE7026AB3EB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>PieRadarChartViewBase.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Charts/PieRadarChartViewBase.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>B58987D2BDB9EF33BE5DED6D2DDC6F8B</key>
 		<dict>
@@ -1808,6 +3810,120 @@
 			<string>sourcecode.c.h</string>
 			<key>path</key>
 			<string>Pods-Carrot-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B5916DB8C1387ACAFA0EBB944E15F3E3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B2D78709409029E2B9E5953A9F2A9C56</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B63B3318F52DE36B70947FE2D68FD883</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>CandleStickChartRenderer.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Renderers/CandleStickChartRenderer.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B774655DA50556217BC45010C800332E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5C6271EA216F979605640D52F59CF503</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B79D2539A791D54167A90CBACC1B4CC8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ChartAxisRendererBase.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Renderers/ChartAxisRendererBase.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B86A897702F7E5CB4D8E403526FC8DCF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ChartDataApproximatorFilter.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Filters/ChartDataApproximatorFilter.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B8BF24A0FFB9FBE35768B9FF7B005EB0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Charts-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B8E87F053D0E806EA769F44103F27EC9</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B46050487958892569E14910AFC155F7</string>
+				<string>BCE711A5BABC2372B38A0162F92A6299</string>
+				<string>9F6AE1C6E88AE3E653A7DFB3C3CC9431</string>
+				<string>17B17092C8C89A54DA067E8F4134B1D0</string>
+				<string>B8BF24A0FFB9FBE35768B9FF7B005EB0</string>
+				<string>DD388F7DFA6F2319C591A5D8C84B18AE</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/Charts</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B9764BA1C1B4139220BE15EBBCD6CECE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7649ACF4C33314109FBEBF7405DDC115</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B9DB1E40A6E3F52C0A8D194BBDEB12CB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ChartDataRendererBase.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Renderers/ChartDataRendererBase.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1828,6 +3944,13 @@
 			<key>xcLanguageSpecificationIdentifier</key>
 			<string>xcode.lang.ruby</string>
 		</dict>
+		<key>BB3A8D7FC41ED300CAA4DF3D0527DEAE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5BF4D25425677B3DC3EDF6A394A648EE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>BC3CA7F9E30CC8F7E2DD044DD34432FC</key>
 		<dict>
 			<key>children</key>
@@ -1841,23 +3964,47 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>BE41196F6A3903E59C3306FE3F8B43FE</key>
+		<key>BCD5071CB4E5FAEE7FC51746F4B17B62</key>
 		<dict>
 			<key>fileRef</key>
-			<string>6593F4C34C1C3416D5D741C8A789486D</string>
+			<string>FE445B283A1A264254EAE4D50A36413E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>BEF64FA6400EE4836114A1C88D1997E2</key>
+		<key>BCE711A5BABC2372B38A0162F92A6299</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>Alamofire.modulemap</string>
+			<string>Charts.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BDD822B5D8CDBC9BA13CECF314FD467C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>HorizontalBarChartHighlighter.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Highlight/HorizontalBarChartHighlighter.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BE41196F6A3903E59C3306FE3F8B43FE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9D016F7B1001A503F9051EB2AB9A538A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>BF6342C8B29F4CEEA088EFF7AB4DE362</key>
 		<dict>
@@ -1872,14 +4019,55 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C0DB70AB368765DC64BFB5FEA75E0696</key>
+		<key>BF69C7BFB84A04FFD493D9B9FA9BDD58</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C9D86F263C2A9A600A6AD6648E6552F5</string>
+			<string>A1587742F458BEA1E5850C8CD8C336AA</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>C26CE8BA197D6B0E993DB02562C4AFC8</key>
+		<key>C0DB70AB368765DC64BFB5FEA75E0696</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6C6E89F283F3A1090F3B259418C0879B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C12599A3FB6E4A5ACCBAB8DF11AE7381</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C316C16DBC59109FAEF910B59BF0C3C5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C2A15AF281F03119592C41EC83E50098</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Alamofire.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C2A17F16FEDD054EA6CCD34CC92A7594</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B79D2539A791D54167A90CBACC1B4CC8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C2F12F2C42BADD59AA7540A3C8107D51</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EA00859596ED00FEFEBDA65ACC53507A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C316C16DBC59109FAEF910B59BF0C3C5</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1888,16 +4076,38 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.swift</string>
 			<key>name</key>
-			<string>Result.swift</string>
+			<string>ChartBaseDataSet.swift</string>
 			<key>path</key>
-			<string>Source/Result.swift</string>
+			<string>Charts/Classes/Data/Implementations/ChartBaseDataSet.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C325FC22C573C024EB2F056069EB3FD0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ChartYAxisRendererHorizontalBarChart.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Renderers/ChartYAxisRendererHorizontalBarChart.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C32F09F394641163865197D9A3C0BEF2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F2A65C082626FB0DA7D9418BAADC4452</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>C3746E36F91278C40D0DCBA78D124E88</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>6AFCC5514C09B93883D8A7EFEA18D4FC</string>
+			<string>C2A15AF281F03119592C41EC83E50098</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -1952,7 +4162,7 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>C3BC0B29C39911B38CBD62FE48944BB2</key>
+		<key>C5F1FDF59419FE7BB2D1A478A3B1B975</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1961,49 +4171,87 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.swift</string>
 			<key>name</key>
-			<string>Request.swift</string>
+			<string>CombinedHighlighter.swift</string>
 			<key>path</key>
-			<string>Source/Request.swift</string>
+			<string>Charts/Classes/Highlight/CombinedHighlighter.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C44AA870246118D05DB589DEB73D76D1</key>
+		<key>C6828C2508515BC0428D6BDAA1292DC9</key>
 		<dict>
 			<key>buildConfigurationList</key>
-			<string>9AD230B523F3E60DBF55AB6F2AEB8FB7</string>
+			<string>E03408AFB82FEE195F7C04419FF416EA</string>
 			<key>buildPhases</key>
 			<array>
-				<string>0FBFDCCE43B0AAF05DD357266A7C3E07</string>
-				<string>61AD8FDD004669CFE6E5F15952B2129E</string>
-				<string>EA1E95D15DF2DCDC7BFF88C210B035C9</string>
+				<string>DB4D428C23AD783427D44B1957F195F2</string>
+				<string>8F77C82F0C8760528390313D44756D9B</string>
+				<string>85F1FA1A04887000AE6D42617A155669</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
 			<key>dependencies</key>
-			<array>
-				<string>C918DBAD6A364950346A11227739C07F</string>
-				<string>66C2B2AC389E23A0572F2172ED170824</string>
-				<string>664581D5E97BBDA8252325E840A7ECD4</string>
-			</array>
+			<array/>
 			<key>isa</key>
 			<string>PBXNativeTarget</string>
 			<key>name</key>
-			<string>Pods-Carrot</string>
+			<string>Charts</string>
 			<key>productName</key>
-			<string>Pods-Carrot</string>
+			<string>Charts</string>
 			<key>productReference</key>
-			<string>EEC1A3A092D7BFD1147B19459F220920</string>
+			<string>724BB45AF91FC0D7B25FBB4DFB3EF138</string>
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>C68300FA475B7BF7E3419859C05D8AA8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>600C3778995F3D7B9395214DE52469ED</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C6C515B057B0700ADA865B63CA1A0C6B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>421701FCDDC423B0AE6C91B2CD8988B1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C6CB3768F4481A3D58397BABD408885A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DA00DC692C7EFE8FCF9D36E63C5EB2A0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C6F18733027EAC1685B8E3E304C5357A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C5F1FDF59419FE7BB2D1A478A3B1B975</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C6F5785A49C245BD02BBD3DCA2FD6C53</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F90B57EC3C8616BD021374B06291F5D4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>C7B6DD7C0456C50289A2C381DFE9FA3F</key>
 		<dict>
 			<key>fileRef</key>
-			<string>3D7C03024242FF84C245C0148FF229EC</string>
+			<string>77190C4A5365F73456C31E5CAECF581D</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>C86C305E2AFB7234B79BA1C97626396D</key>
+		<key>C89A56E617144FEA3136394B712452A5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>826E18D6447B69267481885B76D9579E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CB4881B249963AD47A8879BF360400C6</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2016,36 +4264,10 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C918DBAD6A364950346A11227739C07F</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Alamofire</string>
-			<key>target</key>
-			<string>79C040AFDDCE1BCBF6D8B5EB0B85887F</string>
-			<key>targetProxy</key>
-			<string>6F14C2E9CF0B2A9CBB826A5D7821188C</string>
-		</dict>
-		<key>C9D86F263C2A9A600A6AD6648E6552F5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>ParameterEncoding.swift</string>
-			<key>path</key>
-			<string>Source/ParameterEncoding.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>CB4B32AE1B2088E35A63B681187FBCFD</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>5FFF2F43E8C68EBBE30478C3BEDD3A61</string>
+			<string>6DE6AB0064148BFC836C2E5B3F49120C</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
@@ -2058,6 +4280,62 @@
 				<string>YES</string>
 				<key>WRAPPER_EXTENSION</key>
 				<string>bundle</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>CB4B3C6333DFEB6D8B46D3F9908CBE2A</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>BCE711A5BABC2372B38A0162F92A6299</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Charts/Charts-prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Charts/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Charts/Charts.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>PRODUCT_NAME</key>
+				<string>Charts</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
 			</dict>
 			<key>isa</key>
 			<string>XCBuildConfiguration</string>
@@ -2085,7 +4363,7 @@
 		<key>CBFFD4897397FA6D9FE161CBCA99B220</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>5FFF2F43E8C68EBBE30478C3BEDD3A61</string>
+			<string>6DE6AB0064148BFC836C2E5B3F49120C</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
@@ -2104,22 +4382,7 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>CFDF3CBDBE938D828E947290CEC365F0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>name</key>
-			<string>PopUpViewController.xib</string>
-			<key>path</key>
-			<string>NMPopUpView/Pod/Classes/PopUpViewController.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D13A73B2DC2F7C1E328A31F11B7A91E9</key>
+		<key>CD16E4DA764A7D7D51E33C3A1CE8FFD7</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2128,9 +4391,138 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.swift</string>
 			<key>name</key>
-			<string>Upload.swift</string>
+			<string>CandleChartData.swift</string>
 			<key>path</key>
-			<string>Source/Upload.swift</string>
+			<string>Charts/Classes/Data/Implementations/Standard/CandleChartData.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CD3B238BF1B74670C7DA003A3D850983</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SwiftyJSON-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CEBB2FD70283D5A17132F1B8566E0D2E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>AB8DD7860CC6F1410177F0BAB6B8BA60</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CED5B80E8D5D074E7C2CEDA5AA12EC0C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>IScatterChartDataSet.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Data/Interfaces/IScatterChartDataSet.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CF336244365FFA0824A04384ABC116A5</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>E502E87038A4FBBE6351AC3D2767BF55</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Pods-Carrot/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Pods-Carrot/Pods-Carrot.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>Pods_Carrot</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>D0CB701A05EEF883124CE6FBE45EF6D9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>IPieChartDataSet.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Data/Interfaces/IPieChartDataSet.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D14734C3FE38409D53C3E9F615A6AEF7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.xib</string>
+			<key>name</key>
+			<string>PopUpViewController_iPhone6Plus.xib</string>
+			<key>path</key>
+			<string>NMPopUpView/Pod/Classes/PopUpViewController_iPhone6Plus.xib</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2146,6 +4538,89 @@
 			<string>Pods-Carrot.release.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D1F1695E20DD0A70DA19C6226F3E6BEF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D785C6F9C067A286AE83554650D4A68D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D20A7E639C045BD6532B3CA94A1DBBE2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>01BD001953C698AC34AD742A3CD1144D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D316E5E188ABBC7002497E23595E1F7B</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>D173818BE7E310E89963418C319342B7</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Pods-Carrot/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Pods-Carrot/Pods-Carrot.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>Pods_Carrot</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>D383B7AF516798B5F9C43DB0E5E55AA6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>194258976311664F5F51A1C9D4A630CE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>D41D8CD98F00B204E9800998ECF8427E</key>
 		<dict>
@@ -2173,7 +4648,7 @@
 			<key>mainGroup</key>
 			<string>7DB346D0F39D3F0E887471402A8071AB</string>
 			<key>productRefGroup</key>
-			<string>98BCD5F0471A72B2727DDF19AFAC92CC</string>
+			<string>1C676775776E76D9AC8DB8AD0C1C35E8</string>
 			<key>projectDirPath</key>
 			<string></string>
 			<key>projectReferences</key>
@@ -2183,11 +4658,130 @@
 			<key>targets</key>
 			<array>
 				<string>79C040AFDDCE1BCBF6D8B5EB0B85887F</string>
+				<string>C6828C2508515BC0428D6BDAA1292DC9</string>
 				<string>0DE93A80D9EC89B94FE9F41228A430A6</string>
 				<string>5AB4064A892A058275164B0D06D01EB3</string>
-				<string>C44AA870246118D05DB589DEB73D76D1</string>
-				<string>1B68CF08088764902B31E0C662364530</string>
+				<string>0D6472B29E91BC536296DE9440741B4E</string>
+				<string>790B4C74CCA1A0A5F159B7D6E47D48FF</string>
 			</array>
+		</dict>
+		<key>D5E75CD283EA586FB4A33BD1E70116F8</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>BCE711A5BABC2372B38A0162F92A6299</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Charts/Charts-prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Charts/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Charts/Charts.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>PRODUCT_NAME</key>
+				<string>Charts</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>D5EC2A1F955556DA0724C612A78C674B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D6BDFD2B80F687DA9487BC0BAC8FBB79</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D6BDFD2B80F687DA9487BC0BAC8FBB79</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>MoveChartViewJob.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Jobs/MoveChartViewJob.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D73CA5EABA732B046927C93C476FC634</key>
+		<dict>
+			<key>fileRef</key>
+			<string>95CF6B2103B0B3731733DE92082C6078</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D785C6F9C067A286AE83554650D4A68D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ChartXAxis.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Components/ChartXAxis.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D793EBF90F27364E366BE74A3EFA6C1C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E3B030E4CE3660F96D5159B6E32349A6</string>
+				<string>52DDF9778346BF2132F2588B4C5F1AFC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>SwiftyJSON</string>
+			<key>path</key>
+			<string>SwiftyJSON</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>D8A03AF2266FAC5019F650350D1EB787</key>
 		<dict>
@@ -2203,14 +4797,156 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>DB52BFAA845C60A905F59ABAFF878A89</key>
+		<key>DA00DC692C7EFE8FCF9D36E63C5EB2A0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>RadarChartDataSet.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Data/Implementations/Standard/RadarChartDataSet.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DA3BE7CD84E8BB19291E1568C14B5C4A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>BubbleChartView.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Charts/BubbleChartView.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DB4D428C23AD783427D44B1957F195F2</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>3EE87440A7236BE3D595BED74EE56719</string>
-				<string>6A8A458B8298E2BEB2C0CEFE446B3A3F</string>
+				<string>DD580D63E4D76F53372817544FDB8882</string>
+				<string>4EC9879E9DEB9D169929ADA6EEFB18FD</string>
+				<string>FC8A29D1F192FF1FDA3BB7D0935A1B3F</string>
+				<string>4EEF9EF82DBD9FA2F25E1ABDE291AC02</string>
+				<string>1FFA88C4B3A1DAF8DA3FBD1FB22358B5</string>
+				<string>3EF3C6E2D5466E70A62B0CE90DA2604C</string>
+				<string>D20A7E639C045BD6532B3CA94A1DBBE2</string>
+				<string>465CB044A4902D7BAA80597E096B0E67</string>
+				<string>B19032CD69D4606E7EEBB7E0BCAA9AD6</string>
+				<string>9FD26D6C00634178B74170103B48A9CF</string>
+				<string>352EF1AF94125D67FEAA040F32449B24</string>
+				<string>02C1BEA6FE84433F6C6A713533B7B9BD</string>
+				<string>4ABE19F043A4FECE8C2A3F1F72AB3F7F</string>
+				<string>620860DD966F93A5BB284ECA65E3FF68</string>
+				<string>B774655DA50556217BC45010C800332E</string>
+				<string>9838C7578BE14F947489DA4D1C595898</string>
+				<string>D383B7AF516798B5F9C43DB0E5E55AA6</string>
+				<string>B3E49DEC5C3E2B45976F07322793CC64</string>
+				<string>9DD2A8006D79DC4469F9BD2FFB55F071</string>
+				<string>6F27F0A0E87FC39880EE7BC442E7525C</string>
+				<string>A808AE4EBFE37F90FE49C2715FB330F2</string>
+				<string>FC34E76E2F5CB664B627A6F1192888FA</string>
+				<string>70073C35619976BCC6D659E523A9375E</string>
+				<string>2E6846DB220C35EF387C119161A37580</string>
+				<string>86F265DD248E17D2B6A3C5E4AA8B6800</string>
+				<string>2E176E84663592A2EB1DF3E23B6D3225</string>
+				<string>9BBB90314EEDCAA33FB3160A02862010</string>
+				<string>99DC0137E12C0E6A0CF0626CB80CB1D5</string>
+				<string>54E862294530B7914A37F408C0DFF74C</string>
+				<string>C2A17F16FEDD054EA6CCD34CC92A7594</string>
+				<string>C12599A3FB6E4A5ACCBAB8DF11AE7381</string>
+				<string>15AD01DB1A64F162CCBC2E4D02B1458A</string>
+				<string>268957DD1BCCEB3ABCE0BA4DED45EA01</string>
+				<string>38E5AE8278D6C47639BB70049876C110</string>
+				<string>003EBB47E856DBB92F4A63FC2AD8C892</string>
+				<string>7C204B9F7D811C860F446BAB1575C344</string>
+				<string>1268FBA2F4CEE4DC3577E8DD52D25975</string>
+				<string>ABEF8242948249F9A5BF7C36F57CD8DB</string>
+				<string>17E8ECFF7879DDE903F47869DEBAA874</string>
+				<string>124D0BAABE6160B5E0B6ADC527C58418</string>
+				<string>2B44A572F8A1ACA0F3964493F4D3228D</string>
+				<string>A525E68A31198AD8B3B5CAC519F1A43E</string>
+				<string>421EC967AD86F44E9BDB88301D94B33B</string>
+				<string>224F8C8DCD27EA9658A028C095C4F275</string>
+				<string>C32F09F394641163865197D9A3C0BEF2</string>
+				<string>3C50B55F32F9344B641ACF672F0220A4</string>
+				<string>A00CBCB935830FEE99F6E645C95E834D</string>
+				<string>778126769FD6E223F9574C2E19DD5453</string>
+				<string>797C9F2528F449390500C4FECCBAA135</string>
+				<string>65FB4C3B9C6D3DF8ED9A60732536021D</string>
+				<string>3B2ED386492166C28D7631B4488EA230</string>
+				<string>24A9C720DFCC621D045671BF48493E8A</string>
+				<string>4846448B6998275139FBF24E87C11D42</string>
+				<string>1ED95865A0F35E6479942C08DC17E359</string>
+				<string>371FCB701E2FA5156BA218C0C95A1C5E</string>
+				<string>783C44EF16D4C79ADC985C8C86C458D5</string>
+				<string>50AE3A2D24BA4DE093FC4BD2657AC1FB</string>
+				<string>9505960D18F60DAA70871C006CA302EF</string>
+				<string>317A3E7B043018C7BD7F857B76FE1462</string>
+				<string>30092F63FB79CD827CB85D797464FB40</string>
+				<string>E1BAD342EFFB5E062959C14B5E07DC68</string>
+				<string>D1F1695E20DD0A70DA19C6226F3E6BEF</string>
+				<string>3EED0E841D10FEAA033A3C645CB219D3</string>
+				<string>1711226039A0CD668F7DBEEE45D9E238</string>
+				<string>38482CD39B3757452D67AE22C1DA5F29</string>
+				<string>DE042C08F7F3A2A3B4546F8EADFCDEC5</string>
+				<string>A5F486B6DA397786F31EB6A27CBA10F5</string>
+				<string>1677FAD2A148DA1DDE73736B4848878B</string>
+				<string>C2F12F2C42BADD59AA7540A3C8107D51</string>
+				<string>AE1566BD32F907C4B66DEF43A2CEFC05</string>
+				<string>B5916DB8C1387ACAFA0EBB944E15F3E3</string>
+				<string>770318C2100C2A9A4D14D224B041B0E5</string>
+				<string>A20419267FBC2600623140053A2AA8F7</string>
+				<string>4BD7EE6ED468BE4A70A0739940369D7D</string>
+				<string>C6F18733027EAC1685B8E3E304C5357A</string>
+				<string>A48B96C6FBB609A286F182ED83923097</string>
+				<string>2DFEDFAB407EBB39DF8E289418A7BE63</string>
+				<string>D73CA5EABA732B046927C93C476FC634</string>
+				<string>729F9E9B68A861150F91F93D765BD254</string>
+				<string>BCD5071CB4E5FAEE7FC51746F4B17B62</string>
+				<string>BF69C7BFB84A04FFD493D9B9FA9BDD58</string>
+				<string>3519CBA7EE38A591227561F3B974D709</string>
+				<string>9181C57B0D5E511D518D6ED675AC30A6</string>
+				<string>E1EC4988F56A7D8818978CF0E11235B6</string>
+				<string>86712FE294355019927A4B113B072F63</string>
+				<string>B9764BA1C1B4139220BE15EBBCD6CECE</string>
+				<string>6C77A1B3D784E94C0A704E5758AF6E14</string>
+				<string>7B234F4406FD51E392E7B688A295E8FB</string>
+				<string>FEAAEDF7FAFA3134CA836F1AB6E0FDF5</string>
+				<string>631BAC0B955DDA472F2092F853D8624D</string>
+				<string>2EBAA77DF6F106BCE20CADC931D8C84F</string>
+				<string>1A576993F97A4BD21C20CE9685D55B45</string>
+				<string>3DB99C22AB1CE344BFE50941C299F2AB</string>
+				<string>604D5A1EF4ABD6E0ACB3B5C820C9F841</string>
+				<string>1568D9F321313FECF78F199CE4E7B442</string>
+				<string>821EB8A5F1FC9B2F4EAB51C67F4DE2C6</string>
+				<string>1792949332E845FCE9745F455932668C</string>
+				<string>FF383AB25605A99106208E2F7CBC811E</string>
+				<string>D5EC2A1F955556DA0724C612A78C674B</string>
+				<string>C68300FA475B7BF7E3419859C05D8AA8</string>
+				<string>10DA9C9D58BDE4AEBC101C70A645E315</string>
+				<string>F9E9A2403A8E8D7D3509ABF2A40A5CD7</string>
+				<string>CEBB2FD70283D5A17132F1B8566E0D2E</string>
+				<string>127AB4661AC9A5832C3D5A4077C1A58C</string>
+				<string>6744F19C73C44705160ECB1E7C7FB733</string>
+				<string>C6CB3768F4481A3D58397BABD408885A</string>
+				<string>9E1EEA656E59AB9E30DC8D0385F289B4</string>
+				<string>3D8DDA0FEB1A3AFF6643F9121E19D044</string>
+				<string>C6C515B057B0700ADA865B63CA1A0C6B</string>
+				<string>1AA2BFF6AAA29B3C65D9109C6D89B631</string>
+				<string>BB3A8D7FC41ED300CAA4DF3D0527DEAE</string>
+				<string>C89A56E617144FEA3136394B712452A5</string>
+				<string>C6F5785A49C245BD02BBD3DCA2FD6C53</string>
+				<string>E90141BF332560ED9C3BA829889E51CD</string>
 			</array>
 			<key>isa</key>
 			<string>PBXSourcesBuildPhase</string>
@@ -2230,7 +4966,21 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DED1CE8F6B6E41028A619120C3A4FDAF</key>
+		<key>DCF56DCBC9F80766436CA1117A3049C3</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>AAF63265451E187517F2E829E332F410</string>
+				<string>E3E576BA416E80F88D13AA3B97289F0C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>DD03FEF047FAF06DDC8F9B2DE4914B6D</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2239,20 +4989,173 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.swift</string>
 			<key>name</key>
-			<string>Response.swift</string>
+			<string>ChartXAxisRenderer.swift</string>
 			<key>path</key>
-			<string>Source/Response.swift</string>
+			<string>Charts/Classes/Renderers/ChartXAxisRenderer.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DF6EA1DF290BBEB1C13020B72E5C7880</key>
+		<key>DD388F7DFA6F2319C591A5D8C84B18AE</key>
 		<dict>
-			<key>children</key>
-			<array/>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DD580D63E4D76F53372817544FDB8882</key>
+		<dict>
+			<key>fileRef</key>
+			<string>51BD09CD2C4449811939BFDA02D9EB17</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>DE042C08F7F3A2A3B4546F8EADFCDEC5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EA2D6A3482C556F9597A0B84394B960C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>DE08E6B34DB9765EDA37ABE1C1D4F2E6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
 			<key>name</key>
-			<string>Resources</string>
+			<string>Timeline.swift</string>
+			<key>path</key>
+			<string>Source/Timeline.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DF8E9F863829B79A40A7624D2749694A</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>53D613934EC7CF6717F1B265C1A1D4DB</string>
+				<string>6FB3D00B18BF0B3CD79C0E865F99A0C1</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>E03408AFB82FEE195F7C04419FF416EA</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>D5E75CD283EA586FB4A33BD1E70116F8</string>
+				<string>CB4B3C6333DFEB6D8B46D3F9908CBE2A</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>E0490EB50C9534B015789CB6E089EE3A</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>AEF0757DC254C3D956E1405E366378D6</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>E1BAD342EFFB5E062959C14B5E07DC68</key>
+		<dict>
+			<key>fileRef</key>
+			<string>07C898C6F7B38ACC17D12919BFD77264</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E1EC4988F56A7D8818978CF0E11235B6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>42515C8E50B9C38FB5BFED8A3435E429</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E2FD8F9D1C27C56CB95C107B135A9A16</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>AnimatedZoomViewJob.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Jobs/AnimatedZoomViewJob.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E3B030E4CE3660F96D5159B6E32349A6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>SwiftyJSON.swift</string>
+			<key>path</key>
+			<string>Source/SwiftyJSON.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E3E576BA416E80F88D13AA3B97289F0C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E3B030E4CE3660F96D5159B6E32349A6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E4024F4425B2C5555FCB033D880AE246</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ChartTransformerHorizontalBarChart.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Utils/ChartTransformerHorizontalBarChart.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E4A8BE7E7C4E8B3B9574BC25CD3CC711</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>BubbleChartRenderer.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Renderers/BubbleChartRenderer.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2269,61 +5172,126 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>EA1E95D15DF2DCDC7BFF88C210B035C9</key>
+		<key>E760E4751100A68FD666557756FF7EA2</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A45BA09B4A73B0DB9CEF270EC48D5907</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>EA92619E08EB3BFBA5DCC9C0C0C4F21F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>63523A111395F32836E27393A48BD60A</string>
-				<string>0EEED815DBFC63C60A6B40A7CF97B555</string>
-				<string>5FFF2F43E8C68EBBE30478C3BEDD3A61</string>
-				<string>913BBA5C98E11939D0AF67246EE61E0B</string>
-				<string>773D9A1C81D1279305C06CCC6CB6F3A8</string>
-				<string>44E0797EE0B0581805C6C893DE1B4EB7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
 			<key>name</key>
-			<string>Support Files</string>
+			<string>PieChartDataSet.swift</string>
 			<key>path</key>
-			<string>../Target Support Files/NMPopUpViewSwift</string>
+			<string>Charts/Classes/Data/Implementations/Standard/PieChartDataSet.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E90141BF332560ED9C3BA829889E51CD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>05295D851157E778A2EBACE65CBA5EB5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E96FCE418AC9600286754B772536A89B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ChartRange.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Highlight/ChartRange.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EA00859596ED00FEFEBDA65ACC53507A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ChartYAxisRenderer.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Renderers/ChartYAxisRenderer.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EA2D6A3482C556F9597A0B84394B960C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ChartXAxisRendererRadarChart.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Renderers/ChartXAxisRendererRadarChart.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EA9C886BA9042516EFB5C48436B3CCEB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ChartPlatform.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Utils/ChartPlatform.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>EACC11EC9EAAD4ACD4237A5EAD62FAC4</key>
 		<dict>
 			<key>fileRef</key>
-			<string>A51AA62AF874DE77C07D62BA7DF54081</string>
+			<string>2F0390AB9EE2E75EB4F9A9AFCAA6E1FA</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>EC1BA48302CA9C614E948F1D82E2A77B</key>
+		<key>EC2A99E58AB14E8C0A95A44881D57D1A</key>
 		<dict>
-			<key>fileRef</key>
-			<string>4E399EBF038154A0C9028FC2A5A87142</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ChartColorTemplates.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Utils/ChartColorTemplates.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>EEC1A3A092D7BFD1147B19459F220920</key>
+		<key>EC8DEC9C7B97F2B8EBCAD2B27F83BCC2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>BarLineScatterCandleBubbleChartDataSet.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Data/Implementations/Standard/BarLineScatterCandleBubbleChartDataSet.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EC9934D730E3ABD7DB7D29D17C33DB10</key>
 		<dict>
 			<key>explicitFileType</key>
 			<string>wrapper.framework</string>
@@ -2337,6 +5305,21 @@
 			<string>Pods_Carrot.framework</string>
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>EF0E98455EC844C4E832989172C0226F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>IRadarChartDataSet.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Data/Interfaces/IRadarChartDataSet.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>EFDF3B631BBB965A372347705CA14854</key>
 		<dict>
@@ -2354,9 +5337,24 @@
 		<key>EFE92E8D3813DD26E78E93EEAF6D7E7E</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C3BC0B29C39911B38CBD62FE48944BB2</string>
+			<string>9DDE6846B649357A201C48DDF108D34B</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>F06FDAB54F3DF4DBC5C9D13D1DDE652E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.xib</string>
+			<key>name</key>
+			<string>PopUpViewController_iPhone6.xib</string>
+			<key>path</key>
+			<string>NMPopUpView/Pod/Classes/PopUpViewController_iPhone6.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>F17EE69BABE712E53BEAA66CDF097521</key>
 		<dict>
@@ -2369,50 +5367,31 @@
 			<key>targetProxy</key>
 			<string>08B3119D0DE35668F7861BE2264F6031</string>
 		</dict>
-		<key>F2B531D366CC635B67CA3FD4BD362C3C</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>NMPopUpViewSwift.bundle</string>
-			<key>path</key>
-			<string>NMPopUpViewSwift.bundle</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>F4456E82835B1310DADCC6ECD969464E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5B3D81AA00624E55290AF0BBA15E15F2</string>
-				<string>9522F9F818CEDE7B9178BB86D9772147</string>
-				<string>90224C130BD7BD3066AD186B92B58652</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F5886265899F944574B3F94EAAC7CB71</key>
+		<key>F2A65C082626FB0DA7D9418BAADC4452</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>file.xib</string>
+			<string>sourcecode.swift</string>
 			<key>name</key>
-			<string>PopUpViewController_iPad.xib</string>
+			<string>ChartHighlight.swift</string>
 			<key>path</key>
-			<string>NMPopUpView/Pod/Classes/PopUpViewController_iPad.xib</string>
+			<string>Charts/Classes/Highlight/ChartHighlight.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F59226A82660ABDE4DBA007B060EABCC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>Charts</string>
+			<key>target</key>
+			<string>C6828C2508515BC0428D6BDAA1292DC9</string>
+			<key>targetProxy</key>
+			<string>28E6FBEEAFDF875D486A35112641CC30</string>
 		</dict>
 		<key>F67A53A6C7D68D2A3E2B7A9DC531D170</key>
 		<dict>
@@ -2425,21 +5404,6 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>F7285A191F467A0D0A005B4D6FEBA56B</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>SwiftyJSON.framework</string>
-			<key>path</key>
-			<string>SwiftyJSON.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
 		<key>F82198F34DD14753A42F4328CD5E7A6B</key>
 		<dict>
 			<key>fileRef</key>
@@ -2447,19 +5411,27 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>F854B9FC6125D53448F4E9C19FFA337E</key>
+		<key>F90B57EC3C8616BD021374B06291F5D4</key>
 		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>7023568AED3F43100037BD2CD61B1A29</string>
-				<string>5339C40948BB66C4D8F7788DEC5704DD</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>XCConfigurationList</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ScatterChartView.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Charts/ScatterChartView.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F9E9A2403A8E8D7D3509ABF2A40A5CD7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>694576AE8845CD9DFD6E582F9C4B38BF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>F9F7E67305C1C53DEF87E4B0DD4E4C4F</key>
 		<dict>
@@ -2482,6 +5454,22 @@
 			<string>Pods-Carrot</string>
 			<key>path</key>
 			<string>Target Support Files/Pods-Carrot</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FA0B3E3C3D72F7C0EFC49ADEC83966F5</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9FE81DF9B0904CB3BD9195144D1E5DBC</string>
+				<string>B8E87F053D0E806EA769F44103F27EC9</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Charts</string>
+			<key>path</key>
+			<string>Charts</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2556,7 +5544,7 @@
 		<key>FB8B927CDB5E40E34B29EF2C8EF7C5EF</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>5FFF2F43E8C68EBBE30478C3BEDD3A61</string>
+			<string>6DE6AB0064148BFC836C2E5B3F49120C</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -2610,6 +5598,117 @@
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
 			<string>Debug</string>
+		</dict>
+		<key>FC34E76E2F5CB664B627A6F1192888FA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0096B507779C30A9D4178642B440AF2E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>FC8A29D1F192FF1FDA3BB7D0935A1B3F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E2FD8F9D1C27C56CB95C107B135A9A16</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>FD6A727E12313C953D7DB5F933DB7939</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ChartComponentBase.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Components/ChartComponentBase.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FDF6FB48DFE268EB16C618EECDCA7ADB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>12390E3334C26F7232CE779AEC41026E</string>
+				<string>4690AEBD7DD9F337F82F30F55F969A92</string>
+				<string>F06FDAB54F3DF4DBC5C9D13D1DDE652E</string>
+				<string>D14734C3FE38409D53C3E9F615A6AEF7</string>
+				<string>2F0390AB9EE2E75EB4F9A9AFCAA6E1FA</string>
+				<string>133CE0E6FA1C337675C197BE06C78911</string>
+				<string>40469355617382DDCC76B75967BBE90A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>NMPopUpViewSwift</string>
+			<key>path</key>
+			<string>NMPopUpViewSwift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FE006388FAC135F4DE44F541DD95F5E0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2E9F43D34483F37D34918AF04ADC99C6</string>
+				<string>9C2664263D757E376432DFE6BC4E3C05</string>
+				<string>462602E058DB9BAA8316C974170D3C91</string>
+				<string>0282A6E5639377AF6605F57B16F2300A</string>
+				<string>77190C4A5365F73456C31E5CAECF581D</string>
+				<string>24D2E43A727441C7A7E2D69CBA757438</string>
+				<string>9D016F7B1001A503F9051EB2AB9A538A</string>
+				<string>6C6E89F283F3A1090F3B259418C0879B</string>
+				<string>9DDE6846B649357A201C48DDF108D34B</string>
+				<string>11182DB7D6D479D60AB5A847051FC228</string>
+				<string>0BED844E2ADBE226A80342BB948DCDC4</string>
+				<string>15BE411F7D11E5351A029730DC7C6531</string>
+				<string>1D9BA410969F5FC01808DBD626CD9D69</string>
+				<string>110ADC81750217968CD35D048EF12504</string>
+				<string>DE08E6B34DB9765EDA37ABE1C1D4F2E6</string>
+				<string>63125F0AE431483AC04B5DEC5EA3A27B</string>
+				<string>4850B623CBFE24D062567B601CB94335</string>
+				<string>11EBDB2A47B10DA92680BD2639A8CDB2</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Alamofire</string>
+			<key>path</key>
+			<string>Alamofire</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FE445B283A1A264254EAE4D50A36413E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>IBarLineScatterCandleBubbleChartDataSet.swift</string>
+			<key>path</key>
+			<string>Charts/Classes/Data/Interfaces/IBarLineScatterCandleBubbleChartDataSet.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FEAAEDF7FAFA3134CA836F1AB6E0FDF5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CED5B80E8D5D074E7C2CEDA5AA12EC0C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>FF383AB25605A99106208E2F7CBC811E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2ACFB31F6C823F71DFB325852991F25F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>
