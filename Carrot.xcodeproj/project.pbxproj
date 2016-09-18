@@ -30,6 +30,7 @@
 		F8A70CBF1D8D368900FBBA77 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A70CBE1D8D368900FBBA77 /* HomeTableViewCell.swift */; };
 		F8A70CC11D8DC15900FBBA77 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A70CC01D8DC15900FBBA77 /* TestViewController.swift */; };
 		F8CE58491D8E4D2A0052AA4F /* SuggestionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CE58481D8E4D2A0052AA4F /* SuggestionTableViewCell.swift */; };
+		F8CE584B1D8E83F70052AA4F /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CE584A1D8E83F70052AA4F /* GraphViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		F8A70CBE1D8D368900FBBA77 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		F8A70CC01D8DC15900FBBA77 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		F8CE58481D8E4D2A0052AA4F /* SuggestionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuggestionTableViewCell.swift; sourceTree = "<group>"; };
+		F8CE584A1D8E83F70052AA4F /* GraphViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				085BF7151D8DF95600B44973 /* API.swift */,
 				F8A70CC01D8DC15900FBBA77 /* TestViewController.swift */,
 				F8CE58481D8E4D2A0052AA4F /* SuggestionTableViewCell.swift */,
+				F8CE584A1D8E83F70052AA4F /* GraphViewController.swift */,
 				F8A70CA61D8CDF1E00FBBA77 /* Assets.xcassets */,
 				085BF7231D8DFC7D00B44973 /* Testcode.swift */,
 				085BF7211D8DFC1A00B44973 /* Nutrition.swift */,
@@ -271,6 +274,7 @@
 				085BF7221D8DFC1A00B44973 /* Nutrition.swift in Sources */,
 				F8CE58491D8E4D2A0052AA4F /* SuggestionTableViewCell.swift in Sources */,
 				F8A70C9F1D8CDF1E00FBBA77 /* CameraViewController.swift in Sources */,
+				F8CE584B1D8E83F70052AA4F /* GraphViewController.swift in Sources */,
 				085BF7261D8E66BB00B44973 /* UIDateView.swift in Sources */,
 				085BF7201D8DFC0000B44973 /* PopUpViewController.swift in Sources */,
 				F8A70CA51D8CDF1E00FBBA77 /* Carrot.xcdatamodeld in Sources */,
