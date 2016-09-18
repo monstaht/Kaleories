@@ -11,6 +11,7 @@ import UIKit
 class HomeTableViewCell: UITableViewCell {
 
     var myImageView = UIImageView()
+    var info = UIView()
     
     var picture: UIImage? {
         didSet{
@@ -18,7 +19,12 @@ class HomeTableViewCell: UITableViewCell {
             myImageView.clipsToBounds = true
             myImageView.contentMode = .ScaleAspectFit
             myImageView.image = picture
+            info = UIView(frame: CGRectMake(0, 0, frame.width, 30))
+            info.clipsToBounds = true
+            info.backgroundColor = UIColor(red: 0, green: 50, blue: 70, alpha: 1)
+            self.bringSubviewToFront(info)
             addSubview(myImageView)
+            addSubview(info)
             self.selectionStyle = .None
         }
     }

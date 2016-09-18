@@ -27,12 +27,11 @@ private enum Router: URLStringConvertible {
             case .GetDay(let day):
                 return "getDay/\(day)"
             case .GetAllPics:
-                return "allPictures/"
+                return "allPictures"
             }
         }()
-        return "http://kalories.azurewebsites.net/\(endValue)"
-        //return "http://10.0.2.15:5000/\(endValue)"
-        //return "http://127.0.0.1:5000/\(endValue)"
+        return "http://10.128.23.86:5000/\(endValue)"
+        //return "http://kalories.azurewebsites.net/\(endValue)"
     }
 }
 
@@ -53,6 +52,7 @@ class API {
     
     func getSuggestions(picture: String, completion: ([String],String) -> Void) {
         let map: [String: AnyObject] -> ([String],String) = {
+            print($0)
             return (JSON($0)["suggestions"].arrayValue.map { String($0) }, JSON($0)["url"].stringValue)
         }
         print(picture)

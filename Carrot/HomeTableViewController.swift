@@ -22,9 +22,13 @@ class HomeTableViewController: UIViewController, UITableViewDelegate, UITableVie
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        images.append(UIImage(named: "Pizza")!)
+        images.append(UIImage(named: "Red Bull")!)
+        images.append(UIImage(named: "Carrots")!)
         tableView.dataSource = self
         tableView.delegate = self
-        tableView.separatorStyle = .None
+        tableView.separatorStyle = .SingleLineEtched
+        tableView.separatorColor = UIColor(red: 255, green: 255, blue: 255, alpha: 1)
         tableView.reloadData()
         self.modalPresentationStyle = UIModalPresentationStyle.Popover
         let poppc = self.popoverPresentationController
