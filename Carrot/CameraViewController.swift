@@ -35,6 +35,7 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
             return
         }
         cameraWillAppear = true
+        print("im here")
         self.tabBarController?.selectedIndex = 0
         
     }
