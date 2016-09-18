@@ -30,8 +30,13 @@ class TestViewController: UIViewController, UITableViewDataSource{
         super.viewDidLoad()
         view.addSubview(imageView)
         selections = ["lets", "test", "test", "test", "test", "test", "test", "test"]
-        spinner = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorViewStyle.White)
-        spinner?.frame = CGRectMake(view.frame.midX, view.frame.midY, 24, 24)
+        view.backgroundColor = UIColor(red: 185, green: 233, blue: 173, alpha: 0.5)
+        spinner = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorViewStyle.WhiteLarge)
+        //spinner?.frame = CGRectMake(view.frame.midX, view.frame.midY, 104, 104)
+        spinner?.transform = CGAffineTransformMakeScale(1.5, 1.5)
+        spinner?.hidden = false
+        spinner?.center = CGPointMake(view.frame.midX , view.frame.midY + 128)
+        spinner?.hidesWhenStopped = true
         spinner?.startAnimating()
         view.addSubview(spinner!)
         fetchSuggestions()
@@ -50,29 +55,21 @@ class TestViewController: UIViewController, UITableViewDataSource{
     
     private func fetchSuggestions() {
         spinner?.startAnimating()
-        dispatch_async(dispatch_get_global_queue(QOS_CLASS_USER_INITIATED, 0)) {
-            
-            //let url = NSURL(string: "http://feelgrafix.com/data_images/out/28/992756-cheese.jpg")
-            let imageData = UIImageJPEGRepresentation(self.picture!,0.0)
-            //let imageData:NSData = NSData.init(contentsOfURL: url!)!
-            let base64String:String = imageData!.base64EncodedStringWithOptions(.Encoding64CharacterLineLength)
-            API.sharedInstance.getSuggestions(base64String) { (suggestions, url) in
-                self.selections = suggestions
-                self.url = url
-            }
-            
-            
-            //self.spinner?.stopAnimating()
-
+        //let url = NSURL(string: "http://feelgrafix.com/data_images/out/28/992756-cheese.jpg")
+        let imageData = UIImageJPEGRepresentation(self.picture!,0.0)
+        //let imageData:NSData = NSData.init(contentsOfURL: url!)!
+        let base64String:String = imageData!.base64EncodedStringWithOptions(.Encoding64CharacterLineLength)
+        API.sharedInstance.getSuggestions(base64String) { (suggestions, url) in
+            self.selections = suggestions
+            self.url = url
+            self.spinner?.stopAnimating()
             self.loadTableView()
-
-            dispatch_async(dispatch_get_main_queue()) { [weak self] in
-            }
         }
     }
     
     private func loadTableView(){
         let tableView = UITableView()
+        tableView.registerClass(SuggestionTableViewCell.self, forCellReuseIdentifier: "suggestioncell")
         tableView.frame = CGRectMake(view.frame.minX, view.frame.midY, view.frame.width, view.frame.height / 2)
         tableView.reloadData()
         tableView.dataSource = self
