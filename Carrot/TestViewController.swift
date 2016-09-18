@@ -43,21 +43,30 @@ class TestViewController: UIViewController, UITableViewDataSource, UITableViewDe
         spinner?.hidesWhenStopped = true
         spinner?.startAnimating()
         view.addSubview(spinner!)
-        let button = UIButton(frame: CGRectMake(view.frame.minX, view.frame.maxY - 75, view.frame.width, view.frame.height/8))
+        let button = UIButton(frame: CGRectMake(view.frame.minX, view.frame.maxY - 75, view.frame.width / 2, view.frame.height/8))
+        let gobackbutton = UIButton(frame: CGRectMake(view.frame.midX, view.frame.maxY - 75, view.frame.width / 2 , view.frame.height/8))
+        gobackbutton.titleLabel?.font = UIFont(name: "HelveticaNeue", size: 28)
         button.titleLabel?.font = UIFont(name: "HelveticaNeue", size: 28)
         //button.titleLabel?.transform = CGAffineTransformTranslate((button.titleLabel?.transform)!, 0, -20)
         //button.textLabel?.textColor = UIColor.grayColor()
+        gobackbutton.addTarget(self, action: #selector(TestViewController.gobackbuttonpressed(_:)), forControlEvents: UIControlEvents.TouchUpInside)
         button.addTarget(self, action: #selector(TestViewController.buttonPressed(_:)), forControlEvents: UIControlEvents.TouchUpInside)
+        gobackbutton.setTitle("Cancel", forState: .Normal)
         button.setTitle("Submit", forState: .Normal)
+        gobackbutton.backgroundColor = UIColor(red: 185/255, green: 233/255, blue: 173/255, alpha: 1.0)
         button.backgroundColor = UIColor(red: 185/255, green: 233/255, blue: 173/255, alpha: 1.0)
         view.addSubview(button)
+        view.addSubview(gobackbutton)
         fetchSuggestions()
         // Do any additional setup after loading the view.
     }
     
+    func gobackbuttonpressed(sender: UIButton!){
+        dismissViewControllerAnimated(true, completion: nil)
+    }
+    
     func buttonPressed (sender: UIButton!){
         showPopUp(self)
-        //dismissViewControllerAnimated(true, completion: nil)
     }
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return selections!.count
@@ -100,14 +109,14 @@ class TestViewController: UIViewController, UITableViewDataSource, UITableViewDe
         //let imageData:NSData = NSData.init(contentsOfURL: url!)!
         let base64String:String = imageData!.base64EncodedStringWithOptions(.Encoding64CharacterLineLength)
         
-        API.sharedInstance.getSuggestions(base64String) { (suggestions, url) in
-            self.selections = suggestions
-            self.url = url
-            self.values = [Int](count: self.selections!.count, repeatedValue: 0)
+        API.sharedInstance.getSuggestions(base64String) { [weak self](suggestions, url) in
+            self?.selections = suggestions
+            self?.url = url
+            self?.values = [Int](count: (self?.selections!.count)!, repeatedValue: 0)
             
             dispatch_async(dispatch_get_main_queue()) {
-                self.spinner?.stopAnimating()
-                self.loadTableView()
+                self?.spinner?.stopAnimating()
+                self?.loadTableView()
             }
         }
     }
