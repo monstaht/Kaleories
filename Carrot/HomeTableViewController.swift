@@ -15,25 +15,34 @@ class HomeTableViewController: UIViewController, UITableViewDelegate, UITableVie
     
     @IBOutlet var tableView: UITableView!
     
-    private func set (URLs: [(String, Int)]) -> Void {
-        self.images = URLs.map { UIImage(data:NSData(contentsOfURL: NSURL(string: $0.0)!)!)! }
-        self.dates = URLs.map { $0.1 }
+    private func setup (URLs: [(String, Int)]) -> Void {
+        
+        let urls = URLs.map { NSURL(string: $0.0) }
+        let data = urls.map { NSData(contentsOfURL: $0!) }
+        self.images.appendContentsOf(data.map { UIImage(data: $0!)! })
+        self.dates.appendContentsOf(URLs.map { $0.1 })
+        print(images)
+        dispatch_async(dispatch_get_main_queue()) { 
+            self.tableView.dataSource = self
+            self.tableView.delegate = self
+            self.tableView.separatorStyle = .SingleLineEtched
+            self.tableView.separatorColor = UIColor(red: 220, green: 220, blue: 220, alpha: 1)
+            self.tableView.reloadData()
+            self.modalPresentationStyle = UIModalPresentationStyle.Popover
+            let poppc = self.popoverPresentationController
+            poppc?.delegate = self
+            poppc?.backgroundColor = UIColor.blackColor()
+        }
     }
     
     override func viewDidLoad() {
+        let logo = UIImage(named: "logo")
+        let imageView = UIImageView(image:logo)
+        self.navigationItem.titleView = imageView
         super.viewDidLoad()
-        images.append(UIImage(named: "Pizza")!)
-        images.append(UIImage(named: "Red Bull")!)
-        images.append(UIImage(named: "Carrots")!)
-        tableView.dataSource = self
-        tableView.delegate = self
-        tableView.separatorStyle = .SingleLineEtched
-        tableView.separatorColor = UIColor(red: 255, green: 255, blue: 255, alpha: 1)
-        tableView.reloadData()
-        self.modalPresentationStyle = UIModalPresentationStyle.Popover
-        let poppc = self.popoverPresentationController
-        poppc?.delegate = self
-        poppc?.backgroundColor = UIColor.blackColor()
+        API.sharedInstance.getAllPics(setup)
+        print(self.images)
+        
     }
     
     // MARK: - Table view data source

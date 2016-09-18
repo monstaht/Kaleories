@@ -39,7 +39,8 @@ class API {
     static let sharedInstance = API()
     
     static func getFullURL(urlshort: [(String, Int)]) -> [(String, Int)]{
-        let start = "http://kalories.azurewebsites.net"
+//        let start = "http://kalories.azurewebsites.net"
+        let start = "http://10.128.23.86:5000"
         return urlshort.map({ (start + $0, $1) })
     }
     
@@ -82,7 +83,8 @@ class API {
     
     func getAllPics(completion: [(String, Int)] -> Void) {
         let map: [String: AnyObject] -> [(String, Int)] = {
-            return JSON($0)["urlAndDate"].arrayValue.map { ($0.arrayValue[0].stringValue, $0.arrayValue[1].int!) }
+            print(API.getFullURL((JSON($0)["urlAndDate"].arrayValue.map { ($0.arrayValue[0].stringValue, $0.arrayValue[1].int!) })))
+            return API.getFullURL(JSON($0)["urlAndDate"].arrayValue.map { ($0.arrayValue[0].stringValue, $0.arrayValue[1].int!) })
         }
         get(.GetAllPics, params: [:], map: map, completion: completion)
     }

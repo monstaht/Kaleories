@@ -11,7 +11,7 @@ import UIKit
 class HomeTableViewCell: UITableViewCell {
 
     var myImageView = UIImageView()
-    var info = UIView()
+    var info: UIDateView?
     
     var picture: UIImage? {
         didSet{
@@ -19,12 +19,12 @@ class HomeTableViewCell: UITableViewCell {
             myImageView.clipsToBounds = true
             myImageView.contentMode = .ScaleAspectFit
             myImageView.image = picture
-            info = UIView(frame: CGRectMake(0, 0, frame.width, 30))
-            info.clipsToBounds = true
-            info.backgroundColor = UIColor(red: 0, green: 50, blue: 70, alpha: 1)
-            self.bringSubviewToFront(info)
+            info = UIDateView(frame: CGRectMake(0, frame.height - 20, frame.width, 20), date: 110494)
+            info!.clipsToBounds = true
+            info!.backgroundColor = UIColor(red: 200, green: 250, blue: 200, alpha: 0.5)
+            bringSubviewToFront(info!)
             addSubview(myImageView)
-            addSubview(info)
+            addSubview(info!)
             self.selectionStyle = .None
         }
     }

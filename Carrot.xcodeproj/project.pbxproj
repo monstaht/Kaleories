@@ -15,6 +15,7 @@
 		085BF7201D8DFC0000B44973 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085BF71B1D8DFC0000B44973 /* PopUpViewController.swift */; };
 		085BF7221D8DFC1A00B44973 /* Nutrition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085BF7211D8DFC1A00B44973 /* Nutrition.swift */; };
 		085BF7241D8DFC7D00B44973 /* Testcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085BF7231D8DFC7D00B44973 /* Testcode.swift */; };
+		085BF7261D8E66BB00B44973 /* UIDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085BF7251D8E66BB00B44973 /* UIDateView.swift */; };
 		B161EA21DD2B970F69159AEF /* Pods_Carrot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC5E9EE5C72D019C2138888 /* Pods_Carrot.framework */; };
 		F8A70C9D1D8CDF1E00FBBA77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A70C9C1D8CDF1E00FBBA77 /* AppDelegate.swift */; };
 		F8A70C9F1D8CDF1E00FBBA77 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A70C9E1D8CDF1E00FBBA77 /* CameraViewController.swift */; };
@@ -40,6 +41,7 @@
 		085BF71B1D8DFC0000B44973 /* PopUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
 		085BF7211D8DFC1A00B44973 /* Nutrition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nutrition.swift; sourceTree = "<group>"; };
 		085BF7231D8DFC7D00B44973 /* Testcode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Testcode.swift; sourceTree = "<group>"; };
+		085BF7251D8E66BB00B44973 /* UIDateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDateView.swift; sourceTree = "<group>"; };
 		13342FFA13B446E76475CED2 /* Pods-Carrot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carrot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Carrot/Pods-Carrot.debug.xcconfig"; sourceTree = "<group>"; };
 		8DC5E9EE5C72D019C2138888 /* Pods_Carrot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Carrot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7EBDCF2897C9FAF933766C8 /* Pods-Carrot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carrot.release.xcconfig"; path = "Pods/Target Support Files/Pods-Carrot/Pods-Carrot.release.xcconfig"; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				F8A70C9C1D8CDF1E00FBBA77 /* AppDelegate.swift */,
 				F8A70CBA1D8D1FFA00FBBA77 /* HomeTableViewController.swift */,
 				F8A70CBE1D8D368900FBBA77 /* HomeTableViewCell.swift */,
+				085BF7251D8E66BB00B44973 /* UIDateView.swift */,
 				F8A70C9E1D8CDF1E00FBBA77 /* CameraViewController.swift */,
 				F8A70CBC1D8D215B00FBBA77 /* SelectionViewController.swift */,
 				F8A70CA01D8CDF1E00FBBA77 /* Main.storyboard */,
@@ -268,6 +271,7 @@
 				085BF7221D8DFC1A00B44973 /* Nutrition.swift in Sources */,
 				F8CE58491D8E4D2A0052AA4F /* SuggestionTableViewCell.swift in Sources */,
 				F8A70C9F1D8CDF1E00FBBA77 /* CameraViewController.swift in Sources */,
+				085BF7261D8E66BB00B44973 /* UIDateView.swift in Sources */,
 				085BF7201D8DFC0000B44973 /* PopUpViewController.swift in Sources */,
 				F8A70CA51D8CDF1E00FBBA77 /* Carrot.xcdatamodeld in Sources */,
 				085BF7161D8DF95600B44973 /* API.swift in Sources */,

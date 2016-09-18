@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Fei-gB-0vh">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Fei-gB-0vh">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -77,7 +77,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="MU7-8C-hQL" kind="relationship" relationship="viewControllers" id="gSj-au-WxJ"/>
+                        <segue destination="Zba-gb-ZbC" kind="relationship" relationship="viewControllers" id="gSj-au-WxJ"/>
                         <segue destination="3F7-ai-txX" kind="relationship" relationship="viewControllers" id="YX1-LJ-r5I"/>
                     </connections>
                 </tabBarController>
@@ -85,7 +85,7 @@
             </objects>
             <point key="canvasLocation" x="333" y="374"/>
         </scene>
-        <!--Item-->
+        <!--Home Table View Controller-->
         <scene sceneID="dRH-ww-sUo">
             <objects>
                 <tableViewController id="MU7-8C-hQL" customClass="HomeTableViewController" customModule="Carrot" customModuleProvider="target" sceneMemberID="viewController">
@@ -95,10 +95,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="homecell" id="F4u-me-ZA4" customClass="HomeTableViewCell" customModule="Carrot" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="F4u-me-ZA4" id="pBb-1q-Mhj">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -108,14 +108,14 @@
                             <outlet property="delegate" destination="MU7-8C-hQL" id="to9-k6-MsW"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="TpQ-k5-7Kn"/>
+                    <navigationItem key="navigationItem" id="E4v-T1-wre"/>
                     <connections>
                         <outlet property="tableView" destination="S21-0s-Jz6" id="dCa-Zq-lIG"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qyb-Ie-lwT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="707" y="1118"/>
+            <point key="canvasLocation" x="1519" y="1118"/>
         </scene>
         <!--GraphPopover-->
         <scene sceneID="3LT-dg-a09">
@@ -141,7 +141,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kcy-F4-QCW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1424" y="1118"/>
+            <point key="canvasLocation" x="2236" y="1118"/>
         </scene>
         <!--Test View Controller-->
         <scene sceneID="Reh-h2-ErT">
@@ -159,7 +159,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Im1-9a-r09" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2094" y="1044"/>
+            <point key="canvasLocation" x="2906" y="1044"/>
         </scene>
         <!--Item-->
         <scene sceneID="cik-Dx-0qf">
@@ -179,6 +179,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QoJ-CX-pal" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1207" y="332"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="2De-RG-arf">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Zba-gb-ZbC" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="TpQ-k5-7Kn"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="U8n-Gj-hZ2">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="MU7-8C-hQL" kind="relationship" relationship="rootViewController" id="cn0-uJ-yCN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wg9-a8-ZJL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="707" y="1118"/>
         </scene>
     </scenes>
 </document>
