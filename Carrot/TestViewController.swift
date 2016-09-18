@@ -26,8 +26,8 @@ class TestViewController: UIViewController, UITableViewDataSource{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.titleView =
-      //  view.addSubview(imageView)
+        //navigationItem.titleView =
+        view.addSubview(imageView)
         selections = ["lets", "test", "test", "test", "test", "test", "test", "test"]
         spinner = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorViewStyle.White)
         spinner?.frame = CGRectMake(view.frame.midX, view.frame.midY, view.frame.width / 3, view.frame.width / 3)
