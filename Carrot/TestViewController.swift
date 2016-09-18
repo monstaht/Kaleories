@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TestViewController: UIViewController, UITableViewDataSource{
+class TestViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
     
     var picture: UIImage? {
         didSet{
@@ -30,9 +30,8 @@ class TestViewController: UIViewController, UITableViewDataSource{
         super.viewDidLoad()
         view.addSubview(imageView)
         selections = ["lets", "test", "test", "test", "test", "test", "test", "test"]
-        view.backgroundColor = UIColor(red: 185, green: 233, blue: 173, alpha: 0.5)
+        view.backgroundColor = UIColor(red: 185, green: 233, blue: 173, alpha: 1.0)
         spinner = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorViewStyle.WhiteLarge)
-        //spinner?.frame = CGRectMake(view.frame.midX, view.frame.midY, 104, 104)
         spinner?.transform = CGAffineTransformMakeScale(1.5, 1.5)
         spinner?.hidden = false
         spinner?.center = CGPointMake(view.frame.midX , view.frame.midY + 128)
@@ -50,7 +49,17 @@ class TestViewController: UIViewController, UITableViewDataSource{
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = UITableViewCell()
         cell.textLabel?.text = selections![indexPath.row]
+        cell.textLabel?.textColor = UIColor.grayColor()
+        cell.textLabel?.font = UIFont(name: "HelveticaNeue", size: 28)
+        let stepper = UIStepper()
+        stepper.transform = CGAffineTransformMakeScale(1.1, 1.1)
+        cell.accessoryView = stepper
+        cell.detailTextLabel?.text = String(stepper.value)
         return cell
+    }
+    
+    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        return 70
     }
     
     private func fetchSuggestions() {
@@ -59,20 +68,25 @@ class TestViewController: UIViewController, UITableViewDataSource{
         let imageData = UIImageJPEGRepresentation(self.picture!,0.0)
         //let imageData:NSData = NSData.init(contentsOfURL: url!)!
         let base64String:String = imageData!.base64EncodedStringWithOptions(.Encoding64CharacterLineLength)
+        /*
         API.sharedInstance.getSuggestions(base64String) { (suggestions, url) in
             self.selections = suggestions
             self.url = url
-            self.spinner?.stopAnimating()
-            self.loadTableView()
         }
+        */
+        
+        self.spinner?.stopAnimating()
+        self.loadTableView()
     }
     
     private func loadTableView(){
         let tableView = UITableView()
         tableView.registerClass(SuggestionTableViewCell.self, forCellReuseIdentifier: "suggestioncell")
         tableView.frame = CGRectMake(view.frame.minX, view.frame.midY, view.frame.width, view.frame.height / 2)
-        tableView.reloadData()
         tableView.dataSource = self
+        tableView.delegate = self
+        tableView.reloadData()
+        tableView.backgroundColor = UIColor.redColor()
         view.addSubview(tableView)
     }
 
