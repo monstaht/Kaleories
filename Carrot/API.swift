@@ -27,12 +27,11 @@ private enum Router: URLStringConvertible {
             case .GetDay(let day):
                 return "getDay/\(day)"
             case .GetAllPics:
-                return "allPictures/"
+                return "allPictures"
             }
         }()
-        return "http://kalories.azurewebsites.net/\(endValue)"
-        //return "http://10.0.2.15:5000/\(endValue)"
-        //return "http://127.0.0.1:5000/\(endValue)"
+        return "http://10.128.23.86:5000/\(endValue)"
+        //return "http://kalories.azurewebsites.net/\(endValue)"
     }
 }
 
@@ -40,7 +39,8 @@ class API {
     static let sharedInstance = API()
     
     static func getFullURL(urlshort: [(String, Int)]) -> [(String, Int)]{
-        let start = "http://kalories.azurewebsites.net"
+//        let start = "http://kalories.azurewebsites.net"
+        let start = "http://10.128.23.86:5000"
         return urlshort.map({ (start + $0, $1) })
     }
     
@@ -53,6 +53,7 @@ class API {
     
     func getSuggestions(picture: String, completion: ([String],String) -> Void) {
         let map: [String: AnyObject] -> ([String],String) = {
+            print($0)
             return (JSON($0)["suggestions"].arrayValue.map { String($0) }, JSON($0)["url"].stringValue)
         }
         print(picture)
@@ -82,7 +83,8 @@ class API {
     
     func getAllPics(completion: [(String, Int)] -> Void) {
         let map: [String: AnyObject] -> [(String, Int)] = {
-            return JSON($0)["urlAndDate"].arrayValue.map { ($0.arrayValue[0].stringValue, $0.arrayValue[1].int!) }
+            print(API.getFullURL((JSON($0)["urlAndDate"].arrayValue.map { ($0.arrayValue[0].stringValue, $0.arrayValue[1].int!) })))
+            return API.getFullURL(JSON($0)["urlAndDate"].arrayValue.map { ($0.arrayValue[0].stringValue, $0.arrayValue[1].int!) })
         }
         get(.GetAllPics, params: [:], map: map, completion: completion)
     }
