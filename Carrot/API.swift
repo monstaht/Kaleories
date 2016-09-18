@@ -61,7 +61,7 @@ class API {
     }
     
     
-    // format of confirmedjson is ["content": [["pizza", 5], ["fries", 6]], "url": URLSTRING]
+    // format of confirmedjson is ["content": [["pizza", 5], ["fries", 6]], "url": "urlstring"]
     func confirmFood(confirmedjson: [String: AnyObject], completion: (Nutrition,String) -> Void) {
         let map: [String: AnyObject] -> (Nutrition,String) = {
             print(JSON($0)["food"])

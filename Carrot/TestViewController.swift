@@ -66,7 +66,11 @@ class TestViewController: UIViewController, UITableViewDataSource, UITableViewDe
     }
     
     func buttonPressed (sender: UIButton!){
-        showPopUp(self)
+        let barvc = BarChartViewController()
+        API.sharedInstance.confirmFood(<#T##confirmedjson: [String : AnyObject]##[String : AnyObject]#>, completion: <#T##(Nutrition, String) -> Void#>)
+        
+        presentViewController(barvc, animated: true, completion: nil)
+        //showPopUp(self)
     }
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return selections!.count
