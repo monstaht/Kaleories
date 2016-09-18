@@ -10,12 +10,6 @@ import UIKit
 
 class SuggestionTableViewCell: UITableViewCell {
 
-    var labelWithNumber: UILabel?
-    var suggestionName: String? {
-        didSet{
-            textLabel?.text = suggestionName
-        }
-    }
     //let stepper = UIStepper((frame: CGRectMake(frame.midX , frame.midY, 20, 50))
     
 

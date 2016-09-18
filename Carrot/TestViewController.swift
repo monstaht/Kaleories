@@ -29,7 +29,7 @@ class TestViewController: UIViewController, UITableViewDataSource, UITableViewDe
     override func viewDidLoad() {
         print("im here")
         super.viewDidLoad()
-        tableView?.registerClass(UITableViewCell.self, forCellReuseIdentifier: "suggestioncell")
+       // tableView?.registerClass(UITableViewCell(style: UITableViewCellStyle.Subtitle).self, forCellReuseIdentifier: "suggestioncell")
         view.addSubview(imageView)
         selections = ["lets", "test", "test", "test", "test", "test", "test", "test"]
         view.backgroundColor = UIColor(red: 185, green: 233, blue: 173, alpha: 1.0)
@@ -72,8 +72,8 @@ class TestViewController: UIViewController, UITableViewDataSource, UITableViewDe
     }
     
     @objc private func changeValue(cell: UITableViewCell, stepper: UIStepper){
+        print("error is at changeValue")
         var currentValue = Double((cell.detailTextLabel?.text)!)
-        print(cell.detailTextLabel)
         cell.detailTextLabel?.text = String(currentValue!++)
         
     }
