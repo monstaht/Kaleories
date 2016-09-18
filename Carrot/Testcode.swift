@@ -48,23 +48,23 @@ class ViewController: UIViewController {
         {
             self.popViewController = PopUpViewControllerSwift(nibName: "PopUpViewController_iPad", bundle: bundle)
             self.popViewController.title = "This is a popup view"
-            self.popViewController.showInView(self.view, withImage: UIImage(named: "logo"), withMessage: "You just triggered a great popup window", animated: true)
+            self.popViewController.showInView(self.view, withImage: UIImage(named: "logo"), withMessage: "You just triggered a great popup window", animated: true, boundy: self.view.bounds.midY)
         } else
         {
             if UIScreen.mainScreen().bounds.size.width > 320 {
                 if UIScreen.mainScreen().scale == 3 {
                     self.popViewController = PopUpViewControllerSwift(nibName: "PopUpViewController_iPhone6Plus", bundle: bundle)
                     self.popViewController.title = "This is a popup view"
-                    self.popViewController.showInView(self.view, withImage: UIImage(named: "logo"), withMessage: "You just triggered a great popup window", animated: true)
+                    self.popViewController.showInView(self.view, withImage: UIImage(named: "logo"), withMessage: "You just triggered a great popup window", animated: true, boundy: self.view.bounds.midY)
                 } else {
                     self.popViewController = PopUpViewControllerSwift(nibName: "PopUpViewController_iPhone6", bundle: bundle)
                     self.popViewController.title = "This is a popup view"
-                    self.popViewController.showInView(self.view, withImage: UIImage(named: "logo"), withMessage: "You just triggered a great popup window", animated: true)
+                    self.popViewController.showInView(self.view, withImage: UIImage(named: "logo"), withMessage: "You just triggered a great popup window", animated: true, boundy: self.view.bounds.midY)
                 }
             } else {
                 self.popViewController = PopUpViewControllerSwift(nibName: "PopUpViewController", bundle: bundle)
                 self.popViewController.title = "This is a popup view"
-                self.popViewController.showInView(self.view, withImage: UIImage(named: "logo"), withMessage: "You just triggered a great popup window", animated: true)
+                self.popViewController.showInView(self.view, withImage: UIImage(named: "logo"), withMessage: "You just triggered a great popup window", animated: true, boundy: self.view.bounds.midY)
             }
         }
     }

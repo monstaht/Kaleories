@@ -29,11 +29,17 @@ import QuartzCore
         self.popUpView.layer.cornerRadius = 5
         self.popUpView.layer.shadowOpacity = 0.8
         self.popUpView.layer.shadowOffset = CGSizeMake(0.0, 0.0)
-        self.view.frame = CGRectMake(0, 0,self.view.frame.width, self.view.frame.height)
+//        self.view.frame = CGRectMake((self.parentViewController?.view.frame.width)! / 2, (self.parentViewController?.view.frame.height)! / 2, self.view.frame.width, self.view.frame.height)
     }
     
-    public func showInView(aView: UIView!, withImage image : UIImage!, withMessage message: String!, animated: Bool)
+    public func viewDidAppear() {
+        super.viewDidAppear(true)
+        self.view.center = super.view.center;
+    }
+    
+    public func showInView(aView: UIView!, withImage image : UIImage!, withMessage message: String!, animated: Bool, boundy: CGFloat)
     {
+        self.view.frame = CGRectMake(0, boundy, self.view.frame.width, self.view.frame.height)
         aView.addSubview(self.view)
         logoImg!.image = image
         messageLabel!.text = message
