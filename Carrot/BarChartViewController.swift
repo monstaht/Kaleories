@@ -12,6 +12,7 @@ import Charts
 
 class BarChartViewController: UIViewController {
 
+    
     var food: [String]?
     var amount: [Double]?
     var barChartView: BarChartView?
@@ -19,8 +20,9 @@ class BarChartViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        barChartView!.noDataText = "Add data"
         barChartView = BarChartView(frame: view.frame)
+        view.addSubview(barChartView!)
+        barChartView!.noDataText = "Add data"
         setChart(food!, values: amount!)
         
     }

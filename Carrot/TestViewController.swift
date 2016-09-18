@@ -67,9 +67,27 @@ class TestViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     func buttonPressed (sender: UIButton!){
         let barvc = BarChartViewController()
-        API.sharedInstance.confirmFood(<#T##confirmedjson: [String : AnyObject]##[String : AnyObject]#>, completion: <#T##(Nutrition, String) -> Void#>)
+        /*
+        API.sharedInstance.confirmFood(<#T##confirmedjson: [String : AnyObject]##[String : AnyObject]#>) { (Nutrition, url) in
+            
+            /* let nutrientAmounts = [Nutrition.calcium, Nutrition.carbs, Nutrition.fat, Nutrition.protein, Nutrition.calories]
+            let nutrientNames = ["Calcium", "Carbs", "Fat", "Protein", "Calories"]
+            barvc.amount = nutrientAmounts
+            barvc.food = nutrientNames
+            dispatch_async(dispatch_get_main_queue()) { [weak self] in
+                self?.presentViewController(barvc, animated: true, completion: nil)
+            }
+             */
+        }
+        */
         
-        presentViewController(barvc, animated: true, completion: nil)
+        let nutrientAmounts = [ 6.0 ,8.0, 9.0, 10.0, 12.0]
+        let nutrientNames = ["Calcium", "Carbs", "Fat", "Protein", "Calories"]
+        barvc.amount = nutrientAmounts
+        barvc.food = nutrientNames
+        dispatch_async(dispatch_get_main_queue()) { [weak self] in
+            self?.presentViewController(barvc, animated: true, completion: nil)
+        }
         //showPopUp(self)
     }
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
