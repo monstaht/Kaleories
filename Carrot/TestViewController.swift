@@ -12,21 +12,22 @@ class TestViewController: UIViewController, UITableViewDataSource{
     
     var picture: UIImage? {
         didSet{
-            imageView.image = oldValue
+            imageView.frame = CGRectMake(view.frame.minX, view.frame.minY, view.frame.width, view.frame.height / 2)
+            imageView.image = self.picture
+            imageView.clipsToBounds = true
+            imageView.contentMode = .ScaleAspectFit
         }
     }
     
     var selections: [String]?
     var imageView = UIImageView()
-    var tableView = UITableView()
+    var tableView: UITableView?
     var spinner:UIActivityIndicatorView?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        selections = ["hello", "world"]
-        imageView.frame = CGRectMake(view.frame.minX, view.frame.minY, view.frame.width, view.frame.height / 2)
-        picture = UIImage(named: "Pizza")
         view.addSubview(imageView)
+        selections = ["lets", "test", "test", "test", "test", "test", "test", "test"]
         spinner = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorViewStyle.White)
         spinner?.frame = CGRectMake(view.frame.midX, view.frame.midY, view.frame.width / 3, view.frame.width / 3)
         view.addSubview(spinner!)
@@ -72,7 +73,6 @@ class TestViewController: UIViewController, UITableViewDataSource{
             // so we queue up a closure here to do that
             dispatch_async(dispatch_get_main_queue()) { [weak self] in
                 self!.spinner?.stopAnimating()
-                self!.loadTableView()
                 
             }
         }

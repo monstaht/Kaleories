@@ -8,6 +8,6 @@ target 'Carrot' do
 	pod 'SwiftyJSON'
 	pod 'Alamofire'
 	pod "NMPopUpViewSwift"
-	pod 'ImagePicker'
+	#pod 'ImagePicker'
 end
 
