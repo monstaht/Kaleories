@@ -88,23 +88,23 @@ class HomeTableViewController: UIViewController, UITableViewDelegate, UITableVie
         {
             self.popViewController = PopUpViewControllerSwift(nibName: "PopUpViewController_iPad", bundle: bundle)
             self.popViewController.title = "This is a popup view"
-            self.popViewController.showInView(self.view, withImage: UIImage(named: "nutrition"), withMessage: "", animated: true)
+            self.popViewController.showInView(self.view, withImage: UIImage(named: "nutrition"), withMessage: "", animated: true, boundy: self.view.bounds.minY.advancedBy(CGFloat(20.0)))
         } else
         {
             if UIScreen.mainScreen().bounds.size.width > 320 {
                 if UIScreen.mainScreen().scale == 3 {
                     self.popViewController = PopUpViewControllerSwift(nibName: "PopUpViewController_iPhone6Plus", bundle: bundle)
                     self.popViewController.title = "This is a popup view"
-                    self.popViewController.showInView(self.view, withImage: UIImage(named: "nutrition"), withMessage: "", animated: true)
+                    self.popViewController.showInView(self.view, withImage: UIImage(named: "nutrition"), withMessage: "", animated: true, boundy: self.view.bounds.minY.advancedBy(CGFloat(20.0)))
                 } else {
                     self.popViewController = PopUpViewControllerSwift(nibName: "PopUpViewController_iPhone6", bundle: bundle)
                     self.popViewController.title = "This is a popup view"
-                    self.popViewController.showInView(self.view, withImage: UIImage(named: "nutrition"), withMessage: "", animated: true)
+                    self.popViewController.showInView(self.view, withImage: UIImage(named: "nutrition"), withMessage: "", animated: true, boundy: self.view.bounds.minY.advancedBy(CGFloat(20.0)))
                 }
             } else {
                 self.popViewController = PopUpViewControllerSwift(nibName: "PopUpViewController", bundle: bundle)
                 self.popViewController.title = "This is a popup view"
-                self.popViewController.showInView(self.view, withImage: UIImage(named: "nutrition"), withMessage: "", animated: true)
+                self.popViewController.showInView(self.view, withImage: UIImage(named: "nutrition"), withMessage: "", animated: true, boundy: self.view.bounds.minY.advancedBy(CGFloat(20.0)))
             }
         }
     }

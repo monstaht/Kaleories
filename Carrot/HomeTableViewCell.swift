@@ -36,7 +36,7 @@ class HomeTableViewCell: UITableViewCell {
 
     override func layoutSubviews() {
         super.layoutSubviews()
-        myImageView.frame = CGRectMake(0, 0, frame.width, frame.width)
+        myImageView.frame = CGRectMake(0, 0, frame.height, frame.height)
     }
     
 }
