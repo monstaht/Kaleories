@@ -119,13 +119,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Carrot/TestViewController.swift"
-            timestampString = "495858305.843826"
+            timestampString = "495859715.611719"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "82"
-            endingLineNumber = "82"
-            landmarkName = "loadTableView()"
-            landmarkType = "5">
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "TestViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

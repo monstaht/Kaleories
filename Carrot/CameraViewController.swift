@@ -23,27 +23,11 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
     }
     
     func imagePickerController(picker: UIImagePickerController, didFinishPickingImage image: UIImage, editingInfo: [String : AnyObject]?) {
-        //let imageData = UIImageJPEGRepresentation(image, <#T##compressionQuality: CGFloat##CGFloat#>)
         picture = image
-        //let base64String = imageData?.base64EncodedStringWithOptions(.Encoding64CharacterLineLength) //this may be an error
-        //post the base64String to them
-        //get the [String] array
-        //store it at the top selections[0] = the get shit
-        //picture = image
         let sb = UIStoryboard(name: "Main", bundle: nil)
         let selectionview = sb.instantiateViewControllerWithIdentifier("selections") as! TestViewController
         selectionview.picture = picture
-        selectionview.fetchSuggestions()
-        imagepicker.presentViewController(selectionview, animated: true, completion: nil)
-        
-        //performSegueWithIdentifier("toselections", sender: nil)
-        
-    }
-    
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if let destinationvc = segue.destinationViewController as? SelectionViewController {
-            destinationvc.picture = picture
-        }
+        imagepicker.pushViewController(selectionview, animated: true)
     }
     
     func imagePickerControllerDidCancel(picker: UIImagePickerController) {
