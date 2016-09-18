@@ -39,6 +39,10 @@ private enum Router: URLStringConvertible {
 class API {
     static let sharedInstance = API()
     
+    static func getFullURL(urlshort: [(String, Int)]) -> [(String, Int)]{
+        let start = "http://10.128.23.86:5000"
+        return urlshort.map({ (start + $0, $1) })
+    }
     
     // define a function called map that returns a JSON object from a list [String: AnyObject]
     let map: [String: AnyObject] -> JSON = {
