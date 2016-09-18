@@ -37,7 +37,7 @@ class HomeTableViewController: UIViewController, UITableViewDelegate, UITableVie
     
     override func viewDidLoad() {
         let nav = self.navigationController?.navigationBar
-        nav?.barTintColor = UIColor(red: 0.976470588 , green: 0.568627451, blue: 0.215686275, alpha: 0.2)
+        nav?.barTintColor = UIColor(red: 0.976470588 , green: 0.568627451, blue: 0.215686275, alpha: 0.2).colorWithAlphaComponent(0.6)
         nav?.translucent = true
         let imageView = UIImageView(image: UIImage(named:"logo-1"))
         imageView.frame = CGRectMake(0, 0, 130, 40)
@@ -72,7 +72,7 @@ class HomeTableViewController: UIViewController, UITableViewDelegate, UITableVie
 
     func  tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         showPopUp(self)
-        
+
         
     }
     
@@ -88,23 +88,23 @@ class HomeTableViewController: UIViewController, UITableViewDelegate, UITableVie
         {
             self.popViewController = PopUpViewControllerSwift(nibName: "PopUpViewController_iPad", bundle: bundle)
             self.popViewController.title = "This is a popup view"
-            self.popViewController.showInView(self.view, withImage: UIImage(named: "logo"), withMessage: "You just triggered a great popup window", animated: true)
+            self.popViewController.showInView(self.view, withImage: UIImage(named: "nutrition"), withMessage: "", animated: true)
         } else
         {
             if UIScreen.mainScreen().bounds.size.width > 320 {
                 if UIScreen.mainScreen().scale == 3 {
                     self.popViewController = PopUpViewControllerSwift(nibName: "PopUpViewController_iPhone6Plus", bundle: bundle)
                     self.popViewController.title = "This is a popup view"
-                    self.popViewController.showInView(self.view, withImage: UIImage(named: "logo"), withMessage: "You just triggered a great popup window", animated: true)
+                    self.popViewController.showInView(self.view, withImage: UIImage(named: "nutrition"), withMessage: "", animated: true)
                 } else {
                     self.popViewController = PopUpViewControllerSwift(nibName: "PopUpViewController_iPhone6", bundle: bundle)
                     self.popViewController.title = "This is a popup view"
-                    self.popViewController.showInView(self.view, withImage: UIImage(named: "logo"), withMessage: "You just triggered a great popup window", animated: true)
+                    self.popViewController.showInView(self.view, withImage: UIImage(named: "nutrition"), withMessage: "", animated: true)
                 }
             } else {
                 self.popViewController = PopUpViewControllerSwift(nibName: "PopUpViewController", bundle: bundle)
                 self.popViewController.title = "This is a popup view"
-                self.popViewController.showInView(self.view, withImage: UIImage(named: "logo"), withMessage: "You just triggered a great popup window", animated: true)
+                self.popViewController.showInView(self.view, withImage: UIImage(named: "nutrition"), withMessage: "", animated: true)
             }
         }
     }
