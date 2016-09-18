@@ -11,14 +11,17 @@ import UIKit
 class HomeTableViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UIPopoverPresentationControllerDelegate{
 
     var images = [UIImage]()
+    var dates = [Int]()
     
     @IBOutlet var tableView: UITableView!
     
+    private func set (URLs: [(String, Int)]) -> Void {
+        self.images = URLs.map { UIImage(data:NSData(contentsOfURL: NSURL(string: $0.0)!)!)! }
+        self.dates = URLs.map { $0.1 }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        images.append(UIImage(named: "Pizza")!)
-        images.append(UIImage(named: "Red Bull")!)
-        images.append(UIImage(named: "Carrots")!)
         tableView.dataSource = self
         tableView.delegate = self
         tableView.separatorStyle = .None

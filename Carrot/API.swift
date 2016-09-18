@@ -14,6 +14,7 @@ private enum Router: URLStringConvertible {
     case GetSuggestions
     case ConfirmFood
     case GetDay(String)
+    case GetAllPics
     
     var URLString: String {
         let endValue: String = {
@@ -25,9 +26,11 @@ private enum Router: URLStringConvertible {
                 return "confirmFood"
             case .GetDay(let day):
                 return "getDay/\(day)"
+            case .GetAllPics:
+                return "allPictures/"
             }
         }()
-        return "http://10.128.23.86:5000/\(endValue)"
+        return "http://kalories.azurewebsites.net/\(endValue)"
         //return "http://10.0.2.15:5000/\(endValue)"
         //return "http://127.0.0.1:5000/\(endValue)"
     }
@@ -36,6 +39,10 @@ private enum Router: URLStringConvertible {
 class API {
     static let sharedInstance = API()
     
+    static func getFullURL(urlshort: [(String, Int)]) -> [(String, Int)]{
+        let start = "http://kalories.azurewebsites.net"
+        return urlshort.map({ (start + $0, $1) })
+    }
     
     // define a function called map that returns a JSON object from a list [String: AnyObject]
     let map: [String: AnyObject] -> JSON = {
@@ -71,6 +78,13 @@ class API {
             return l
         }
         get(.GetDay(day), params: [:], map: map, completion: completion)
+    }
+    
+    func getAllPics(completion: [(String, Int)] -> Void) {
+        let map: [String: AnyObject] -> [(String, Int)] = {
+            return JSON($0)["urlAndDate"].arrayValue.map { ($0.arrayValue[0].stringValue, $0.arrayValue[1].int!) }
+        }
+        get(.GetAllPics, params: [:], map: map, completion: completion)
     }
     
     private func post<O, T>(router: Router, params: [String: AnyObject], map: O -> T?, completion: (T -> Void)? = nil) {
