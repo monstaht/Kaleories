@@ -26,7 +26,7 @@ class HomeTableViewController: UIViewController, UITableViewDelegate, UITableVie
             self.tableView.dataSource = self
             self.tableView.delegate = self
             self.tableView.separatorStyle = .SingleLineEtched
-            self.tableView.separatorColor = UIColor(red: 220, green: 220, blue: 220, alpha: 1)
+            self.tableView.separatorColor = UIColor(red: 0.5, green: 0.5, blue: 0.5, alpha: 0.5)
             self.tableView.reloadData()
             self.modalPresentationStyle = UIModalPresentationStyle.Popover
             let poppc = self.popoverPresentationController
@@ -40,7 +40,7 @@ class HomeTableViewController: UIViewController, UITableViewDelegate, UITableVie
         nav?.barTintColor = UIColor(red: 0.976470588 , green: 0.568627451, blue: 0.215686275, alpha: 0.2).colorWithAlphaComponent(0.6)
         nav?.translucent = true
         let imageView = UIImageView(image: UIImage(named:"logo-1"))
-        imageView.frame = CGRectMake(0, 0, 130, 40)
+        imageView.frame = CGRectMake(0, 0, 160, 80)
         imageView.clipsToBounds = true
         imageView.contentMode = .ScaleAspectFit
         self.navigationItem.titleView = imageView

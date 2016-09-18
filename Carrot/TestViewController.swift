@@ -56,7 +56,8 @@ class TestViewController: UIViewController, UITableViewDataSource, UITableViewDe
     }
     
     func buttonPressed (sender: UIButton!){
-        dismissViewControllerAnimated(true, completion: nil)
+        showPopUp(self)
+        //dismissViewControllerAnimated(true, completion: nil)
     }
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return selections!.count
@@ -120,6 +121,36 @@ class TestViewController: UIViewController, UITableViewDataSource, UITableViewDe
         tableView!.reloadData()
         tableView!.backgroundColor = UIColor(red: 185, green: 233, blue: 173, alpha: 1.0)
         view.addSubview(tableView!)
+    }
+
+    
+    var popViewController : PopUpViewControllerSwift!
+    
+    @IBAction func showPopUp(sender: AnyObject) {
+        let bundle = NSBundle(forClass: PopUpViewControllerSwift.self)
+        if (UIDevice.currentDevice().userInterfaceIdiom == .Pad)
+        {
+            self.popViewController = PopUpViewControllerSwift(nibName: "PopUpViewController_iPad", bundle: bundle)
+            self.popViewController.title = "This is a popup view"
+            self.popViewController.showInView(self.view, withImage: UIImage(named: "nutrition"), withMessage: "", animated: true, boundy: self.view.bounds.minY.advancedBy(CGFloat(20.0)))
+        } else
+        {
+            if UIScreen.mainScreen().bounds.size.width > 320 {
+                if UIScreen.mainScreen().scale == 3 {
+                    self.popViewController = PopUpViewControllerSwift(nibName: "PopUpViewController_iPhone6Plus", bundle: bundle)
+                    self.popViewController.title = "This is a popup view"
+                    self.popViewController.showInView(self.view, withImage: UIImage(named: "nutrition"), withMessage: "", animated: true, boundy: self.view.bounds.minY.advancedBy(CGFloat(20.0)))
+                } else {
+                    self.popViewController = PopUpViewControllerSwift(nibName: "PopUpViewController_iPhone6", bundle: bundle)
+                    self.popViewController.title = "This is a popup view"
+                    self.popViewController.showInView(self.view, withImage: UIImage(named: "nutrition"), withMessage: "", animated: true, boundy: self.view.bounds.minY.advancedBy(CGFloat(20.0)))
+                }
+            } else {
+                self.popViewController = PopUpViewControllerSwift(nibName: "PopUpViewController", bundle: bundle)
+                self.popViewController.title = "This is a popup view"
+                self.popViewController.showInView(self.view, withImage: UIImage(named: "nutrition"), withMessage: "", animated: true, boundy: self.view.bounds.minY.advancedBy(CGFloat(20.0)))
+            }
+        }
     }
 
     
