@@ -26,7 +26,10 @@ class TestViewController: UIViewController, UITableViewDataSource{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //navigationItem.titleView =
+        print(navigationController)
+        navigationItem.titleView = UIImageView(image: UIImage(named:"Logo"))
+        let item = UIBarButtonItem(customView: UIImageView(image: UIImage(named: "Logo")))
+        self.navigationItem.rightBarButtonItem = item
         view.addSubview(imageView)
         selections = ["lets", "test", "test", "test", "test", "test", "test", "test"]
         spinner = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorViewStyle.White)
