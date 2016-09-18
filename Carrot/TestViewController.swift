@@ -12,10 +12,10 @@ class TestViewController: UIViewController, UITableViewDataSource{
     
     var picture: UIImage? {
         didSet{
-            imageView.frame = CGRectMake(view.frame.minX, view.frame.minY, view.frame.width, view.frame.height / 2)
+            imageView.frame = CGRectMake(view.frame.minX, view.frame.minY, view.frame.width, view.frame.width)
             imageView.image = self.picture
             imageView.clipsToBounds = true
-            imageView.contentMode = .ScaleAspectFit
+            imageView.contentMode = .ScaleAspectFill
         }
     }
     
@@ -26,7 +26,8 @@ class TestViewController: UIViewController, UITableViewDataSource{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.addSubview(imageView)
+        navigationItem.titleView =
+      //  view.addSubview(imageView)
         selections = ["lets", "test", "test", "test", "test", "test", "test", "test"]
         spinner = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorViewStyle.White)
         spinner?.frame = CGRectMake(view.frame.midX, view.frame.midY, view.frame.width / 3, view.frame.width / 3)
