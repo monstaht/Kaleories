@@ -19,9 +19,9 @@ class HomeTableViewCell: UITableViewCell {
             myImageView.clipsToBounds = true
             myImageView.contentMode = .ScaleAspectFit
             myImageView.image = picture
-            info = UIDateView(frame: CGRectMake(0, frame.height - 20, frame.width, 20), date: 110494)
+            info = UIDateView(frame: CGRectMake(0, frame.height-80, frame.width, 40), date: 110494)
             info!.clipsToBounds = true
-            info!.backgroundColor = UIColor(red: 200, green: 250, blue: 200, alpha: 0.5)
+            info!.backgroundColor = UIColor(red: 150, green: 250, blue: 150, alpha: 0.5)
             bringSubviewToFront(info!)
             addSubview(myImageView)
             addSubview(info!)

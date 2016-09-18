@@ -36,9 +36,15 @@ class HomeTableViewController: UIViewController, UITableViewDelegate, UITableVie
     }
     
     override func viewDidLoad() {
-        let logo = UIImage(named: "logo")
-        let imageView = UIImageView(image:logo)
+        let nav = self.navigationController?.navigationBar
+        nav?.barTintColor = UIColor(red: 0.976470588 , green: 0.568627451, blue: 0.215686275, alpha: 0.2)
+        nav?.translucent = true
+        let imageView = UIImageView(image: UIImage(named:"logo-1"))
+        imageView.frame = CGRectMake(0, 0, 130, 40)
+        imageView.clipsToBounds = true
+        imageView.contentMode = .ScaleAspectFit
         self.navigationItem.titleView = imageView
+        nav?.frame = CGRectMake(0, 0, 400, 100)
         super.viewDidLoad()
         API.sharedInstance.getAllPics(setup)
         print(self.images)
@@ -65,20 +71,7 @@ class HomeTableViewController: UIViewController, UITableViewDelegate, UITableVie
     
 
     func  tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        let cell = tableView.dequeueReusableCellWithIdentifier("homecell") as! HomeTableViewCell
-        let sb = UIStoryboard(name: "Main", bundle: nil)
-        let vc = sb.instantiateViewControllerWithIdentifier("GraphPopover")
-        let otherpop = vc.popoverPresentationController
-        vc.modalPresentationStyle = UIModalPresentationStyle.Popover
-        otherpop?.sourceView = cell.myImageView
-        otherpop?.sourceRect = cell.frame
-        otherpop?.backgroundColor = UIColor.blackColor()
-        let poppc  = self.popoverPresentationController
-        poppc?.sourceView = cell.myImageView
-        poppc?.sourceRect = cell.frame
-        poppc?.backgroundColor = UIColor.blackColor()
-        
-        presentViewController(vc, animated: true, completion: nil)
+        showPopUp(self)
         
         
     }
@@ -86,6 +79,36 @@ class HomeTableViewController: UIViewController, UITableViewDelegate, UITableVie
     func adaptivePresentationStyleForPresentationController(controller: UIPresentationController) -> UIModalPresentationStyle {
         return UIModalPresentationStyle.None
     }
+    
+    var popViewController : PopUpViewControllerSwift!
+    
+    @IBAction func showPopUp(sender: AnyObject) {
+        let bundle = NSBundle(forClass: PopUpViewControllerSwift.self)
+        if (UIDevice.currentDevice().userInterfaceIdiom == .Pad)
+        {
+            self.popViewController = PopUpViewControllerSwift(nibName: "PopUpViewController_iPad", bundle: bundle)
+            self.popViewController.title = "This is a popup view"
+            self.popViewController.showInView(self.view, withImage: UIImage(named: "logo"), withMessage: "You just triggered a great popup window", animated: true)
+        } else
+        {
+            if UIScreen.mainScreen().bounds.size.width > 320 {
+                if UIScreen.mainScreen().scale == 3 {
+                    self.popViewController = PopUpViewControllerSwift(nibName: "PopUpViewController_iPhone6Plus", bundle: bundle)
+                    self.popViewController.title = "This is a popup view"
+                    self.popViewController.showInView(self.view, withImage: UIImage(named: "logo"), withMessage: "You just triggered a great popup window", animated: true)
+                } else {
+                    self.popViewController = PopUpViewControllerSwift(nibName: "PopUpViewController_iPhone6", bundle: bundle)
+                    self.popViewController.title = "This is a popup view"
+                    self.popViewController.showInView(self.view, withImage: UIImage(named: "logo"), withMessage: "You just triggered a great popup window", animated: true)
+                }
+            } else {
+                self.popViewController = PopUpViewControllerSwift(nibName: "PopUpViewController", bundle: bundle)
+                self.popViewController.title = "This is a popup view"
+                self.popViewController.showInView(self.view, withImage: UIImage(named: "logo"), withMessage: "You just triggered a great popup window", animated: true)
+            }
+        }
+    }
+
     
 /*
  navigationItem.titleView = UIImageView(image: UIImage(named:"Logo"))
