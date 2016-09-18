@@ -19,6 +19,7 @@ class TestViewController: UIViewController, UITableViewDataSource, UITableViewDe
         }
     }
     
+    //let cell = UITableViewCell(style: UITableViewCellStyle.Subtitle, reuseIdentifier: "suggestioncell")
     var selections: [String]?
     var imageView = UIImageView()
     var tableView: UITableView?
@@ -28,11 +29,13 @@ class TestViewController: UIViewController, UITableViewDataSource, UITableViewDe
     override func viewDidLoad() {
         print("im here")
         super.viewDidLoad()
+        tableView?.registerClass(UITableViewCell.self, forCellReuseIdentifier: "suggestioncell")
         view.addSubview(imageView)
         selections = ["lets", "test", "test", "test", "test", "test", "test", "test"]
         view.backgroundColor = UIColor(red: 185, green: 233, blue: 173, alpha: 1.0)
         spinner = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorViewStyle.WhiteLarge)
         spinner?.transform = CGAffineTransformMakeScale(1.5, 1.5)
+        //spinner?.transform = CGAffineTransformTranslate(spinner!.transform, -40, 0)
         spinner?.hidden = false
         spinner?.center = CGPointMake(view.frame.midX , view.frame.midY + 128)
         spinner?.hidesWhenStopped = true
@@ -46,16 +49,33 @@ class TestViewController: UIViewController, UITableViewDataSource, UITableViewDe
         return selections!.count
     }
     
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+    }
+    
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = UITableViewCell()
+        let cell = UITableViewCell(style: UITableViewCellStyle.Subtitle, reuseIdentifier: "suggestioncell")
+        //if let cell = tableView.dequeueReusableCellWithIdentifier("suggestioncell") as? UITableViewCell {
         cell.textLabel?.text = selections![indexPath.row]
         cell.textLabel?.textColor = UIColor.grayColor()
         cell.textLabel?.font = UIFont(name: "HelveticaNeue", size: 28)
         let stepper = UIStepper()
         stepper.transform = CGAffineTransformMakeScale(1.1, 1.1)
+        //let detailTextLabel = UILabel()
+        cell.detailTextLabel?.text = "work please"
         cell.accessoryView = stepper
+        stepper.addTarget(self, action: #selector(TestViewController.changeValue(_:stepper:)), forControlEvents: UIControlEvents.TouchUpInside)
+        
+        print("im here as well")
+        print(cell.detailTextLabel)
         cell.detailTextLabel?.text = String(stepper.value)
         return cell
+    }
+    
+    @objc private func changeValue(cell: UITableViewCell, stepper: UIStepper){
+        var currentValue = Double((cell.detailTextLabel?.text)!)
+        print(cell.detailTextLabel)
+        cell.detailTextLabel?.text = String(currentValue!++)
+        
     }
     
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
@@ -86,7 +106,7 @@ class TestViewController: UIViewController, UITableViewDataSource, UITableViewDe
         tableView.dataSource = self
         tableView.delegate = self
         tableView.reloadData()
-        tableView.backgroundColor = UIColor.redColor()
+        tableView.backgroundColor = UIColor(red: 185, green: 233, blue: 173, alpha: 1.0)
         view.addSubview(tableView)
     }
 
