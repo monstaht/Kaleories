@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         let url = NSURL(string: "http://feelgrafix.com/data_images/out/28/992756-cheese.jpg")
         let imageData:NSData = NSData.init(contentsOfURL: url!)!
         let strBase64:String = imageData.base64EncodedStringWithOptions(.Encoding64CharacterLineLength)
-        api.getSuggestions(strBase64, completion: completion1)
+//        api.getSuggestions(strBase64, completion: completion1)
         //        let cjson = ["Food": [["Pizza", 5], ["Fries", 6]], "url": "http://pngimg.com/upload/carrot_PNG4985.png"]
         //        api.confirmFood(completion2, confirmedjson: cjson)
         showPopUp(self)
