@@ -33,6 +33,7 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         let sb = UIStoryboard(name: "Main", bundle: nil)
         let selectionview = sb.instantiateViewControllerWithIdentifier("selections") as! TestViewController
         selectionview.picture = picture
+        selectionview.fetchSuggestions()
         imagepicker.presentViewController(selectionview, animated: true, completion: nil)
         
         //performSegueWithIdentifier("toselections", sender: nil)

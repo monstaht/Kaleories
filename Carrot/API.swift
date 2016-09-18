@@ -44,8 +44,9 @@ class API {
         return json
     }
     
-    func getSuggestions(picture: String, completion: [String] -> Void) {
-        let map: [String: AnyObject] -> [String] = {
+    func getSuggestions(picture: String, completion: ([String]) -> Void) {
+        let map: [String: AnyObject] -> ([String]) = {
+            //return (JSON($0)["suggestions"].arrayValue.map { String($0) }, JSON($0)["url"].stringValue)
             return JSON($0)["suggestions"].arrayValue.map { String($0) }
         }
         print(picture)
@@ -53,7 +54,7 @@ class API {
     }
     
     
-    // format of confirmedjson is ["Food": [["Pizza", 5], ["Fries", 6]], "url": URLSTRING]
+    // format of confirmedjson is ["content": [["pizza", 5], ["fries", 6]], "url": URLSTRING]
     func confirmFood(confirmedjson: [String: AnyObject], completion: (Nutrition,String) -> Void) {
         let map: [String: AnyObject] -> (Nutrition,String) = {
             print(JSON($0)["food"])

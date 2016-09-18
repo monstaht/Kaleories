@@ -26,14 +26,12 @@ class TestViewController: UIViewController, UITableViewDataSource{
         selections = ["hello", "world"]
         imageView.frame = CGRectMake(view.frame.minX, view.frame.minY, view.frame.width, view.frame.height / 2)
         picture = UIImage(named: "Pizza")
-        //view.addSubview(imageView)
+        view.addSubview(imageView)
         spinner = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorViewStyle.White)
         spinner?.frame = CGRectMake(view.frame.midX, view.frame.midY, view.frame.width / 3, view.frame.width / 3)
         view.addSubview(spinner!)
         spinner?.startAnimating()
         tableView.dataSource = self
-        
-        fetchSuggestions()
         
         // Do any additional setup after loading the view.
     }
@@ -48,7 +46,7 @@ class TestViewController: UIViewController, UITableViewDataSource{
         return cell
     }
     
-    private func fetchSuggestions() {
+    public func fetchSuggestions() {
         // fire up the spinner
         // because we're about to fork something off on another thread
         spinner?.startAnimating()
@@ -59,11 +57,15 @@ class TestViewController: UIViewController, UITableViewDataSource{
         // because that's a concurrent queue
         // (so other closures on that queue can run concurrently even as this one's blocked)
         dispatch_async(dispatch_get_global_queue(QOS_CLASS_USER_INITIATED, 0)) {
-            let imageData = UIImagePNGRepresentation(self.picture!)
-            let base64String = imageData?.base64EncodedStringWithOptions(.Encoding64CharacterLineLength)
-            //API.sharedInstance.getSuggestions(base64String) { [suggestions] in
-            //  self.selections = suggestions
-            //}
+            
+//            //let base64String = imageData?.base64EncodedStringWithOptions(.Encoding64CharacterLineLength)
+//            let url = NSURL(string: "http://feelgrafix.com/data_images/out/28/992756-cheese.jpg")
+            let imageData = UIImageJPEGRepresentation(self.picture!,0.0)
+            //let imageData:NSData = NSData.init(contentsOfURL: url!)!
+            let base64String:String = imageData!.base64EncodedStringWithOptions(.Encoding64CharacterLineLength)
+            API.sharedInstance.getSuggestions(base64String) { (suggestions) in
+              self.selections = suggestions
+            }
             // now that we got the data from the network
             // we want to put it up in the UI
             // but we can only do that on the main queue
@@ -78,7 +80,8 @@ class TestViewController: UIViewController, UITableViewDataSource{
     
     private func loadTableView(){
         tableView.frame = CGRectMake(view.frame.minX, view.frame.midY, view.frame.width, view.frame.height / 2)
-        //view.addSubview(tableView)
+        view.addSubview(tableView)
+        
         tableView.reloadData()
     }
 
