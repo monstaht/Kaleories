@@ -34,7 +34,6 @@ class TestViewController: UIViewController, UITableViewDataSource{
         tableView.dataSource = self
         
         fetchSuggestions()
-        
         // Do any additional setup after loading the view.
     }
     
@@ -79,8 +78,8 @@ class TestViewController: UIViewController, UITableViewDataSource{
     
     private func loadTableView(){
         tableView.frame = CGRectMake(view.frame.minX, view.frame.midY, view.frame.width, view.frame.height / 2)
-        view.addSubview(tableView)
         tableView.reloadData()
+        view.addSubview(tableView)
     }
 
     
