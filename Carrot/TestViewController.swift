@@ -71,7 +71,7 @@ class TestViewController: UIViewController, UITableViewDataSource{
             // but we can only do that on the main queue
             // so we queue up a closure here to do that
             dispatch_async(dispatch_get_main_queue()) { [weak self] in
-                //self!.spinner?.stopAnimating()
+                self!.spinner?.stopAnimating()
                 self!.loadTableView()
                 
             }
@@ -83,6 +83,7 @@ class TestViewController: UIViewController, UITableViewDataSource{
         view.addSubview(tableView)
         
         tableView.reloadData()
+        view.addSubview(tableView)
     }
 
     
