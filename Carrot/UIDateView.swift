@@ -12,7 +12,13 @@ class UIDateView: UIView {
     
     init(frame: CGRect, date: Int) {
         self.date = date
+        let dd = String(date/10000)
+        let yy = String(date%100)
+        let mm = String((date%10000)/100)
+        msg = UILabel(frame: CGRect(x: 10, y: 0, width: frame.width, height: 40))
+        self.msg.text = dd + "/" + mm + "/" + yy
         super.init(frame: frame)
+        self.addSubview(msg)
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -20,7 +26,7 @@ class UIDateView: UIView {
     }
     
     var date: Int
-    var msg = UILabel(frame: CGRectMake(0, 20, 0, 20))
+    let msg: UILabel
     
 
 }

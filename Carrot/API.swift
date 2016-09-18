@@ -30,8 +30,8 @@ private enum Router: URLStringConvertible {
                 return "allPictures"
             }
         }()
-        return "http://10.128.23.86:5000/\(endValue)"
-        //return "http://kalories.azurewebsites.net/\(endValue)"
+        //return "http://10.128.23.86:5000/\(endValue)"
+        return "http://kalories.azurewebsites.net/\(endValue)"
     }
 }
 
