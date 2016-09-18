@@ -44,10 +44,9 @@ class API {
         return json
     }
     
-    func getSuggestions(picture: String, completion: ([String]) -> Void) {
-        let map: [String: AnyObject] -> ([String]) = {
-            //return (JSON($0)["suggestions"].arrayValue.map { String($0) }, JSON($0)["url"].stringValue)
-            return JSON($0)["suggestions"].arrayValue.map { String($0) }
+    func getSuggestions(picture: String, completion: ([String],String) -> Void) {
+        let map: [String: AnyObject] -> ([String],String) = {
+            return (JSON($0)["suggestions"].arrayValue.map { String($0) }, JSON($0)["url"].stringValue)
         }
         print(picture)
         post(.GetSuggestions, params: ["base_id":picture], map: map, completion: completion)

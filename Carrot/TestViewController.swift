@@ -23,6 +23,7 @@ class TestViewController: UIViewController, UITableViewDataSource{
     var imageView = UIImageView()
     var tableView: UITableView?
     var spinner:UIActivityIndicatorView?
+    var url: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,7 +34,7 @@ class TestViewController: UIViewController, UITableViewDataSource{
         spinner?.frame = CGRectMake(view.frame.midX, view.frame.midY, view.frame.width / 3, view.frame.width / 3)
         view.addSubview(spinner!)
         spinner?.startAnimating()
-        tableView.dataSource = self
+        tableView!.dataSource = self
         
         // Do any additional setup after loading the view.
     }
@@ -65,8 +66,9 @@ class TestViewController: UIViewController, UITableViewDataSource{
             let imageData = UIImageJPEGRepresentation(self.picture!,0.0)
             //let imageData:NSData = NSData.init(contentsOfURL: url!)!
             let base64String:String = imageData!.base64EncodedStringWithOptions(.Encoding64CharacterLineLength)
-            API.sharedInstance.getSuggestions(base64String) { (suggestions) in
-              self.selections = suggestions
+            API.sharedInstance.getSuggestions(base64String) { (suggestions, url) in
+                self.selections = suggestions
+                self.url = url
             }
             // now that we got the data from the network
             // we want to put it up in the UI
@@ -80,11 +82,11 @@ class TestViewController: UIViewController, UITableViewDataSource{
     }
     
     private func loadTableView(){
-        tableView.frame = CGRectMake(view.frame.minX, view.frame.midY, view.frame.width, view.frame.height / 2)
-        view.addSubview(tableView)
+        tableView!.frame = CGRectMake(view.frame.minX, view.frame.midY, view.frame.width, view.frame.height / 2)
+        view.addSubview(tableView!)
         
-        tableView.reloadData()
-        view.addSubview(tableView)
+        tableView!.reloadData()
+        view.addSubview(tableView!)
     }
 
     
